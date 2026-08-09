@@ -88,19 +88,24 @@ La working list contiene esattamente i 112 unmatched canonici: P=17, D=45, C=32,
 
 Classificazione verificata finora:
 
-- 40 giocatori `SERIE_B_2025_26`;
-- 23 giocatori `FOREIGN_LEAGUE_2025_26`;
-- 4 giocatori `RETURN_OTHER_2025_26`;
-- totale classificato con evidenza persistita: 67/112;
-- residui da classificare: 45.
+- 44 giocatori `SERIE_B_2025_26`;
+- 28 giocatori `FOREIGN_LEAGUE_2025_26`;
+- 5 giocatori `RETURN_OTHER_2025_26`;
+- totale classificato con evidenza persistita: 77/112;
+- residui da classificare: 35.
 
-Ultima tranche verificata:
+Ultima tranche: 10 giocatori classificati in un unico batch, come modalità operativa preferita quando l'evidenza lo consente:
 
-- Raphael Kofler: Südtirol, Serie B 2025/26; 28 presenze e 3 gol secondo comunicazione FC Südtirol ripresa da RaiNews;
-- David Puczka: Juventus Next Gen, Serie C 2025/26; Juventus ufficiale conferma il percorso biennale Next Gen e 10 gol nell'ultima stagione;
-- Víctor Valdepeñas: Real Madrid Castilla, Primera Federación 2025/26; Real Madrid ufficiale lo colloca nel Castilla dal 2025;
-- Andrés Cuenca: Barcelona Atlètic nella prima parte del 2025/26 e Sporting Gijón in prestito nella seconda; FC Barcelona ufficiale documenta 7 presenze con Barça Atlètic prima del prestito;
-- Alejandro Gomes Furtado: Real Zaragoza / Deportivo Aragón prima del Venezia; Venezia FC ufficiale documenta 15 presenze con la prima squadra e 8 con le riserve nell'esperienza a Zaragoza.
+- Sebastiano Desplanches: Palermo / Serie B 2025/26;
+- Eldin Lolic: Frosinone / Serie B 2025/26, senza presenze di campionato registrate;
+- Alessio Pozzi: Vis Pesaro / Serie C 2025/26, 35 gare ufficiali e 12 clean sheet;
+- Viery: Grêmio / Brasile 2025/26;
+- Matías Moreno: Levante / LaLiga 2025/26;
+- Sankhoun Diawara: Troyes / Ligue 2 2025/26, 17 presenze tra campionato e coppa secondo AC Milan;
+- Rafa Marín: Villarreal / LaLiga 2025/26;
+- Luis Hasa: Carrarese / Serie B 2025/26, 25 gare di campionato e 5 gol nelle fonti consultate;
+- Alan Matturro: Levante / LaLiga 2025/26, 15 presenze e 1 gol;
+- Giorgio Cittadini: Frosinone / Serie B 2025/26.
 
 Per i giocatori non-Serie A conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A. Nei casi con più club/competizioni nella stessa stagione conservare gli stint separati, non forzare una singola lega.
 
@@ -120,11 +125,11 @@ Per i giocatori non-Serie A conservare club, competizione e statistiche nella sc
 
 ## Stato corrente
 
-Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 67/112 unmatched classificati con evidenza, 45 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
+Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 77/112 unmatched classificati con evidenza, 35 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-1. completare la classificazione dei 45 residui, separando trasferimenti esteri, rientri, Serie B aggiuntiva e giovani/riserva;
+1. completare la classificazione dei 35 residui, procedendo preferibilmente in batch da 10 quando l'evidenza consente classificazioni affidabili;
 2. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A;
 3. consolidare una tabella storica 2025/26 unificata;
 4. solo dopo estendere lo storico alle stagioni precedenti e alle metriche xG/xA.
