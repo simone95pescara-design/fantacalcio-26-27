@@ -85,20 +85,32 @@ La roadmap non è cieca: evidenze nuove possono correggere decisioni a monte.
 
 - `AGENTS.md`: istruzioni operative persistenti per continuare il progetto senza ricostruire la chat.
 - `data/DATASET_MASTER_SCHEMA.md`: schema iniziale del dataset master e regole di qualità.
-- `data/raw/listone-2026-27-source.md`: fonte ufficiale e stato di acquisizione del Listone.
+- `data/raw/listone-2026-27-source.md`: fonte ufficiale, provenienza e stato di acquisizione del Listone.
 
 ## Evidenza sul Listone 2026/27
 
-Il 2026-08-09 la pagina ufficiale Fantacalcio.it `Quotazioni e FVM Fantacalcio Serie A 2026/27` espone già il listone con giocatori, squadre, quotazioni e FVM. Il download Excel ufficiale individuato punta a `/api/v1/Excel/prices/21/1`, ma l'accesso diretto dall'ambiente di ricerca ha restituito HTTP 401; quindi non dichiarare ancora acquisito il file Excel completo.
+Verifica 2026-08-09:
+
+- la pagina ufficiale Fantacalcio.it è aggiornata a `Quotazioni e FVM Fantacalcio Serie A 2026/27`;
+- la rappresentazione accessibile contiene 502 righe giocatore, dalla prima voce Martinez L. all'ultima Satalino;
+- sono mostrate 20 squadre;
+- per le righe sono disponibili nome, squadra, QI/QA e FVM / 1000 per Classic e Mantra;
+- il ruolo Classic non è esposto in modo affidabile nella rappresentazione testuale disponibile;
+- il pulsante di download ufficiale esiste, ma il precedente tentativo di accesso diretto all'endpoint Excel ha restituito HTTP 401.
+
+Non dichiarare il dataset master v1 completo finché il ruolo Classic ufficiale non è acquisito per tutte le righe e la snapshot non supera i controlli di completezza.
 
 ## Stato corrente
 
-La fase concettuale iniziale è sufficientemente chiusa. Lo schema del dataset master è ora definito e la fonte ufficiale 2026/27 è stata verificata. Non serve altra teoria generica prima di proseguire con i dati.
+La fase concettuale iniziale è chiusa. Lo schema del dataset master è definito. La fonte ufficiale e la copertura nominale del listone (502 giocatori / 20 squadre) sono state verificate. Il blocco concreto rimasto per la baseline ufficiale è l'acquisizione riproducibile dei ruoli Classic e della snapshot completa.
 
 ## Prossimo outcome
 
-Acquisire l'intero **Listone Classic 2026/27** in forma tabellare riproducibile, verificarne completezza e ruoli, preservare una copia raw datata e produrre il primo dataset strutturato con almeno:
+Chiudere la **baseline ufficiale Listone Classic 2026/27**:
 
-`player_id, name, team, role_classic, quotation_initial, quotation_current, fvm_1000, source_date, source`.
+1. acquisire ruolo Classic ufficiale per tutte le 502 righe;
+2. preservare snapshot raw datata;
+3. verificare duplicati, valori mancanti, squadre e conteggi per ruolo;
+4. produrre dataset strutturato v1 con almeno `player_id, name, team, role_classic, quotation_initial, quotation_current, fvm_1000, source_date, source`.
 
-Solo dopo passare all'arricchimento storico/statistico delle feature successive.
+Solo dopo passare all'arricchimento storico/statistico.
