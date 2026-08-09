@@ -67,6 +67,15 @@
 | C | **Ismajli** | TOR | — | 💎 floor | 4–11 | **14** | modificatore economico |
 | C | **Pedersen** | TOR | — | 🎯 laterale | 5–13 | **17** | upside assist |
 
+## ⚽🎯 RIGORI / PUNIZIONI DA NON DIMENTICARE
+- **Solet (Udinese):** 2ª scelta rigori nelle gerarchie 26/27.
+- **Dimarco (Inter):** riferimento sui piazzati; nel 25/26 era dietro Calhanoglu per punizioni/corner.
+- **Martin (Genoa):** nel 25/26 primo riferimento per punizioni e corner.
+- **Gallo (Lecce):** nel 25/26 seconda opzione su punizioni/corner dietro Berisha.
+- **Valeri (Parma):** nel 25/26 tra i primi tre su punizioni/corner.
+
+**Nota:** le gerarchie rigori sono 26/27; per punizioni/corner uso come baseline l'ultima gerarchia osservata 25/26 finché non esce un aggiornamento 26/27 affidabile.
+
 ## 🔄 SWITCH LIVE
 Dimarco >95 → stop. Bremer/Mancini/Pavlovic/Akanji sopra cap → **Solet/Ramon/Ostigard**. Premium inflazionati → costruisci 4–5 profili da MV/titolarità/value e sposta capitale su C/A.
 
