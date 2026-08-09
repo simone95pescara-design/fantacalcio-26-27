@@ -83,38 +83,29 @@ La roadmap non è cieca: evidenze nuove possono correggere decisioni a monte.
 
 ## Artefatti disponibili
 
-- `AGENTS.md`: istruzioni operative persistenti per continuare il progetto senza ricostruire la chat.
+- `AGENTS.md`: istruzioni operative persistenti.
 - `data/DATASET_MASTER_SCHEMA.md`: schema iniziale del dataset master e regole di qualità.
-- `data/raw/listone-2026-27-source.md`: fonte ufficiale, provenienza e stato di acquisizione del Listone.
+- `data/raw/listone-2026-27-source.md`: provenienza e storia dell'acquisizione del Listone.
+- `data/processed/listone-master-v1-validation.md`: validazione della baseline ufficiale ottenuta dal workbook Fantacalcio.it.
 
-## Evidenza sul Listone 2026/27
+## Baseline ufficiale Listone 2026/27 — CHIUSA
 
-Verifica 2026-08-09:
+Il 2026-08-09 l'utente ha fornito il workbook ufficiale `Quotazioni_Fantacalcio_Stagione_2026_27.xlsx`.
 
-- la pagina ufficiale Fantacalcio.it è aggiornata a `Quotazioni e FVM Fantacalcio Serie A 2026/27`;
-- la rappresentazione accessibile contiene 502 righe giocatore e 20 squadre;
-- per le righe sono disponibili nome, squadra, QI/QA e FVM / 1000 per Classic e Mantra;
-- Fantacalcio.it conferma ufficialmente che il Listone 2026/27 contiene ruoli, quotazioni e FVM Classic e Mantra;
-- il ruolo Classic non è però serializzato nella rappresentazione testuale accessibile della tabella;
-- l'endpoint Excel ufficiale `https://www.fantacalcio.it/api/v1/Excel/prices/21/1` restituisce HTTP 401 nell'ambiente disponibile;
-- è stata individuata una fonte secondaria aggiornata (Fantacalcio-Online, stagione 2026/27) che espone un elenco tabellare con ruoli, ma usa propri sistemi di ruolo/configurazioni e presenta classificazioni non coincidenti in modo dimostrabile con il Classic ufficiale Fantacalcio.it; pertanto NON va usata per riempire `role_classic`.
+Il foglio `Tutti` contiene 496 calciatori attivi con ruolo Classic ufficiale e 20 squadre. Distribuzione verificata: P=60, D=175, C=174, A=87. Nessun ID duplicato e nessun valore mancante nei campi core controllati. Il workbook contiene separatamente 6 calciatori nel foglio `Ceduti`, esclusi dalla baseline attiva.
 
-Conclusione qualità dati: non inferire o sostituire il ruolo Classic ufficiale con ruoli di terze parti. La baseline resta bloccata esclusivamente sull'acquisizione del file/lista ufficiale con ruoli.
+La precedente osservazione web di 502 righe non è più il criterio canonico: la snapshot Excel ufficiale fornita direttamente prevale e rende esplicita la separazione dei ceduti.
 
 ## Stato corrente
 
-La fase concettuale iniziale è chiusa. Lo schema del dataset master è definito e la fonte ufficiale è verificata. È stato anche verificato che una fonte secondaria facilmente accessibile non è una sostituzione sicura per i ruoli Classic ufficiali. Il blocco concreto è quindi circoscritto: ottenere il Listone ufficiale scaricabile (Excel/PDF o equivalente) con i ruoli.
+La fase concettuale iniziale e la baseline anagrafico-economica ufficiale sono chiuse. Possediamo identità, squadra, ruolo Classic/Mantra, quotazioni e FVM della snapshot ufficiale 2026/27. Non assegnare ancora score, fasce o prezzi massimi: manca l'arricchimento prestazionale/predittivo.
 
 ## Prossimo outcome
 
-Chiudere la **baseline ufficiale Listone Classic 2026/27**.
+Costruire il **primo blocco di arricchimento storico/statistico** per i giocatori della baseline.
 
-Percorso preferito: acquisire il file ufficiale tramite il pulsante `Scarica` di Fantacalcio.it in un contesto browser autenticato/accessibile e fornirlo al progetto. Appena disponibile:
+Partire dalle informazioni osservabili recenti necessarie a stimare rendimento e affidabilità: stagione, competizione/campionato, presenze/minuti, titolarità quando disponibile, gol, assist, MV/FM quando comparabili, bonus/malus e metriche sottostanti come xG/xA dove disponibili.
 
-1. estrarre automaticamente tutte le righe e il ruolo Classic;
-2. preservare snapshot raw datata;
-3. verificare duplicati, valori mancanti, 20 squadre, conteggio totale e conteggi per ruolo;
-4. produrre dataset strutturato v1 con `player_id, name, team, role_classic, quotation_initial, quotation_current, fvm_1000, source_date, source`;
-5. passare immediatamente all'arricchimento storico/statistico.
+Per giocatori provenienti da Serie B o campionati esteri preservare esplicitamente campionato/competizione di origine: non tradurre ancora automaticamente i numeri in equivalenti Serie A finché non viene costruito e validato il relativo metodo di translation.
 
-Non perdere tempo a ricostruire manualmente 502 ruoli o a inferirli da fonti non equivalenti.
+Il prossimo output deve prima definire/acquisire questo storico in forma tracciabile; solo successivamente si costruiranno previsioni 2026/27, score per slot e valore economico.
