@@ -68,70 +68,58 @@ Workbook ufficiale `Quotazioni_Fantacalcio_Stagione_2026_27.xlsx`: 496 giocatori
 
 ## Storico Fantacalcio 2025/26 — ACQUISITO E MATCHATO
 
-Workbook ufficiale `Statistiche_Fantacalcio_Stagione_2025_26.xlsx`: 663 giocatori con i campi ufficiali `Id, R, Rm, Nome, Squadra, Pv, Mv, Fm, Gf, Gs, Rp, Rc, R+, R-, Ass, Amm, Esp, Au`.
-
-Matching esatto tramite ID tra baseline 2026/27 e storico Serie A 2025/26:
-
-- totale: 384/496 = 77,42%; unmatched 112;
-- P: 43/60, unmatched 17;
-- D: 130/175, unmatched 45;
-- C: 142/174, unmatched 32;
-- A: 69/87, unmatched 18.
-
-L'assenza dallo storico Serie A non va corretta con fuzzy matching: è un segnale da classificare.
+Workbook ufficiale `Statistiche_Fantacalcio_Stagione_2025_26.xlsx`: 663 giocatori. Matching esatto tramite ID: 384/496 = 77,42%; unmatched 112 (P=17, D=45, C=32, A=18).
 
 ## Provenienza 2025/26 degli unmatched — IN CORSO
 
 Categorie operative: `SERIE_B_2025_26`, `FOREIGN_LEAGUE_2025_26`, `YOUTH_RESERVE_2025_26`, `RETURN_OTHER_2025_26`, `UNRESOLVED`.
 
-La working list contiene esattamente i 112 unmatched canonici: P=17, D=45, C=32, A=18.
+La working list contiene esattamente i 112 unmatched canonici. La classificazione procede in batch da 10 quando l'evidenza lo consente, senza abbassare la confidence per completare artificialmente un batch.
 
-Classificazione verificata finora:
+### Stato
 
-- 44 giocatori `SERIE_B_2025_26`;
-- 28 giocatori `FOREIGN_LEAGUE_2025_26`;
-- 5 giocatori `RETURN_OTHER_2025_26`;
-- totale classificato con evidenza persistita: 77/112;
-- residui da classificare: 35.
+- classificati con evidenza persistita: **87/112**;
+- residui: **25**;
+- i primi 77 sono consolidati in `historical-2025-26-provenance-v1.csv`;
+- il batch 78–87 è persistito separatamente in `provenance-batch-078-087.csv` e verrà consolidato nel master al prossimo merge controllato.
 
-Ultima tranche: 10 giocatori classificati in un unico batch, come modalità operativa preferita quando l'evidenza lo consente:
+### Batch 78–87
 
-- Sebastiano Desplanches: Palermo / Serie B 2025/26;
-- Eldin Lolic: Frosinone / Serie B 2025/26, senza presenze di campionato registrate;
-- Alessio Pozzi: Vis Pesaro / Serie C 2025/26, 35 gare ufficiali e 12 clean sheet;
-- Viery: Grêmio / Brasile 2025/26;
-- Matías Moreno: Levante / LaLiga 2025/26;
-- Sankhoun Diawara: Troyes / Ligue 2 2025/26, 17 presenze tra campionato e coppa secondo AC Milan;
-- Rafa Marín: Villarreal / LaLiga 2025/26;
-- Luis Hasa: Carrarese / Serie B 2025/26, 25 gare di campionato e 5 gol nelle fonti consultate;
-- Alan Matturro: Levante / LaLiga 2025/26, 15 presenze e 1 gol;
-- Giorgio Cittadini: Frosinone / Serie B 2025/26.
+- Ukko Happonen → Bologna Primavera, `YOUTH_RESERVE_2025_26`;
+- Giorgio De Marzi → Roma Primavera / orbita prima squadra, `YOUTH_RESERVE_2025_26`;
+- Rahim Alhassane → Real Oviedo, `FOREIGN_LEAGUE_2025_26`;
+- Thierry Correia → Valencia, `FOREIGN_LEAGUE_2025_26`;
+- Richie Sagrado → Venezia, Serie B, `SERIE_B_2025_26`;
+- Bartol Franjic → Venezia, Serie B, `SERIE_B_2025_26`;
+- Mikel Amondarain → Estudiantes, `FOREIGN_LEAGUE_2025_26`;
+- Edoardo Piana → Monopoli, Serie C, `RETURN_OTHER_2025_26`;
+- Franz-Ethan Meichtry → FC Thun, Swiss Super League, `FOREIGN_LEAGUE_2025_26`;
+- James Abankwah → Watford, Championship, `FOREIGN_LEAGUE_2025_26`.
 
-Per i giocatori non-Serie A conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A. Nei casi con più club/competizioni nella stessa stagione conservare gli stint separati, non forzare una singola lega.
+Per i giocatori non-Serie A conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A. Nei casi con più club/competizioni nella stessa stagione conservare gli stint separati.
 
 ## Artefatti principali
 
 - `AGENTS.md`: istruzioni operative persistenti.
 - `data/DATASET_MASTER_SCHEMA.md`: schema dataset master.
 - `data/HISTORICAL_2025_26_SCHEMA.md`: schema storico 2025/26.
-- `data/raw/listone-2026-27-source.md`: provenienza Listone.
-- `data/raw/statistiche-serie-a-2025-26-source.md`: provenienza storico 2025/26.
-- `data/processed/listone-master-v1-validation.md`: validazione baseline.
-- `data/processed/historical-2025-26-validation.md`: validazione matching storico.
 - `data/processed/historical-2025-26-unmatched.csv`: lista completa dei 112 unmatched.
-- `data/processed/historical-2025-26-provenance-v1.csv`: classificazione verificata parziale della provenienza 2025/26.
+- `data/processed/historical-2025-26-provenance-v1.csv`: primi 77 classificati consolidati.
+- `data/processed/provenance-batch-078-087.csv`: batch verificato 78–87.
 - `research/data-sources-v1.md`: politica fonti.
-- `research/unmatched-provenance-2025-26-v1.md`: ricerca e criteri di classificazione della provenienza.
+- `research/unmatched-provenance-2025-26-v1.md`: criteri di classificazione.
 
 ## Stato corrente
 
-Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 77/112 unmatched classificati con evidenza, 35 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
+Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; **87/112 unmatched classificati**, 25 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-1. completare la classificazione dei 35 residui, procedendo preferibilmente in batch da 10 quando l'evidenza consente classificazioni affidabili;
-2. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A;
-3. consolidare una tabella storica 2025/26 unificata;
-4. solo dopo estendere lo storico alle stagioni precedenti e alle metriche xG/xA.
+1. classificare il prossimo batch fino a 97/112 se l'evidenza lo consente;
+2. completare i 15 residui finali;
+3. consolidare tutti i batch nel provenance master e fare controllo 112/112;
+4. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A;
+5. consolidare una tabella storica 2025/26 unificata;
+6. solo dopo estendere lo storico alle stagioni precedenti e alle metriche xG/xA.
 
 Non applicare ancora coefficienti Serie B→A o cross-league: la metodologia di translation verrà costruita e validata separatamente.
