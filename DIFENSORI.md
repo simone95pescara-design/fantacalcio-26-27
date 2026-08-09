@@ -26,23 +26,34 @@
 | B | **Rensch** | ROM | 16 | 💎🎯 1G+4A | 10–18 | **23** | upside minuti/assist |
 | B | **Valeri** | PAR | 24 | 💎🎯 ESTERNO | 14–22 | **27** | profilo da piccola che può battere il prezzo |
 | B | **Delprato** | PAR | 21 | 👑✅ FLOOR | 12–20 | **25** | titolarità/leadership |
+| B/C | **Norton-Cuffy** | GEN | — | 🚀🎯 ESTERNO | 8–18 | **23** | laterale ad alto potenziale: deve stare davanti agli occhi |
+| B/C | **Nuno Tavares** | LAZ | — | 🚀🎯 ESTERNO | 12–25 | **30** | ceiling assist enorme, ma rischio fisico/continuità |
+| B/C | **Alex Jimenez** | FIO | — | 🆕🚀 ESTERNO | 8–20 | **26** | 31 gare di Premier 25/26; ritorna in A, profilo offensivo |
+| B/C | **Dragusin** | FIO | — | 🆕⚠️ MOD | 10–22 | **28** | talento/struttura da titolare, ma rientro post-crociato da scontare |
 | C+ | **Tiago Gabriel** | LEC | 17 | 🚀 BREAKOUT | 8–16 | **20** | giovane da prendere prima dell'hype |
 | C+ | **Idzes** | SAS | 19 | 💎✅ FLOOR | 10–18 | **22** | sobrio ma utile al modificatore |
 | C | **Mina** | CAG | 20 | 🎯 BONUS | 10–18 | **22** | pericoloso sui piazzati |
 | C | **Coco** | TOR | 18 | 💎 FLOOR | 9–17 | **21** | prezzo piccolo, ruolo forte |
-| NEW | **Chalobah** | COM | — | 🆕✅ POST-LISTONE | 22–32* | **40*** | 34 PL e 3G col Chelsea; nuovo oggi, non nel file listone caricato |
+| C | **Vojvoda** | UDI | — | 💎🎯 ESTERNO | 6–15 | **19** | titolarità/ruolo laterale: value se ignorato |
+| C | **Mangas** | MON | 15 | 🚀 NEO ESTERNO | 4–12 | **16** | laterale di neopromossa, upside a prezzo basso |
+| NEW | **Chalobah** | COM | — | 🆕✅ POST-LISTONE | 22–32* | **40*** | esperienza Premier; non pagare l'hype del trasferimento |
+| NEW | **Valdepeñas** | FIO | — | 🆕🚀 U19 | 3–12* | **16*** | investimento importante Fiorentina; scommessa, non certezza |
+| NEW | **Kaiki** | COM | — | 🆕🚀 | 3–12* | **16*** | nuovo Como, profilo da monitorare per ruolo/minuti |
 | C | **Monterisi** | FRO | 14 | 🚀 NEO | 5–12 | **15** | solo con titolarità chiara |
 | C | **Bella-Kotchap** | VEN | 13 | 🚀 NEO | 5–12 | **16** | nome noto, prezzo da neopromossa |
 | C | **Delli Carri** | MON | 11 | 🚀 NEO | 3–9 | **12** | copertura se titolare |
 
-\* **Chalobah:** range/cap provvisori finché Fantacalcio non pubblica FVM/quotazione aggiornata; non trasformare il costo reale del trasferimento in prezzo fantacalcistico.
+\* Range provvisorio per nuovi/post-listone: aggiornare alla quotazione Fantacalcio disponibile il giorno dell'asta.
+
+## 🚀 POOL ALLETTANTI — NON DEVONO PIÙ SPARIRE
+**Valdepeñas · Alex Jimenez · Dragusin · Kaiki · Norton-Cuffy · Nuno Tavares · Vojvoda · Mangas.**
+
+Questi non sono tutti target prioritari: sono profili che possono diventare acquisti eccellenti **se il prezzo incorpora il rischio**. La board deve mostrarli, non eliminarli.
 
 ## ⬆️ NEO-PROMOSSE — NON SALTARE I NOMI
 **Frosinone:** Monterisi · Oyono A. · Bracaglia · Calvani · Cittadini · Akpoguma.  
 **Venezia:** Bella-Kotchap · Correia · Moreno M. · Haps · Halhal · Schingtienne · Sverko · Hainaut.  
 **Monza:** Mangas · Lucchesi · Birindelli · Delli Carri · Kouadio · Carboni A.
-
-**Scelta pratica:** laterali offensivi e centrali titolari a 3–15 crediti sono preferibili a riserve di big pagate per il nome.
 
 ## 🏘️ PICCOLE/MEDIE — VALUE POOL
 Lecce: Tiago Gabriel · Gallo · Gaspar  
@@ -59,8 +70,5 @@ Solet >46 → **Ramon + Kempf/Rensch**.
 Dimarco >95 → stop immediato.  
 Premium tutti inflazionati → 4–5 profili MV/floor medio-piccole e capitale a C/A.
 
-## ⚠️ CHECK NUOVI ARRIVI
-Il mercato resta aperto fino al **1 settembre**: prima dell'asta controllare sempre se un nome è entrato **dopo il listone caricato**. Chalobah è il primo caso già emerso.
-
-## FONTI/AGGIORNAMENTO
-Listone ufficiale 2026/27 fornito dall'utente. Chalobah: trasferimento ufficiale Chelsea→Como del 9 agosto 2026; 34 presenze Premier e 3 gol nel 2025/26 riportati da Sky/Reuters.
+## 🎯 Regola unica
+**Non elimino un profilo allettante perché incerto: lo classifico e gli assegno un prezzo che remuneri l'incertezza.**
