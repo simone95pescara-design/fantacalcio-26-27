@@ -84,20 +84,23 @@ L'assenza dallo storico Serie A non va corretta con fuzzy matching: è un segnal
 
 Categorie operative: `SERIE_B_2025_26`, `FOREIGN_LEAGUE_2025_26`, `YOUTH_RESERVE_2025_26`, `RETURN_OTHER_2025_26`, `UNRESOLVED`.
 
-La working list è stata rigenerata direttamente dai due workbook ufficiali e ora contiene esattamente 112 righe, coerenti con il conteggio canonico: P=17, D=45, C=32, A=18.
+La working list contiene esattamente i 112 unmatched canonici: P=17, D=45, C=32, A=18.
 
 Classificazione verificata finora:
 
-- 37 giocatori `SERIE_B_2025_26`, soprattutto Monza, Venezia e Frosinone, con fonti ufficiali/strutturate;
-- 11 giocatori `FOREIGN_LEAGUE_2025_26` ad alta confidenza, inclusi Doekhi, Pedraza, Mastantuono, Unai Gomez, Winks, Gonçalo Ramos, Koulierakis, Yan Couto, John Stones, Dragusin e Kolo Muani;
-- totale classificato con evidenza persistita: 48/112;
-- residui da classificare: 64.
+- 37 giocatori `SERIE_B_2025_26`;
+- 15 giocatori `FOREIGN_LEAGUE_2025_26` ad alta confidenza;
+- totale classificato con evidenza persistita: 52/112;
+- residui da classificare: 60.
 
-Per i nuovi casi verificati:
+Ultima tranche verificata:
 
-- John Stones: Manchester City, Premier League 2025/26;
-- Radu Dragusin: Tottenham Hotspur, Premier League 2025/26; il club conferma che dopo il rientro ha totalizzato 10 presenze nella stagione;
-- Randal Kolo Muani: Tottenham Hotspur, Premier League 2025/26, in prestito stagionale dal PSG.
+- Kaiki: Cruzeiro; Como 1907 ufficiale documenta 32 presenze con Cruzeiro durante il 2025/26;
+- Ricardo Mangas: Sporting Lisbon; AC Monza ufficiale documenta 23 presenze complessive nella stagione prima del trasferimento;
+- Kian Fitz-Jim: Ajax 2025/26, trasferito al Torino nell'estate 2026;
+- Giorgi Chakvetadze: Watford 2025/26; Udinese ufficiale conferma la provenienza dal Watford.
+
+Per i giocatori esteri conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A.
 
 ## Artefatti principali
 
@@ -108,18 +111,18 @@ Per i nuovi casi verificati:
 - `data/raw/statistiche-serie-a-2025-26-source.md`: provenienza storico 2025/26.
 - `data/processed/listone-master-v1-validation.md`: validazione baseline.
 - `data/processed/historical-2025-26-validation.md`: validazione matching storico.
-- `data/processed/historical-2025-26-unmatched.csv`: lista completa e rigenerata dei 112 unmatched.
+- `data/processed/historical-2025-26-unmatched.csv`: lista completa dei 112 unmatched.
 - `data/processed/historical-2025-26-provenance-v1.csv`: classificazione verificata parziale della provenienza 2025/26.
 - `research/data-sources-v1.md`: politica fonti.
 - `research/unmatched-provenance-2025-26-v1.md`: ricerca e criteri di classificazione della provenienza.
 
 ## Stato corrente
 
-Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; lista completa dei 112 unmatched rigenerata e verificata; 48/112 classificati con evidenza, 64 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
+Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 52/112 unmatched classificati con evidenza, 60 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-1. completare la classificazione dei 64 residui, separando trasferimenti esteri, rientri, Serie B aggiuntiva e giovani/riserva;
+1. completare la classificazione dei 60 residui, separando trasferimenti esteri, rientri, Serie B aggiuntiva e giovani/riserva;
 2. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A;
 3. consolidare una tabella storica 2025/26 unificata;
 4. solo dopo estendere lo storico alle stagioni precedenti e alle metriche xG/xA.
