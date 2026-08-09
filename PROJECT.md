@@ -78,26 +78,26 @@ Matching esatto tramite ID tra baseline 2026/27 e storico Serie A 2025/26:
 - C: 142/174, unmatched 32;
 - A: 69/87, unmatched 18.
 
-L'assenza dallo storico Serie A non va corretta con fuzzy matching: è un segnale da classificare (Serie B, estero, rientro, giovane/pochi dati, altro).
+L'assenza dallo storico Serie A non va corretta con fuzzy matching: è un segnale da classificare.
 
 ## Provenienza 2025/26 degli unmatched — IN CORSO
 
 Categorie operative: `SERIE_B_2025_26`, `FOREIGN_LEAGUE_2025_26`, `YOUTH_RESERVE_2025_26`, `RETURN_OTHER_2025_26`, `UNRESOLVED`.
 
-Prima tranche Serie B verificata con fonti ufficiali/strutturate per numerosi giocatori di Monza, Venezia e Frosinone.
+La working list è stata rigenerata direttamente dai due workbook ufficiali e ora contiene esattamente 112 righe, coerenti con il conteggio canonico: P=17, D=45, C=32, A=18.
 
-Seconda tranche estero verificata ad alta confidenza:
+Classificazione verificata finora:
 
-- Danilho Doekhi: Union Berlin, Bundesliga 2025/26; DFB Datencenter conferma 34 presenze Bundesliga nella stagione 2025/26;
-- Alfonso Pedraza: Villarreal, LaLiga 2025/26; LaLiga ufficiale espone 27 presenze e 1690 minuti;
-- Franco Mastantuono: Real Madrid, LaLiga 2025/26; Real Madrid ufficiale conferma il suo ingresso nel 2025 e le fonti 2026 confermano il prestito successivo alla Fiorentina;
-- Unai Gomez: Athletic Club, LaLiga 2025/26; Udinese ufficiale lo presenta come arrivo dall'Athletic;
-- Harry Winks: Leicester City, campionato inglese 2025/26; Cagliari e Leicester ufficiali confermano il trasferimento dal Leicester nel luglio 2026;
-- Gonçalo Ramos: Paris Saint-Germain, Ligue 1 2025/26; AC Milan ufficiale conferma l'acquisto dal PSG e FBref espone 30 presenze/1318 minuti in Ligue 1 2025/26;
-- Konstantinos Koulierakis: Wolfsburg, Bundesliga 2025/26; fonti ufficiali Wolfsburg lo documentano nel club durante la stagione;
-- Yan Couto: Borussia Dortmund, Bundesliga 2025/26; il trasferimento 2026 al Como è documentato come provenienza Dortmund.
+- 37 giocatori `SERIE_B_2025_26`, soprattutto Monza, Venezia e Frosinone, con fonti ufficiali/strutturate;
+- 11 giocatori `FOREIGN_LEAGUE_2025_26` ad alta confidenza, inclusi Doekhi, Pedraza, Mastantuono, Unai Gomez, Winks, Gonçalo Ramos, Koulierakis, Yan Couto, John Stones, Dragusin e Kolo Muani;
+- totale classificato con evidenza persistita: 48/112;
+- residui da classificare: 64.
 
-`data/processed/historical-2025-26-provenance-v1.csv` è stato aggiornato con questa seconda tranche. Il file resta una classificazione parziale: il conteggio canonico degli unmatched resta 112 e il working CSV storico non va assunto completo finché non viene rigenerato dal workbook.
+Per i nuovi casi verificati:
+
+- John Stones: Manchester City, Premier League 2025/26;
+- Radu Dragusin: Tottenham Hotspur, Premier League 2025/26; il club conferma che dopo il rientro ha totalizzato 10 presenze nella stagione;
+- Randal Kolo Muani: Tottenham Hotspur, Premier League 2025/26, in prestito stagionale dal PSG.
 
 ## Artefatti principali
 
@@ -108,20 +108,20 @@ Seconda tranche estero verificata ad alta confidenza:
 - `data/raw/statistiche-serie-a-2025-26-source.md`: provenienza storico 2025/26.
 - `data/processed/listone-master-v1-validation.md`: validazione baseline.
 - `data/processed/historical-2025-26-validation.md`: validazione matching storico.
-- `data/processed/historical-2025-26-unmatched.csv`: working list degli unmatched; non assumere che contenga tutte le 112 righe canoniche.
+- `data/processed/historical-2025-26-unmatched.csv`: lista completa e rigenerata dei 112 unmatched.
 - `data/processed/historical-2025-26-provenance-v1.csv`: classificazione verificata parziale della provenienza 2025/26.
 - `research/data-sources-v1.md`: politica fonti.
 - `research/unmatched-provenance-2025-26-v1.md`: ricerca e criteri di classificazione della provenienza.
 
 ## Stato corrente
 
-Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 112 unmatched canonici identificati; provenienza Serie B e prima tranche di trasferimenti esteri verificata. Non costruire ancora score, fasce, prezzi massimi o previsioni.
+Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; lista completa dei 112 unmatched rigenerata e verificata; 48/112 classificati con evidenza, 64 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-1. rigenerare dal workbook la working list completa dei 112 unmatched, eliminando il rischio di omissioni nel CSV attuale;
-2. completare la classificazione di provenienza per i residui: altri trasferimenti esteri, rientri e giovani/riserva;
-3. acquisire statistiche native 2025/26 per ciascun gruppo non-Serie A;
-4. consolidare una tabella storica 2025/26 unificata.
+1. completare la classificazione dei 64 residui, separando trasferimenti esteri, rientri, Serie B aggiuntiva e giovani/riserva;
+2. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A;
+3. consolidare una tabella storica 2025/26 unificata;
+4. solo dopo estendere lo storico alle stagioni precedenti e alle metriche xG/xA.
 
 Non applicare ancora coefficienti Serie B→A o cross-league: la metodologia di translation verrà costruita e validata separatamente.
