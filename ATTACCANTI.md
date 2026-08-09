@@ -58,6 +58,19 @@
 | C | **Adams C.** | TOR | — | 💎/⚠️ | 8–22 | **28** | prezzo basso per concorrenza |
 | C | **Zapata** | TOR | — | ⚠️ esperienza | 8–24 | **30** | solo forte sconto/rientro convincente |
 
+## ⚽ RIGORISTI 26/27 — ATTACCANTI
+**Scamacca (Atalanta)** 1° · **Esposito Se. (Cagliari)** 1° · **Colombo (Genoa)** 1° · **Stulic (Lecce)** 1° · **Malen (Roma)** 1°/gerarchia forte · **Berardi (Sassuolo)** 1° · **Davis (Udinese)** 1° · **Adams A. (Venezia)** 1° · **Pellegrino (Parma)** 1° · **Ramos (Milan)** 2° nelle gerarchie attuali · **Douvikas (Como)** 3° · **Kean (Fiorentina)** 3° · **Hojlund (Napoli)** 3° · **Rrahmani Al. (Venezia)** 2° · **Pinamonti (Sassuolo)** 2° · **Cutrone (Monza)** 2° · **Petagna (Monza)** 3° · **Zapata (Torino)** 2° · **Simeone (Torino)** 3°.
+
+## 🎯 PUNIZIONI / CORNER — PROFILI A CUI IL PIAZZATO AGGIUNGE VALORE
+Baseline più recente disponibile, da confermare per il 26/27:
+- **Scamacca / De Ketelaere (Atalanta):** tra le prime opzioni sulle punizioni nel 25/26.
+- **Dybala (Roma):** primo riferimento su punizioni/corner nel 25/26; Soulé alternativa.
+- **Berardi / Laurientè (Sassuolo):** primo e secondo riferimento su punizioni/corner nel 25/26.
+- **Esposito Se. (Cagliari):** tra le opzioni sulle punizioni nel 25/26.
+- **Yildiz (Juventus):** tra le opzioni sui corner; gerarchie 26/27 da aggiornare.
+
+**Regola:** i rigori qui sopra sono gerarchie 26/27 correnti; le punizioni/corner sono una baseline storica finché non viene pubblicato un quadro 26/27 completo.
+
 ## 🔄 SWITCH LIVE
 Lautaro/Malen >315 → **Thuram/Hojlund/Ramos/Kolo/Kean**. Fascia S inflazionata → **Douvikas/Davis/Berardi + Krstovic/Laurientè/Simeone**. Ultimi slot: minuti reali e responsabilità > nome.
 
