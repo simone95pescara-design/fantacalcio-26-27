@@ -26,15 +26,27 @@ Non costruire una semplice lista di nomi: trasformare dati, ricerca e incertezza
 7. piano d'asta con alternative fungibili;
 8. aggiornamento live in base a prezzi, crediti, scarsità e giocatori rimasti.
 
+Gestione settimanale/scambi/riparazione potranno essere estensioni successive, non sono il fronte corrente.
+
 ## Principi stabilizzati
 
+- Evitare statistiche inventate sulle rose vincenti: non esiste evidenza pubblica sufficiente per una composizione universale.
 - Costruire la rosa per funzioni/slot, non solo top/semitop/scommessa.
-- MV e fantamedia restano distinte; titolarità/minuti/probabilità di voto sono centrali.
-- Storico multi-stagione con recency; distinguere output osservati e metriche sottostanti.
-- Serie B→A ed estero→A richiedono traduzione separata e validata.
+- Ogni slot deve avere alternative fungibili.
+- Con modificatore difesa, MV, disponibilità e profondità hanno valore autonomo dai bonus.
+- MV e fantamedia restano distinte.
+- Titolarità/minuti/probabilità di voto sono centrali.
+- Storico multi-stagione con recency, non media piatta.
+- Distinguere gol/assist osservati da metriche sottostanti come xG/xA.
+- Considerare ruolo tattico reale, rigori/piazzati, squadra, allenatore, sistema e concorrenza.
+- Rendere espliciti infortuni, ballottaggi, trasferimenti e rischio.
+- Serie B→A ed estero→A richiedono traduzione del rendimento; non assumere comparabilità diretta.
 - Giovani e campioni piccoli devono avere più incertezza.
-- Separare valore sportivo e prezzo d'asta; FVM non è hard cap.
-- Non fissare pesi/soglie numeriche prima di osservare distribuzioni e copertura.
+- Ogni previsione deve rappresentare floor/stima centrale/ceiling o distribuzione equivalente e confidence.
+- Separare valore sportivo e prezzo d'asta; FVM è informazione di mercato, non hard cap.
+- Ottimizzare rendimento marginale per credito tenendo conto di scarsità, rischio e funzione nella rosa.
+- L'asta deve essere adattiva con target, fascia, hard cap, alternative e redistribuzione del budget.
+- Non fissare pesi/soglie numeriche prima di osservare distribuzioni e copertura dei dati, salvo evidenza forte.
 
 ## Pipeline
 
@@ -58,54 +70,54 @@ Workbook ufficiale `Quotazioni_Fantacalcio_Stagione_2026_27.xlsx`: 496 giocatori
 
 Workbook ufficiale `Statistiche_Fantacalcio_Stagione_2025_26.xlsx`: 663 giocatori. Matching esatto tramite ID: 384/496 = 77,42%; unmatched 112 (P=17, D=45, C=32, A=18).
 
-## Provenienza 2025/26 degli unmatched — IN CORSO
+## Provenienza 2025/26 degli unmatched — CLASSIFICAZIONE COMPLETATA
 
-Categorie: `SERIE_B_2025_26`, `FOREIGN_LEAGUE_2025_26`, `YOUTH_RESERVE_2025_26`, `RETURN_OTHER_2025_26`, `UNRESOLVED`.
+Categorie operative: `SERIE_B_2025_26`, `FOREIGN_LEAGUE_2025_26`, `YOUTH_RESERVE_2025_26`, `RETURN_OTHER_2025_26`, `UNRESOLVED`.
 
-La classificazione procede in batch da 10 quando l'evidenza lo consente, senza forzare confidence alta.
+La working list contiene esattamente i 112 unmatched canonici. Tutti i **112/112** sono ora classificati con provenienza 2025/26 persistita nei file di lavoro; non restano casi da classificare. Le confidence restano associate all'evidenza e non vanno alzate artificialmente.
 
-### Stato
+### Persistenza batch
 
-- classificati: **97/112**;
-- residui: **15**;
-- primi 77 consolidati in `historical-2025-26-provenance-v1.csv`;
-- batch 78–87 in `provenance-batch-078-087.csv`;
-- batch 88–97 in `provenance-batch-088-097.csv`.
+- primi 77: `data/processed/historical-2025-26-provenance-v1.csv`;
+- 78–87: `data/processed/provenance-batch-078-087.csv`;
+- 88–97: `data/processed/provenance-batch-088-097.csv`;
+- 98–112: `data/processed/provenance-batch-098-112.csv`.
 
-### Batch 88–97
+Per i giocatori non-Serie A conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A. Nei casi con più club/competizioni nella stessa stagione conservare gli stint separati.
 
-- Alessio Cacciamani → Juve Stabia, Serie B, high;
-- Aleksandar Stankovic → Club Brugge, Belgio, high;
-- Abdoulaye Camara → sviluppo Udinese/settore giovanile con debutto Serie A finale, high;
-- Elias Havel → Hartberg, Austria, high;
-- Kingstone Mutandwa → SV Ried, Austria, high;
-- Gustavo Varela → Gil Vicente, Portogallo, high;
-- Willem Geubbels → Paris FC, Ligue 1, high;
-- Hamed Junior Traorè → Olympique Marseille, Francia, medium;
-- Jay Robinson → Southampton, Inghilterra, medium;
-- O. Diallo → youth/reserve provenance, medium e da rafforzare nella fase di acquisizione statistiche.
+### Note finali di classificazione
 
-Per i non-Serie A conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A. Confidence medium resta esplicita e dovrà essere rafforzata quando raccogliamo le statistiche native.
+- Franz Stolz: stagione 2025/26 multi-stint estera (Rapid Bucuresti → Grazer AK), da conservare separatamente.
+- Davide Renzetti: prestito al Bra, Serie C.
+- Wisdom Amey: prestito alla Pianese, Serie C.
+- Redouane Halhal: KV Mechelen, Belgio.
+- Anouar El Azzouzi: Fortuna Düsseldorf, 2. Bundesliga.
+- Luis Milla: Getafe, LaLiga.
+- Alessandro Romano: stint Roma + Spezia Serie B; conservare separatamente.
 
 ## Artefatti principali
 
-- `AGENTS.md`
-- `data/processed/historical-2025-26-unmatched.csv`
-- `data/processed/historical-2025-26-provenance-v1.csv`
-- `data/processed/provenance-batch-078-087.csv`
-- `data/processed/provenance-batch-088-097.csv`
-- `research/data-sources-v1.md`
+- `AGENTS.md`: istruzioni operative persistenti.
+- `data/DATASET_MASTER_SCHEMA.md`: schema dataset master.
+- `data/HISTORICAL_2025_26_SCHEMA.md`: schema storico 2025/26.
+- `data/processed/historical-2025-26-unmatched.csv`: lista completa dei 112 unmatched.
+- `data/processed/historical-2025-26-provenance-v1.csv`: primi 77 classificati.
+- `data/processed/provenance-batch-078-087.csv`: batch 78–87.
+- `data/processed/provenance-batch-088-097.csv`: batch 88–97.
+- `data/processed/provenance-batch-098-112.csv`: batch finale 98–112.
+- `research/data-sources-v1.md`: politica fonti.
+- `research/unmatched-provenance-2025-26-v1.md`: criteri di classificazione.
 
 ## Stato corrente
 
-Baseline chiusa; storico Serie A acquisito; **97/112 unmatched classificati**, 15 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
+Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; **provenienza dei 112 unmatched completata 112/112**. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-1. classificare i 15 residui finali, idealmente 10 + 5;
-2. consolidare tutti i batch nel provenance master e verificare 112/112, duplicati e confidence;
-3. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A;
-4. costruire tabella storica 2025/26 unificata;
-5. solo dopo estendere lo storico alle stagioni precedenti e xG/xA.
+1. consolidare i quattro file di provenienza in un unico provenance master e verificare automaticamente 112 righe / 112 ID unici / zero mancanti;
+2. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A, mantenendo stint separati;
+3. consolidare una tabella storica 2025/26 unificata per i 496 giocatori;
+4. misurare qualità/copertura e campioni piccoli;
+5. solo dopo estendere lo storico alle stagioni precedenti e alle metriche xG/xA.
 
-Non applicare ancora coefficienti Serie B→A o cross-league.
+Non applicare ancora coefficienti Serie B→A o cross-league: la metodologia di translation verrà costruita e validata separatamente.
