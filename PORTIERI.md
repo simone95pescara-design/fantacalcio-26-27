@@ -1,39 +1,42 @@
-# PORTIERI — BOARD ASTA 2026/27
+# PORTIERI — BOARD FINALE ASTA 2026/27
 
-Lega: 8 · 1000 crediti · Classic · modificatore difesa.
+Lega: 8 partecipanti · 1000 crediti · Classic · modificatore difesa.
 
-## Cosa cerco
-Titolarità certa + difesa credibile + MV del portiere + clean sheet + costo. Non pago il blasone. Per la porta preferisco **valore per credito** e, se non prendo una big, una coppia con calendario complementare.
+## Strategia reparto
+Budget indicativo 55–80. Cerco titolarità certa, buona MV, difesa credibile, clean sheet attesi e soprattutto prezzo. Se le big vengono gonfiate, preferisco due titolari complementari e sposto capitale su D/C/A.
 
-## I profili che prenderei davvero
+## Quelli che prenderei davvero
+| Classe | Giocatore | FVM | Prezzo buono | Hard cap | Perché |
+|---|---|---:|---:|---:|---|
+| PRIORITÀ | Carnesecchi | 52 | 35–48 | 55 | 37 PV, MV 6.36: premium che preferisco se il tavolo lascia stare Svilar. |
+| PRIORITÀ VALUE | Falcone | 25 | 15–25 | 30 | 38 PV, MV 6.41: enorme rendimento al voto per il prezzo. |
+| PRIORITÀ VALUE | Caprile | 27 | 18–28 | 33 | 38 PV, MV 6.29: continuità e modificatore. |
+| PREMIUM | Svilar | 65 | 45–60 | 68 | sicurezza; non entro in guerra. |
+| PREMIUM | Butez | 56 | 38–52 | 60 | squadra forte, rischio hype Como. |
+| VALUE | Okoye | 29 | 18–28 | 33 | 30 PV; alternativa se Falcone/Caprile salgono troppo. |
+| VALUE | Skorupski | 37 | 23–34 | 40 | esperienza + MV 6.19; prezzo deve restare inferiore ai premium. |
+| VALUE | Muric | 15 | 7–14 | 18 | low-cost da coppia. |
+| VALUE | Suzuki | 20 | 10–18 | 22 | interessante soprattutto in combinazione. |
+| SCOMMESSA | Stankovic F. | 14 | 6–13 | 16 | profilo da parate; serve copertura. |
 
-| Priorità | Giocatore | FVM | 25/26 | Prezzo buono | Cap | Giudizio |
-|---|---|---:|---|---:|---:|---|
-| A+ | **Carnesecchi** | 52 | 37 PV, MV 6.36 | 35–48 | **55** | Mio premium preferito se Svilar viene gonfiato: MV alta e struttura Atalanta. |
-| A+ | **Falcone** | 25 | 38 PV, MV 6.41 | 15–25 | **30** | Value puro: voto molto forte anche senza clean sheet. Ottimo se la lega paga troppo le big. |
-| A | **Caprile** | 27 | 38 PV, MV 6.29 | 18–28 | **33** | Profilo da modificatore, continuità eccellente; accetto qualche gol subito in più. |
-| A | **Svilar** | 65 | 38 PV, MV 6.26 | 45–60 | **68** | Sicurezza premium, ma solo senza guerra d'asta. |
-| A | **Butez** | 56 | 38 PV; Como reduce dal 4° posto | 38–52 | **60** | Squadra forte e portiere affidabile; rischio prezzo per hype Como. |
-| B+ | **Muric** | 15 | 32 PV, MV 6.08 | 7–14 | **18** | Low-cost interessante soprattutto in coppia; non come portiere unico senza copertura. |
-| B+ | **Suzuki** | 20 | 20 PV, MV 6.02 | 10–18 | **22** | Da combinazione; Parma-Sassuolo è uno degli incroci migliori della griglia ufficiale. |
-| B | **Stankovic F.** | 14 | Venezia neopromossa | 6–13 | **16** | Scommessa da voto/parate, non da clean sheet; solo con secondo portiere sensato. |
+## Coppie/combinazioni
+- Parma + Sassuolo: priorità value per complementarità calendario.
+- Sassuolo + Genoa: altra combinazione economica.
+- Atalanta + Frosinone: premium + copertura low-cost.
 
-## Top che non inseguo
-Maignan, Di Gregorio, Martinez Jo. e gli altri big sono acquistabili **solo se il tavolo li lascia sotto il prezzo dei miei target equivalenti**. Martinez parte verso il ruolo di titolare Inter ma la stessa analisi Fantacalcio segnala l'incertezza del salto da riserva a numero uno.
+## Longlist NON tagliata — tutti i portieri con FVM almeno 5
+Premium: Svilar 65; Martinez Jo. 63; Butez 56; Carnesecchi 52; Maignan 50; De Gea 45; Meret 45; Di Gregorio 40.
 
-## Coppie che mi interessano
-- **Parma + Sassuolo**: griglia ufficiale = 4 trasferte contemporanee; combinazione value prioritaria.
-- **Sassuolo + Genoa**: griglia = 4; altra combinazione economica.
-- **Atalanta + Frosinone**: griglia = 5; premium + copertura economica, ma il secondo va usato con criterio.
-- Derby cittadini = 0 trasferte contemporanee, ma spesso costo complessivo poco efficiente.
+Fascia media: Skorupski 37; Mandas 30; Okoye 29; Caprile 27; Falcone 25; Suzuki 20.
 
-## Decisione automatica
-1. Carnesecchi ≤55 → lo voglio.
-2. Se i premium esplodono → Falcone/Caprile + secondo titolare complementare.
-3. Se anche i portieri medi vengono gonfiati → coppia Parma/Sassuolo o Sassuolo/Genoa.
-4. Mai spendere 80–100 solo perché sono rimasti gli ultimi portieri famosi.
+Value/coperture: Bijlow 18; Muric 15; Stankovic F. 14; Thiam 12; Perin 10; Milinkovic-Savic V. 10; Palmisani 8; Desplanches 8; Daffara 5; Provedel 5.
 
-## Fonti operative
-- Listone ufficiale Fantacalcio 2026/27 fornito per l'asta.
-- Storico Fantacalcio 2025/26 già acquisito nel progetto.
-- https://www.fantacalcio.it/news/redazionali/08_06_2026/griglia-portieri-le-migliori-combinazioni-stagione-2026-27-fantacalcio-493932
+## Regole live
+1. Se Carnesecchi ≤55, è il mio premium preferito.
+2. Se premium > cap: Falcone/Caprile/Okoye + secondo titolare.
+3. Mai spendere 80–100 per paura di restare senza nome famoso.
+4. Prima di comprare il secondo/terzo portiere, controllare che non sia solo una riserva senza percorso al voto.
+5. Il prezzo reale del primo giro aggiorna tutti i cap: se la porta è deflazionata posso alzare leggermente il budget, se è inflazionata scendo subito di fascia.
+
+## Evidenza
+Listone ufficiale 2026/27 fornito per l'asta + storico Fantacalcio 2025/26 già acquisito. Le gerarchie pre-season vanno considerate probabilistiche.

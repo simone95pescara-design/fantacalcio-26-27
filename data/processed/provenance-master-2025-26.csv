@@ -1,9 +1,0 @@
-# Consolidated provenance master
-# Canonical population: 112 unmatched players from historical-2025-26-unmatched.csv
-# Sources merged without altering evidence/confidence:
-# - historical-2025-26-provenance-v1.csv : 77 rows
-# - provenance-batch-078-087.csv : 10 rows
-# - provenance-batch-088-097.csv : 10 rows
-# - provenance-batch-098-112.csv : 15 rows
-# QA: expected_rows=112; expected_unique_ids=112; unresolved=0
-# NOTE: source batch files remain canonical evidence records. This manifest is the consolidation control record.
