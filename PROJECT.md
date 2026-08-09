@@ -92,25 +92,29 @@ La roadmap non è cieca: evidenze nuove possono correggere decisioni a monte.
 Verifica 2026-08-09:
 
 - la pagina ufficiale Fantacalcio.it è aggiornata a `Quotazioni e FVM Fantacalcio Serie A 2026/27`;
-- la rappresentazione accessibile contiene 502 righe giocatore, dalla prima voce Martinez L. all'ultima Satalino;
-- sono mostrate 20 squadre;
+- la rappresentazione accessibile contiene 502 righe giocatore e 20 squadre;
 - per le righe sono disponibili nome, squadra, QI/QA e FVM / 1000 per Classic e Mantra;
-- il ruolo Classic non è esposto in modo affidabile nella rappresentazione testuale disponibile;
-- il pulsante di download ufficiale esiste, ma il precedente tentativo di accesso diretto all'endpoint Excel ha restituito HTTP 401.
+- Fantacalcio.it conferma ufficialmente che il Listone 2026/27 contiene ruoli, quotazioni e FVM Classic e Mantra;
+- il ruolo Classic non è però serializzato nella rappresentazione testuale accessibile della tabella;
+- l'endpoint Excel ufficiale `https://www.fantacalcio.it/api/v1/Excel/prices/21/1` restituisce HTTP 401 nell'ambiente disponibile;
+- è stata individuata una fonte secondaria aggiornata (Fantacalcio-Online, stagione 2026/27) che espone un elenco tabellare con ruoli, ma usa propri sistemi di ruolo/configurazioni e presenta classificazioni non coincidenti in modo dimostrabile con il Classic ufficiale Fantacalcio.it; pertanto NON va usata per riempire `role_classic`.
 
-Non dichiarare il dataset master v1 completo finché il ruolo Classic ufficiale non è acquisito per tutte le righe e la snapshot non supera i controlli di completezza.
+Conclusione qualità dati: non inferire o sostituire il ruolo Classic ufficiale con ruoli di terze parti. La baseline resta bloccata esclusivamente sull'acquisizione del file/lista ufficiale con ruoli.
 
 ## Stato corrente
 
-La fase concettuale iniziale è chiusa. Lo schema del dataset master è definito. La fonte ufficiale e la copertura nominale del listone (502 giocatori / 20 squadre) sono state verificate. Il blocco concreto rimasto per la baseline ufficiale è l'acquisizione riproducibile dei ruoli Classic e della snapshot completa.
+La fase concettuale iniziale è chiusa. Lo schema del dataset master è definito e la fonte ufficiale è verificata. È stato anche verificato che una fonte secondaria facilmente accessibile non è una sostituzione sicura per i ruoli Classic ufficiali. Il blocco concreto è quindi circoscritto: ottenere il Listone ufficiale scaricabile (Excel/PDF o equivalente) con i ruoli.
 
 ## Prossimo outcome
 
-Chiudere la **baseline ufficiale Listone Classic 2026/27**:
+Chiudere la **baseline ufficiale Listone Classic 2026/27**.
 
-1. acquisire ruolo Classic ufficiale per tutte le 502 righe;
+Percorso preferito: acquisire il file ufficiale tramite il pulsante `Scarica` di Fantacalcio.it in un contesto browser autenticato/accessibile e fornirlo al progetto. Appena disponibile:
+
+1. estrarre automaticamente tutte le righe e il ruolo Classic;
 2. preservare snapshot raw datata;
-3. verificare duplicati, valori mancanti, squadre e conteggi per ruolo;
-4. produrre dataset strutturato v1 con almeno `player_id, name, team, role_classic, quotation_initial, quotation_current, fvm_1000, source_date, source`.
+3. verificare duplicati, valori mancanti, 20 squadre, conteggio totale e conteggi per ruolo;
+4. produrre dataset strutturato v1 con `player_id, name, team, role_classic, quotation_initial, quotation_current, fvm_1000, source_date, source`;
+5. passare immediatamente all'arricchimento storico/statistico.
 
-Solo dopo passare all'arricchimento storico/statistico.
+Non perdere tempo a ricostruire manualmente 502 ruoli o a inferirli da fonti non equivalenti.
