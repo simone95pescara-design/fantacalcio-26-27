@@ -87,6 +87,8 @@ La roadmap non è cieca: evidenze nuove possono correggere decisioni a monte.
 - `data/DATASET_MASTER_SCHEMA.md`: schema iniziale del dataset master e regole di qualità.
 - `data/raw/listone-2026-27-source.md`: provenienza e storia dell'acquisizione del Listone.
 - `data/processed/listone-master-v1-validation.md`: validazione della baseline ufficiale ottenuta dal workbook Fantacalcio.it.
+- `data/processed/listone-master-v1-portieri.csv`: prima persistenza tabellare della baseline ufficiale (portieri; il resto della baseline resta verificato nel workbook sorgente/validation).
+- `research/data-sources-v1.md`: fonti candidate e regole di provenienza per storico Fantacalcio, statistiche cross-league e xG/xA.
 
 ## Baseline ufficiale Listone 2026/27 — CHIUSA
 
@@ -96,16 +98,26 @@ Il foglio `Tutti` contiene 496 calciatori attivi con ruolo Classic ufficiale e 2
 
 La precedente osservazione web di 502 righe non è più il criterio canonico: la snapshot Excel ufficiale fornita direttamente prevale e rende esplicita la separazione dei ceduti.
 
+## Fonti storiche già verificate
+
+- Fantacalcio.it espone per la Serie A 2025/26 PV, MV, FM, gol, gol subiti, rigori segnati/tirati, rigori parati, assist, ammonizioni ed espulsioni. Questa è la fonte primaria per le metriche direttamente fantacalcistiche.
+- FBref espone statistiche 2025/26 per Serie A, Serie B e numerosi campionati esteri con schema comparabile (minuti, presenze/starts, gol, assist, rigori, cartellini e metriche per90). È la fonte candidata per lo strato calcistico cross-league.
+- Non combinare xG/xA di provider diversi senza definizione esplicita; la fonte expected definitiva deve ancora essere scelta in base alla copertura effettiva.
+
 ## Stato corrente
 
-La fase concettuale iniziale e la baseline anagrafico-economica ufficiale sono chiuse. Possediamo identità, squadra, ruolo Classic/Mantra, quotazioni e FVM della snapshot ufficiale 2026/27. Non assegnare ancora score, fasce o prezzi massimi: manca l'arricchimento prestazionale/predittivo.
+La fase concettuale iniziale e la baseline anagrafico-economica ufficiale sono chiuse. È stata definita anche la politica di provenienza dei dati storici. Non assegnare ancora score, fasce o prezzi massimi: manca il primo dataset storico collegato al master.
 
 ## Prossimo outcome
 
-Costruire il **primo blocco di arricchimento storico/statistico** per i giocatori della baseline.
+Costruire la **tabella storica 2025/26** e collegarla alla baseline 2026/27.
 
-Partire dalle informazioni osservabili recenti necessarie a stimare rendimento e affidabilità: stagione, competizione/campionato, presenze/minuti, titolarità quando disponibile, gol, assist, MV/FM quando comparabili, bonus/malus e metriche sottostanti come xG/xA dove disponibili.
+Ordine operativo:
 
-Per giocatori provenienti da Serie B o campionati esteri preservare esplicitamente campionato/competizione di origine: non tradurre ancora automaticamente i numeri in equivalenti Serie A finché non viene costruito e validato il relativo metodo di translation.
+1. acquisire dalla fonte Fantacalcio.it le metriche 2025/26 dei giocatori con storico Serie A (`PV, MV, FM, Gol, GS, Rig segnati/tirati, RP, Ass, Amm, Esp`);
+2. conservare nome e squadra della fonte e fare matching al `player_id` 2026/27 con confidence esplicita;
+3. classificare i giocatori non coperti dalla Serie A 2025/26 in `Serie B`, `estero`, `altro/pochi dati`;
+4. acquisire per questi ultimi statistiche native del campionato di origine senza applicare ancora coefficienti di translation;
+5. solo dopo estendere a stagioni precedenti e metriche xG/xA.
 
-Il prossimo output deve prima definire/acquisire questo storico in forma tracciabile; solo successivamente si costruiranno previsioni 2026/27, score per slot e valore economico.
+Il primo gate è una tabella 2025/26 tracciabile e validata; nessuna previsione 2026/27 prima di questo gate.
