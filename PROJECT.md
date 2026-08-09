@@ -4,92 +4,73 @@
 
 Massimizzare la probabilità di vincere la lega Fantacalcio 2026/27 costruendo un sistema decisionale completo per valutazione giocatori, rosa, allocazione dei 1000 crediti ed esecuzione/adattamento dell'asta.
 
-Non costruire una semplice lista di nomi: trasformare dati, ricerca e incertezza in decisioni operative ripetibili.
+## Contesto
 
-## Contesto della lega
+- 8 partecipanti
+- 1000 crediti
+- Classic
+- modificatore difesa classico
 
-- stagione 2026/27;
-- 8 partecipanti;
-- 1000 crediti;
-- Classic, non Mantra;
-- modificatore difesa classico;
-- resto del regolamento sostanzialmente standard salvo particolarità future.
+## Modalità corrente — FAST AUCTION MODE
 
-## Output finali attesi
+L'asta è imminente: il progetto ottimizza ora per **decisioni operative disponibili in tempo**, non per completezza preventiva del dataset. Le istruzioni sono in `FAST_AUCTION_MODE.md`.
 
-1. dataset master 2026/27;
-2. previsioni per giocatore con incertezza esplicita;
-3. valore fantacalcistico specifico per la lega;
-4. classificazione per slot/funzione;
-5. prezzo target, fascia conveniente e hard cap;
-6. modello di rosa e budget derivati dai dati;
-7. piano d'asta con alternative fungibili;
-8. aggiornamento live in base a prezzi, crediti, scarsità e giocatori rimasti.
+Il lavoro storico esaustivo è temporaneamente congelato. Non è eliminato: verrà ripreso dopo l'asta o solo sui target dove può cambiare concretamente una decisione.
 
-## Pipeline
+## Baseline disponibile
 
-fonti e dataset master → storico multi-stagione → previsioni + incertezza → valore fantacalcistico → score per slot → valore economico → ottimizzazione rosa / 1000 crediti → piano d'asta → adattamento live
+- Listone ufficiale Fantacalcio 2026/27: 496 giocatori attivi, P=60 D=175 C=174 A=87.
+- FVM ufficiale 2026/27 disponibile per tutti i 496.
+- Storico Fantacalcio Serie A 2025/26 matchato direttamente per 384/496.
+- Provenienza 2025/26 dei 112 non matchati classificata 112/112.
+- Acquisizione quantitativa nativa non-Serie A avviata ma non più bloccante per l'asta.
 
-## Baseline ufficiale 2026/27 — CHIUSA
+## Board tattica v0 — CREATA
 
-Workbook ufficiale `Quotazioni_Fantacalcio_Stagione_2026_27.xlsx`: 496 giocatori attivi, 20 squadre, P=60 D=175 C=174 A=87; 6 ceduti separati. ID Fantacalcio usato come chiave primaria.
+Creato workbook `Fantacalcio_2026_27_FAST_AUCTION_BOARD_v0.xlsx` nella conversazione.
 
-## Storico Fantacalcio 2025/26 — ACQUISITO E MATCHATO
+Contenuto:
+- `LEGGIMI`: metodologia, limiti e fonti;
+- `PIANO_1000`: tre scenari di budget e slot base;
+- `BOARD_496`: tutti i 496 giocatori;
+- fogli separati P/D/C/A.
 
-Workbook ufficiale `Statistiche_Fantacalcio_Stagione_2025_26.xlsx`: 663 giocatori. Matching esatto tramite ID: 384/496 = 77,42%; unmatched 112 (P=17, D=45, C=32, A=18).
+La board combina:
+- FVM 2026/27 come prior dominante;
+- PV/MV/FM 2025/26 per rifinire il ranking quando direttamente comparabili;
+- score v0 per ruolo;
+- tier S/A/B/C/D;
+- confidence esplicita;
+- `Cap v0` indicativo derivato da FVM+tier.
 
-## Provenienza 2025/26 unmatched — GATE CHIUSO
+ATTENZIONE: `Cap v0` NON è ancora l'hard cap definitivo. Serve come filtro tattico immediato. Il vero hard cap deve essere contestualizzato rispetto a scenario di budget, slot ancora aperti e prezzi reali dell'asta.
 
-Tutti i 112 unmatched sono classificati. Persistenza evidenze:
-- `historical-2025-26-provenance-v1.csv`: 77;
-- `provenance-batch-078-087.csv`: 10;
-- `provenance-batch-088-097.csv`: 10;
-- `provenance-batch-098-112.csv`: 15.
+## Scenari budget v0
 
-Controllo aritmetico: 77+10+10+15 = 112. Working population canonica: 112. Residui classificazione: 0.
+- BALANCED: P 70 / D 170 / C 250 / A 510
+- ATTACCO PREMIUM: P 60 / D 145 / C 205 / A 590
+- MODIFICATORE+C: P 80 / D 215 / C 285 / A 420
 
-Creato `data/processed/provenance-master-2025-26.csv` come control record del consolidamento. I quattro source batch restano i record canonici dell'evidenza e della confidence. Nei casi multi-stint le esperienze devono restare separate nella fase statistica.
+Lo scenario non è scelto una volta per tutte: l'asta reale determina quale ramo usare.
 
-## Acquisizione quantitativa nativa 2025/26 — AVVIATA
+## Regole operative stabilizzate
 
-Creato `data/processed/native-stats-2025-26-serie-b-batch-01.csv` con il primo batch quantitativo Serie B, ricavato da tabelle strutturate FBref 2025/26 per Frosinone, Venezia e Monza.
-
-Campi target: `MP, Starts, Min, Gls, Ast, PK, PKatt, CrdY, CrdR`, mantenuti nella scala nativa della competizione. Il batch contiene 20 giocatori; per alcune righe la copertura è completa, per altre sono disponibili soltanto playing time o subset di output. I campi mancanti restano esplicitamente vuoti e sono marcati in `coverage_note`: non vengono imputati.
-
-Esempi ad alta copertura già acquisiti:
-- Palmisani 38/38, 3410';
-- Calò 37/37, 3173', 10 gol, 15 assist, 5 rigori, 7 gialli;
-- Ghedjemis 37 presenze, 36 start, 3009', 15 gol;
-- Kvernadze 36 presenze, 2495', 5 gol, 5 assist;
-- Stankovic (Venezia) 38/38, 3420';
-- Busio 37/37, 3196';
-- Pessina 33/33, 2904', 5 gol, 3 rigori su 3;
-- Birindelli 33 presenze, 29 start, 2627', 5 gol.
-
-## Regole dati stabilizzate
-
-- non tradurre ancora Serie B/estero/Serie C/youth in equivalenti Serie A;
-- mantenere campionato e club nativi;
-- mantenere stint multipli separati;
-- non alzare artificialmente la confidence;
-- non imputare statistiche non osservate: campo vuoto + `coverage_note`;
-- MV e fantamedia distinte;
-- titolarità/minuti/probabilità di voto centrali;
-- storico multi-stagione con recency;
-- distinguere output osservati e metriche sottostanti xG/xA;
-- giovani e campioni piccoli devono portare incertezza esplicita;
-- nessuno score/prezzo/hard cap prima della chiusura dei dati e della metodologia di translation.
+- non inseguire un singolo nome oltre il valore solo perché era target;
+- usare alternative fungibili per slot;
+- FVM è un prior, non verità né hard cap universale;
+- sui giocatori senza storico Serie A direttamente comparabile mantenere confidence più bassa;
+- ricerca approfondita solo su target/top/mispricing/titolarità-rigori che possono cambiare una decisione;
+- con modificatore difesa, MV e disponibilità mantengono valore specifico;
+- mercato reale e crediti residui prevalgono sul piano pre-asta.
 
 ## Stato corrente
 
-Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; provenienza 112/112 chiusa; acquisizione quantitativa nativa avviata con primo batch Serie B di 20 giocatori.
+La board operativa v0 è disponibile. Il prossimo fronte non è completare il dataset: è **trasformare la board in una shortlist operativa d'asta per slot e prezzi**, concentrando la ricerca aggiornata sui giocatori che contano davvero.
 
 ## Prossimo outcome
 
-1. completare i restanti giocatori Serie B 2025/26 con gli stessi campi target;
-2. fare QA della copertura Serie B;
-3. passare ai campionati esteri, mantenendo stint e competizione espliciti;
-4. acquisire Serie C / seconde squadre / youth con flag qualità/copertura;
-5. unire i dati nativi non-Serie A con i 384 Serie A per costruire la prima tabella storica 2025/26 dei 496.
-
-Solo dopo: stagioni precedenti, xG/xA e metodologia di translation cross-league.
+1. selezionare per ruolo le fasce realmente acquistabili/strategiche dalla board v0;
+2. fare ricerca aggiornata mirata su titolarità, ruolo tattico, rigori/piazzati, infortuni e gerarchie soltanto sui target prioritari;
+3. produrre target / alternative / evita / cap contestualizzato per ciascuno slot;
+4. definire lo scenario di partenza e le regole di switch durante l'asta;
+5. usare prezzi reali dell'asta per adattare budget e cap live.
