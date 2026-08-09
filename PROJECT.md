@@ -2,138 +2,103 @@
 
 ## Obiettivo finale
 
-Massimizzare la probabilità di vincere la lega Fantacalcio 2026/27 costruendo un sistema decisionale completo che supporti preparazione, valutazione dei giocatori, costruzione della rosa, allocazione dei 1000 crediti ed esecuzione/adattamento dell'asta.
+Massimizzare la probabilità di vincere la lega Fantacalcio 2026/27 costruendo un sistema decisionale completo per valutazione giocatori, rosa, allocazione dei 1000 crediti ed esecuzione/adattamento dell'asta.
 
-L'obiettivo non è creare una semplice lista dei giocatori migliori, ma trasformare dati e ricerca in decisioni operative ripetibili.
+Non costruire una semplice lista di nomi: trasformare dati, ricerca e incertezza in decisioni operative ripetibili.
 
 ## Contesto della lega
 
-- stagione: 2026/27;
-- partecipanti: 8;
-- budget iniziale: 1000 crediti;
-- modalità: Classic, non Mantra;
-- modificatore difesa: classico;
-- resto del regolamento: sostanzialmente standard, salvo particolarità che emergeranno;
-- obiettivo competitivo: vincere la lega, non soltanto massimizzare fantamedia o valore nominale della rosa.
+- stagione 2026/27;
+- 8 partecipanti;
+- 1000 crediti;
+- Classic, non Mantra;
+- modificatore difesa classico;
+- resto del regolamento sostanzialmente standard salvo particolarità future.
 
 ## Output finali attesi
 
-Il progetto deve arrivare almeno a:
+1. dataset master 2026/27;
+2. previsioni per giocatore con incertezza esplicita;
+3. valore fantacalcistico specifico per la lega;
+4. classificazione per slot/funzione;
+5. prezzo target, fascia conveniente e hard cap;
+6. modello di rosa e budget derivati dai dati;
+7. piano d'asta con alternative fungibili;
+8. aggiornamento live in base a prezzi, crediti, scarsità e giocatori rimasti.
 
-1. dataset master 2026/27 con tutti i giocatori del listone ufficiale e informazioni rilevanti;
-2. previsioni 2026/27 per giocatore con incertezza esplicita;
-3. valore fantacalcistico specifico per la nostra lega;
-4. classificazione dei giocatori per slot/funzione nella rosa;
-5. valutazione economica con prezzo target, fascia conveniente e hard cap;
-6. modello di rosa e allocazione del budget derivati dai dati, non fissati per intuizione;
-7. piano d'asta con alternative fungibili e regole condizionali;
-8. sistema di aggiornamento durante l'asta in base a prezzi osservati, crediti residui, scarsità e giocatori rimasti.
-
-Dopo l'asta, lo stesso patrimonio informativo potrà essere esteso a formazione settimanale, scambi e mercato di riparazione, ma questi non sono il fronte corrente.
+Gestione settimanale/scambi/riparazione potranno essere estensioni successive, non sono il fronte corrente.
 
 ## Principi stabilizzati
 
-- Non esiste al momento evidenza pubblica sufficiente per affermare una composizione universale delle rose vincenti; evitare percentuali o formule inventate.
-- La rosa va costruita per funzioni/slot, non soltanto per etichette `top / semitop / scommessa`.
-- Ogni slot deve avere più candidati fungibili per evitare dipendenza da singoli nomi.
-- Il modificatore difesa rende media voto, disponibilità e profondità difensiva fonti di valore autonome rispetto ai bonus.
-- Media voto e fantamedia devono restare distinte.
-- Titolarità, minuti e probabilità di voto sono variabili centrali.
-- Lo storico deve essere multi-stagione e pesato per recency, non una media piatta.
-- Gol/assist osservati devono essere distinti dalle metriche sottostanti (es. xG/xA e altre metriche pertinenti).
-- Posizione tattica reale rispetto al ruolo Fantacalcio è rilevante.
-- Rigori, punizioni, corner e gerarchie sui piazzati sono fonti di valore.
-- Forza della squadra, allenatore, sistema tattico e concorrenza interna devono entrare nella valutazione quando pertinenti.
-- Infortuni, ballottaggi, trasferimenti e altri fattori di rischio devono essere espliciti.
-- Serie B → Serie A e campionati esteri → Serie A richiedono una traduzione del rendimento; i dati non sono direttamente comparabili.
-- Giovani e giocatori con pochi minuti devono avere maggiore incertezza.
-- Ogni previsione deve rappresentare anche incertezza/confidence, idealmente con floor, stima centrale e ceiling o distribuzione equivalente.
-- Valore sportivo e prezzo d'asta sono problemi distinti.
-- FVM/quotazioni sono informazioni sul mercato, non il nostro prezzo massimo.
-- Il criterio economico è il rendimento marginale ottenibile per credito, tenendo conto di scarsità, rischio e ruolo nella rosa.
-- L'asta deve essere adattiva: prezzo target, fascia accettabile, hard cap, alternative e redistribuzione del budget quando un target salta.
-- Non fissare soglie numeriche o pesi prima di osservare distribuzioni e dati 2026/27, salvo che esista evidenza esterna forte.
+- Evitare statistiche inventate sulle rose vincenti: non esiste evidenza pubblica sufficiente per una composizione universale.
+- Costruire la rosa per funzioni/slot, non solo top/semitop/scommessa.
+- Ogni slot deve avere alternative fungibili.
+- Con modificatore difesa, MV, disponibilità e profondità hanno valore autonomo dai bonus.
+- MV e fantamedia restano distinte.
+- Titolarità/minuti/probabilità di voto sono centrali.
+- Storico multi-stagione con recency, non media piatta.
+- Distinguere gol/assist osservati da metriche sottostanti come xG/xA.
+- Considerare ruolo tattico reale, rigori/piazzati, squadra, allenatore, sistema e concorrenza.
+- Rendere espliciti infortuni, ballottaggi, trasferimenti e rischio.
+- Serie B→A ed estero→A richiedono traduzione del rendimento; non assumere comparabilità diretta.
+- Giovani e campioni piccoli devono avere più incertezza.
+- Ogni previsione deve rappresentare floor/stima centrale/ceiling o distribuzione equivalente e confidence.
+- Separare valore sportivo e prezzo d'asta; FVM è informazione di mercato, non hard cap.
+- Ottimizzare rendimento marginale per credito tenendo conto di scarsità, rischio e funzione nella rosa.
+- L'asta deve essere adattiva con target, fascia, hard cap, alternative e redistribuzione del budget.
+- Non fissare pesi/soglie numeriche prima di osservare distribuzioni e copertura dei dati, salvo evidenza forte.
 
 ## Modello concettuale corrente
 
-### Livello giocatore
+Feature candidate: storico multi-stagione, minuti/titolarità, MV/FM, bonus/malus, xG/xA e metriche predittive, posizione tattica, rigori/piazzati, forza squadra, allenatore/sistema, concorrenza, infortuni, età, league/promotion translation, rischio/floor/ceiling/confidence, FVM/quotazioni/prezzo atteso.
 
-Feature candidate già identificate:
+Slot preliminari:
 
-- storico multi-stagione;
-- minuti/presenze/titolarità;
-- media voto e fantamedia;
-- gol, assist, bonus e malus;
-- xG/xA e metriche predittive pertinenti;
-- posizione e ruolo tattico reale;
-- rigori e piazzati con relativa gerarchia;
-- squadra e forza offensiva/difensiva;
-- allenatore e sistema;
-- concorrenza per il posto;
-- storico infortuni/disponibilità;
-- età e curva di sviluppo/declino;
-- league/promotion translation quando necessaria;
-- rischio, floor, ceiling e confidence;
-- FVM/quotazione/prezzo di mercato atteso.
-
-Il feature set definitivo non è ancora congelato: deve essere chiuso sulla base di dati disponibili e valore predittivo, evitando variabili decorative.
-
-### Slot funzionali preliminari
-
-La struttura non è ancora congelata economicamente, ma sono emerse funzioni candidate.
-
-**Difesa:** anchor da modificatore, premium ibrido, stabilizzatori ad alta MV/titolarità, profili offensivi/upside, rotazioni/value.
-
-**Centrocampo:** primary scorer, secondary scorer, titolari offensivi/value, floor player, upside e scommesse asimmetriche low-cost.
-
-**Attacco:** primary goal source, seconda fonte forte di gol, titolare ad alto rapporto produzione/prezzo, rotazioni/upside e low-cost funzionali.
-
-**Portieri:** titolarità, forza difensiva, clean-sheet/gol subiti attesi, media voto e complementarità; strategia economica ancora da derivare.
+- difesa: anchor modificatore, premium ibrido, stabilizzatori, offensivi/upside, rotazioni/value;
+- centrocampo: primary/secondary scorer, titolari offensivi/value, floor, upside, low-cost asimmetrici;
+- attacco: primary goal source, seconda fonte gol, value scorer, rotazioni/upside, low-cost;
+- portieri: titolarità, forza difensiva, clean sheet/gol subiti attesi, MV, complementarità.
 
 ## Pipeline di costruzione
 
 ```text
-ricerca e definizione delle feature utili
+fonti e dataset master
         ↓
-dataset master 2026/27
+previsioni + incertezza
         ↓
-previsioni dei giocatori + incertezza
+valore fantacalcistico
         ↓
-valore fantacalcistico specifico per la lega
+score per slot
         ↓
-score per slot/funzione
+valore economico
         ↓
-valore economico e prezzi d'asta
+ottimizzazione rosa / 1000 crediti
         ↓
-ottimizzazione della rosa sotto 1000 crediti
+piano d'asta
         ↓
-piano d'asta con hard cap e alternative
-        ↓
-adattamento live durante l'asta
+adattamento live
 ```
 
-Questa è una roadmap, non una pipeline cieca: nuove evidenze possono richiedere correzioni a monte.
+La roadmap non è cieca: evidenze nuove possono correggere decisioni a monte.
+
+## Artefatti disponibili
+
+- `AGENTS.md`: istruzioni operative persistenti per continuare il progetto senza ricostruire la chat.
+- `data/DATASET_MASTER_SCHEMA.md`: schema iniziale del dataset master e regole di qualità.
+- `data/raw/listone-2026-27-source.md`: fonte ufficiale e stato di acquisizione del Listone.
+
+## Evidenza sul Listone 2026/27
+
+Il 2026-08-09 la pagina ufficiale Fantacalcio.it `Quotazioni e FVM Fantacalcio Serie A 2026/27` espone già il listone con giocatori, squadre, quotazioni e FVM. Il download Excel ufficiale individuato punta a `/api/v1/Excel/prices/21/1`, ma l'accesso diretto dall'ambiente di ricerca ha restituito HTTP 401; quindi non dichiarare ancora acquisito il file Excel completo.
 
 ## Stato corrente
 
-Completata una prima fase di ricerca concettuale su:
-
-- limiti delle statistiche sulle rose storicamente vincenti;
-- importanza del modificatore difesa;
-- slot funzionali della rosa;
-- titolarità e minuti;
-- storico multi-stagione;
-- metriche sottostanti;
-- rigori/piazzati;
-- trasferibilità da Serie B e campionati esteri;
-- incertezza delle previsioni;
-- rapporto tra valore sportivo e prezzo d'asta;
-- necessità di una strategia d'asta adattiva.
-
-La comprensione concettuale è sufficiente per passare alla costruzione; evitare ulteriore teoria generica se non risolve un gap concreto.
+La fase concettuale iniziale è sufficientemente chiusa. Lo schema del dataset master è ora definito e la fonte ufficiale 2026/27 è stata verificata. Non serve altra teoria generica prima di proseguire con i dati.
 
 ## Prossimo outcome
 
-Definire la struttura del **dataset master 2026/27** e acquisire il **listone ufficiale completo**, in modo da iniziare il primo artefatto dati reale del progetto.
+Acquisire l'intero **Listone Classic 2026/27** in forma tabellare riproducibile, verificarne completezza e ruoli, preservare una copia raw datata e produrre il primo dataset strutturato con almeno:
 
-Prima di congelare definitivamente tutte le colonne, verificare quali fonti affidabili e aggiornate sono realisticamente acquisibili per ciascuna famiglia di feature e quali dati possono essere storicizzati in modo coerente.
+`player_id, name, team, role_classic, quotation_initial, quotation_current, fvm_1000, source_date, source`.
+
+Solo dopo passare all'arricchimento storico/statistico delle feature successive.
