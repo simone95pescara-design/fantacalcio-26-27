@@ -87,8 +87,10 @@ La roadmap non è cieca: evidenze nuove possono correggere decisioni a monte.
 - `data/DATASET_MASTER_SCHEMA.md`: schema iniziale del dataset master e regole di qualità.
 - `data/raw/listone-2026-27-source.md`: provenienza e storia dell'acquisizione del Listone.
 - `data/processed/listone-master-v1-validation.md`: validazione della baseline ufficiale ottenuta dal workbook Fantacalcio.it.
-- `data/processed/listone-master-v1-portieri.csv`: prima persistenza tabellare della baseline ufficiale (portieri; il resto della baseline resta verificato nel workbook sorgente/validation).
+- `data/processed/listone-master-v1-portieri.csv`: persistenza tabellare iniziale della baseline ufficiale per i portieri.
 - `research/data-sources-v1.md`: fonti candidate e regole di provenienza per storico Fantacalcio, statistiche cross-league e xG/xA.
+- `data/HISTORICAL_2025_26_SCHEMA.md`: schema long del primo blocco storico e gate di qualità.
+- `data/raw/statistiche-serie-a-2025-26-source.md`: fonte ufficiale Fantacalcio 2025/26 e stato di acquisizione.
 
 ## Baseline ufficiale Listone 2026/27 — CHIUSA
 
@@ -100,24 +102,24 @@ La precedente osservazione web di 502 righe non è più il criterio canonico: la
 
 ## Fonti storiche già verificate
 
-- Fantacalcio.it espone per la Serie A 2025/26 PV, MV, FM, gol, gol subiti, rigori segnati/tirati, rigori parati, assist, ammonizioni ed espulsioni. Questa è la fonte primaria per le metriche direttamente fantacalcistiche.
-- FBref espone statistiche 2025/26 per Serie A, Serie B e numerosi campionati esteri con schema comparabile (minuti, presenze/starts, gol, assist, rigori, cartellini e metriche per90). È la fonte candidata per lo strato calcistico cross-league.
+- Fantacalcio.it espone per la Serie A 2025/26 `PV, MV, FM, Gol, GS, Rig segnati/tirati, RP, Ass, Amm, Esp`; la tabella web è accessibile e rappresenta la fonte primaria per metriche fantacalcistiche.
+- Il pulsante `Scarica` delle statistiche 2025/26 punta a `/api/v1/Excel/stats/20/1`, ma dall'ambiente corrente l'endpoint restituisce HTTP 401: il workbook ufficiale non è ancora acquisito.
+- FBref espone statistiche 2025/26 per Serie A, Serie B e campionati esteri con schema comparabile; resta la fonte candidata per minuti/starts e strato cross-league.
 - Non combinare xG/xA di provider diversi senza definizione esplicita; la fonte expected definitiva deve ancora essere scelta in base alla copertura effettiva.
 
 ## Stato corrente
 
-La fase concettuale iniziale e la baseline anagrafico-economica ufficiale sono chiuse. È stata definita anche la politica di provenienza dei dati storici. Non assegnare ancora score, fasce o prezzi massimi: manca il primo dataset storico collegato al master.
+La baseline 2026/27 è chiusa e il formato del primo storico 2025/26 è ora definito. Il prossimo collo di bottiglia è acquisire in forma tabellare completa la statistica Fantacalcio 2025/26 e matcharla ai 496 giocatori del master. Non assegnare ancora score, fasce, prezzi target o hard cap.
 
 ## Prossimo outcome
 
-Costruire la **tabella storica 2025/26** e collegarla alla baseline 2026/27.
+Chiudere la **tabella storica Serie A 2025/26**:
 
-Ordine operativo:
+1. acquisire la snapshot completa Fantacalcio 2025/26 (`PV, MV, FM, Gol, GS, Rig, RP, Ass, Amm, Esp`);
+2. normalizzare nomi/squadre senza perdere la forma originale;
+3. fare matching al `player_id` 2026/27 con metodo e confidence espliciti;
+4. produrre copertura, unmatched e ambiguità;
+5. classificare i non coperti in `Serie B`, `estero`, `altro/pochi dati`;
+6. solo dopo acquisire statistiche native dei campionati di origine.
 
-1. acquisire dalla fonte Fantacalcio.it le metriche 2025/26 dei giocatori con storico Serie A (`PV, MV, FM, Gol, GS, Rig segnati/tirati, RP, Ass, Amm, Esp`);
-2. conservare nome e squadra della fonte e fare matching al `player_id` 2026/27 con confidence esplicita;
-3. classificare i giocatori non coperti dalla Serie A 2025/26 in `Serie B`, `estero`, `altro/pochi dati`;
-4. acquisire per questi ultimi statistiche native del campionato di origine senza applicare ancora coefficienti di translation;
-5. solo dopo estendere a stagioni precedenti e metriche xG/xA.
-
-Il primo gate è una tabella 2025/26 tracciabile e validata; nessuna previsione 2026/27 prima di questo gate.
+Poiché il download Excel ufficiale delle statistiche è bloccato da 401 nell'ambiente corrente, la via più affidabile è usare il workbook ufficiale se fornito dall'utente; in alternativa si potrà costruire un estrattore dalla tabella web, ma non va sacrificata completezza/tracciabilità per evitare il blocco.
