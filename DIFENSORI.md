@@ -1,41 +1,42 @@
-# DIFENSORI — BOARD ASTA 2026/27
+# DIFENSORI — BOARD FINALE ASTA 2026/27
 
-Lega con modificatore: qui cerco soprattutto **MV + titolarità**, poi bonus. Un difensore famoso con MV mediocre non vale automaticamente più di un capitano/titolare continuo di una squadra piccola.
+Lega con modificatore. Obiettivo: **MV + titolarità + prezzo**, poi bonus. Non confondere fama con valore fantacalcistico.
 
-## Quelli che prenderei davvero
+## Ordine di acquisto reale
 
-| Tipo | Giocatore | FVM | Evidenza 25/26 | Prezzo buono | Cap | Perché |
-|---|---|---:|---|---:|---:|---|
-| PRIORITÀ | **Kempf** | 13 | 29 PV, MV 6.12, FM 6.52, 4G+1A | 8–15 | **20** | Il tipo di giocatore che voglio: numeri quasi premium, prezzo non premium. |
-| PRIORITÀ | **Rensch** | 16 | 19 PV, MV 6.16, FM 6.50, 1G+4A | 10–18 | **23** | MV + assist; upside se aumenta minuti. |
-| PRIORITÀ | **Ramon** | 32 | 32 PV, MV 6.16 | 20–30 | **36** | Stabilizzatore da modificatore con continuità. |
-| PRIORITÀ | **Solet** | 46 | 34 PV, MV 6.18, 3G+1A | 28–40 | **46** | Quasi anchor senza prezzo dei super-top; anche vice-rigorista Udinese nel 25/26. |
-| VALUE | **Bernasconi** | 17 | 22 PV, MV 6.09, 3 assist | 9–17 | **21** | Profilo da crescita; costo ancora gestibile. |
-| VALUE | **Martin** | 15 | 29 PV, 5 assist | 7–15 | **19** | Produzione assist sottovalutata; Genoa con continuità tecnica in panchina. |
-| VALUE | **Kabasele** | 9 | 28 PV, MV 5.98, 3 gol | 4–9 | **12** | Ultimi slot: gol da centrale a prezzo basso. |
-| VALUE | **Zanoli** | 10 | 19 PV, MV 6.05, 1G+2A | 4–10 | **13** | Slot offensivo economico; non pagare titolarità certa. |
-| VALUE | **Vasquez** | 33 | 36 PV, MV 6.08 | 18–28 | **34** | Capitano/leader-type di piccola: continuità prima dell'hype. |
-| UPSIDE | **Couto** | 27 | nuovo al Como | 15–25 | **31** | Esterno offensivo in squadra da Champions; sconto obbligatorio per incertezza di adattamento/gerarchia. |
+| Classe | Giocatore | FVM | Prezzo buono | Hard cap | Perché lo voglio |
+|---|---|---:|---:|---:|---|
+| PRIORITÀ | Solet | 46 | 28–40 | 46 | 34 PV, MV 6.18, 3G+1A: quasi anchor senza prezzo supertop. |
+| PRIORITÀ | Ramon | 32 | 20–30 | 36 | 32 PV, MV 6.16: stabilizzatore da modificatore. |
+| PRIORITÀ VALUE | Kempf | 13 | 8–15 | 20 | 29 PV, MV 6.12, FM 6.52, 4G+1A: numeri quasi premium a FVM basso. |
+| PRIORITÀ VALUE | Rensch | 16 | 10–18 | 23 | 19 PV, MV 6.16, 1G+4A: MV+assist; upside se crescono i minuti. |
+| VALUE | Vasquez | 33 | 18–28 | 34 | 36 PV, MV 6.08: continuità/leader-type prima dell'hype. |
+| VALUE | Martin | 15 | 7–15 | 19 | 29 PV, 5 assist: produzione spesso sottopagata. |
+| VALUE | Bernasconi | 17 | 9–17 | 21 | 22 PV, MV 6.09, 3A: crescita a prezzo gestibile. |
+| VALUE | Kabasele | 9 | 4–9 | 12 | 28 PV e 3G: ultimo slot con bonus da centrale. |
+| VALUE | Zanoli | 10 | 4–10 | 13 | 1G+2A in 19 PV: esterno offensivo economico, non pagare titolarità certa. |
+| UPSIDE | Couto | 27 | 15–25 | 31 | profilo offensivo nuovo al Como; upside alto ma sconto per adattamento/gerarchia. |
+| UPSIDE | Kaiki | 23 | 10–20 | 25 | nuovo arrivo con FVM contenuto: solo a prezzo da rischio, non da titolare già validato. |
 
-## Anchor: ne compro uno, non devo vincere il nome
-**Bremer / Mancini / Pavlovic / Akanji** sono tutti adatti. Hard cap indicativo 50–58. Compro quello che il tavolo mi regala relativamente meno caro.
+## Anchor
+Bremer / Mancini / Pavlovic / Akanji / Rrahmani sono adatti. **Ne voglio uno solo se il tavolo non lo gonfia**: hard cap indicativo 50–58.
 
-**Dimarco** è eccezionale (35 PV, MV 6.60, 7G+17A nel 25/26) ma proprio per questo sarà conteso: per me **cap 95**. Sopra, preferisco costruire 3–4 difensori forti con gli stessi crediti.
+Dimarco resta un caso separato: rendimento 25/26 fuori scala, ma con budget 1000 il mio cap resta **95**. Sopra preferisco comprare più MV distribuita.
 
-## Profili che non voglio strapagare
-- Cambiaso: 36 PV ma MV 5.81 nel 25/26 → nome/offensività non devono nascondere il floor.
-- Dodò: tanta titolarità, ma MV 5.99 → utile, non premium da modificatore.
-- Esterni nuovi senza gerarchia certa: compro l'upside solo a sconto.
+## Evito di strapagare
+- Cambiaso: nome/offensività non cancellano la MV 25/26 debole;
+- Dodò: titolarità utile, ma non premium da modificatore;
+- esterni nuovi: upside sì, certezza no;
+- secondo/terzo centrale di una big se pagato quasi come il titolare certo.
 
-## Costruzione che preferisco
-- 1 anchor: 40–55
-- 2 tra Solet/Ramon/Rensch/Kempf/Vasquez: 35–60 totali
-- 2 profili bonus/value: 20–35
-- 3 titolari/low-cost: 15–25
-- **Totale ideale 120–165**, non 200 per forza.
+## Profilo ideale da piccola
+**30+ voti + MV ≥6.05 + leadership/titolarità + 2–5 bonus + prezzo basso.** Questo è il tipo di giocatore che può far vincere il modificatore senza bruciare capitale.
 
-## Regola nascosta che cerco
-Capitano/leader + 30+ voti + MV ≥6.05 in una piccola può essere più utile al modificatore di un esterno famoso pagato il doppio.
+## Costruzione preferita
+1 anchor 40–55 + 2/3 tra Solet/Ramon/Rensch/Kempf/Vasquez 40–70 + 2 profili bonus/value 15–30 + ultimi slot titolari economici. Totale ideale **120–165**.
 
-## Fonti
-Listone 26/27 + storico Fantacalcio 25/26 del progetto. Fantacalcio raccomanda per i difensori bonus/piazzati ma anche attenzione a malus e affidabilità: https://www.fantacalcio.it/consigli-fantacalcio/difensori
+## Regola live
+Se i quattro/cinque difensori famosi vengono gonfiati, non inseguire: il modificatore premia la **media della linea**, quindi quattro 6.10–6.20 ben pagati possono essere economicamente superiori a un solo fenomeno + buchi.
+
+## Evidenza usata
+Listone ufficiale 26/27, storico 25/26 raccolto nel progetto e sweep pre-season su formazioni/nuovi arrivi. I nuovi acquisti mantengono confidence inferiore.
