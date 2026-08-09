@@ -1,89 +1,72 @@
-# 🎯 ATTACCANTI — CRUSCOTTO ASTA 2026/27
+# 🎯 ATTACCANTI — LIVE AUCTION BOARD 2026/27
 
-**Budget guida:** 450–560/1000 · obiettivo = gol/bonus attesi per credito + minuti + rigori + centralità.
+**Budget guida:** 450–560/1000 · obiettivo = gol/bonus attesi per credito + minuti + rigori + centralità.  
+**Legenda:** 🔥 priorità · 💎 value · 🚀 upside · 👑 leader · ⚽ rigori · ✅ titolare · 🆕 nuovo · ⚠️ rischio · ⛔ hard cap
 
-**Legenda:** 🔥 priorità · 💎 value · 🚀 upside · 👑 leader · ⚽ rigorista · ✅ titolare forte · 🟡 rischio · ⛔ hard cap
+> **Regola UX:** i supertop stanno nella board principale. Non devo cercarli in un paragrafo mentre l'asta corre.
 
-## ⚡ BOARD DA GUARDARE DURANTE L'ASTA
+## ⚡ BOARD PRINCIPALE — A1 → A6
 
-| ★ | Giocatore | Sq. | Profilo | Segnali | COMPRO | ⛔ CAP | Decisione lampo |
-|---|---|---|---|---|---:|---:|---|
-| 🔥🔥🔥 | **Douvikas** | COM | A1 VALUE | ✅ 36 PV · 14G | 105–145 | **165** | A1 alternativo ai supertop. |
-| 🔥🔥🔥 | **Davis K.** | UDI | RIGORI+VOLUME | ⚽ ✅ 10G+4A | 80–115 | **130** | Uno dei migliori mix ruolo/prezzo. |
-| 🔥🔥🔥 | **Berardi** | SAS | LEADER+RIGORI | 👑-leader ⚽ ✅ | 75–110 | **125** | Centralità assoluta, ma rischio fisico nel cap. |
-| 🔥🔥🔥 | **Krstovic** | ATA | PRODUZIONE | ✅ 10G+5A | 65–95 | **110** | A2 forte senza prezzo supertop. |
-| 🔥🔥🔥 | **Laurientè** | SAS | VALUE BONUS | ✅ 7G+9A | 55–85 | **96** | 16 bonus diretti: target forte. |
-| 🔥🔥 | **Simeone** | TOR | VOLUME | ✅ 11G | 50–78 | **90** | Produttivo, meno glamour; Vlasic davanti nei rigori. |
-| 🔥🔥 | **Pellegrino M.** | PAR | RIGORISTA | ⚽ ✅ | 45–75 | **88** | Primo rigorista Parma + volume. |
-| 🔥🔥 | **Pinamonti** | SAS | VALUE | ✅ vice rigori | 30–55 | **65** | Doppia cifra potenziale a costo medio. |
-| 🔥🔥 | **Esposito Se.** | CAG | FLOOR+BONUS | ✅ 7G+4A · MV 6.26 | 25–48 | **58** | Uno dei completamenti che preferisco. |
-| 🔥🔥 | **Colombo** | GEN | CENTRAVANTI PICCOLA | ✅ | 35–60 | **70** | Se resta riferimento offensivo, può battere il prezzo. |
-| 💎 | **Stulic** | LEC | RIGORISTA PICCOLA | ⚽ | 15–32 | **38** | Gerarchie pre-season: prima scelta rigori Lecce. |
-| 💎 | **Cutrone** | MON | NEO-VOLUME | ✅/🟡 | 18–35 | **42** | Playoff decisivi, gerarchia da verificare col nuovo tecnico. |
-| 💎 | **Raimondo** | FRO | NEO | ✅/🟡 | 12–28 | **34** | Se parte davanti, costo molto più basso dei nomi noti. |
-| 💎 | **Adorante** | VEN | BOMBER B | 🟡 | 7–18 | **23** | Bomber della promozione, ma il mercato ha aggiunto Adams/Rrahmani. |
-| 🚀 | **Adams A.** | VEN | RIGORI/NUOVO | ⚽ 🟡 | 25–50 | **60** | 3/3 rigori col Siviglia; primo nelle gerarchie Venezia. |
-| 🚀 | **Rrahmani Al.** | VEN | RIGORI/UPSIDE | ⚽ 🟡 | 7–20 | **26** | Seconda opzione rigori; prezzo da rischio. |
-| 🚀 | **Ghedjemis** | FRO | BREAKOUT NEO | 15G in B | 12–30 | **38** | Produzione forte; translation incerta. |
-| 🚀 | **Mutandwa** | CAG | SLEEPER | 16G+4A in Austria | 8–22 | **27** | Upside se trova minuti reali. |
-| 💎 | **Borrelli** | CAG | LOTTERIA | costo basso | 2–8 | **10** | Ultimo slot, niente hype. |
+| Fascia | Giocatore | Sq. | FVM | Tag | COMPRO | ⛔ CAP | Decisione lampo |
+|---|---|---|---:|---|---:|---:|---|
+| S | **Lautaro Martinez** | INT | 370 | 🔥🔥 TOP | 260–295 | **315** | top assoluto; sopra 315 preferisco distribuire |
+| S | **Malen** | ROM | 365 | 🔥 TOP | 255–290 | **310** | fortissimo, ma prezzo già incorpora il breakout |
+| S- | **Thuram** | INT | 280 | ✅ TOP | 205–245 | **265** | A1 vero se resta sotto i primi due |
+| S- | **Hojlund** | NAP | 271 | ✅ TOP | 200–240 | **260** | volume/gol; no guerra oltre cap |
+| A+ | **Ramos G.** | MIL | 240 | 🆕🔥 PREMIUM | 175–215 | **235** | nuovo contesto ma profilo da A1/A2 alto |
+| A+ | **Kolo Muani** | JUV | 225 | ✅ PREMIUM | 165–205 | **225** | ottimo se titolarità centrale |
+| A+ | **Kean** | FIO | 212 | ✅ PREMIUM | 155–195 | **215** | prezzo sotto supertop = interesse |
+| A+ | **Yildiz** | JUV | 200 | 🎯 PREMIUM | 145–185 | **205** | bonus/creazione, non pagare come centravanti da 25 gol |
+| A | **Douvikas** | COM | 157 | 🔥🔥🔥 A1 VALUE | 105–145 | **165** | uno dei miei target forti |
+| A | **Scamacca** | ATA | 128 | ⚽🟡 CEILING | 80–115 | **130** | se salute/minuti reggono, upside alto |
+| A | **Davis K.** | UDI | 121 | 🔥🔥🔥 ⚽ VOLUME | 80–115 | **130** | mix prezzo/rigori/centralità eccellente |
+| A | **Leao** | MIL | 120 | 🎯🟡 CEILING | 75–110 | **120** | enorme talento, ma prezzo deve riflettere ruolo/continuità |
+| A | **Berardi** | SAS | 115 | 👑⚽🔥 LEADER | 75–110 | **125** | responsabilità assoluta |
+| A- | **De Ketelaere** | ATA | 106 | 🎯 BONUS | 65–95 | **108** | ruolo ibrido, attenzione ai minuti |
+| A- | **Krstovic** | ATA | 100 | 🔥✅ PRODUZIONE | 65–95 | **110** | A2 forte |
+| B+ | **Esposito F.P.** | INT | 93 | 🚀 BIG UPSIDE | 50–80 | **90** | non pagare ceiling se i minuti non sono indipendenti |
+| B+ | **Laurientè** | SAS | 88 | 🔥💎 7G+9A | 55–85 | **96** | uno dei miei value preferiti |
+| B+ | **Dovbyk** | BOL | 84 | ✅ CENTRAVANTI | 48–75 | **85** | interesse se titolare netto |
+| B+ | **Castro S.** | ROM | 83 | 🚀 UPSIDE | 45–72 | **82** | potenziale, gerarchia decisiva |
+| B+ | **Simeone** | TOR | 82 | 🔥✅ VOLUME | 50–78 | **90** | produttivo senza hype |
+| B+ | **Pellegrino M.** | PAR | 81 | ⚽🔥 RIGORISTA | 45–75 | **88** | minuti + rigori |
+| B | **Dybala** | ROM | 67 | 🎯⚠️ CEILING | 35–60 | **68** | compro solo con sconto fisico/minuti |
+| B | **Colombo** | GEN | 63 | 💎✅ PICCOLA | 35–60 | **70** | riferimento offensivo se confermato |
+| B | **Raspadori** | ATA | 62 | 🚀 UPSIDE | 30–55 | **66** | gerarchia da comprare solo a sconto |
+| B | **Pinamonti** | SAS | 58 | 💎✅ | 30–55 | **65** | doppia cifra potenziale |
+| B | **Esposito Se.** | CAG | 50 | 💎🔥 FLOOR+BONUS | 25–48 | **58** | completamento che mi piace |
+| C+ | **Stulic** | LEC | — | ⚽💎 PICCOLA | 15–32 | **38** | rigori possono creare mispricing |
+| C+ | **Cutrone** | MON | 33 | 🚀 NEO | 18–35 | **42** | solo se prima punta reale |
+| C+ | **Raimondo** | FRO | 24 | 🚀 NEO | 12–28 | **34** | titolarità = value |
+| C+ | **Adams A.** | VEN | 52 | ⚽🚀 NEO | 25–50 | **60** | upside, ma nuovo contesto |
+| C | **Ghedjemis** | FRO | 30 | 🚀 15G B | 12–30 | **38** | breakout potenziale, translation incerta |
+| C | **Mutandwa** | CAG | — | 🚀 SLEEPER | 8–22 | **27** | numeri forti in Austria, servono minuti |
+| C | **Borrelli** | CAG | 9 | 💎 LOTTERIA | 2–8 | **10** | ultimo slot |
 
-## ⚔️ SUPERTOP — REGOLA SECCA
-Lautaro · Malen · Thuram · Hojlund · Ramos · Kolo Muani · Kean · Yildiz sono tutti acquistabili, ma **nessuno è necessario**.
+## ⬆️ NEO-PROMOSSE
+**Frosinone:** Ghedjemis · Raimondo · Kvernadze.  
+**Venezia:** Adams A. · Yeboah · Rrahmani Al. · Adorante · Lauberbach.  
+**Monza:** Cutrone · Mota · Robinson J. · Varela G. · Petagna.
 
-- top vero **≤260–285** → posso costruirgli attorno;
-- **285–320** → solo se tutta l'asta A è inflazionata;
-- **>320** → preferisco 2–3 attaccanti produttivi distribuiti.
+**Priorità pratica:** Adams/Ghedjemis/Raimondo/Cutrone solo se il prezzo incorpora il salto di categoria o la nuova gerarchia.
 
-## ⬆️ NEO-PROMOSSE — SWEEP COMPLETO
+## 🏘️ PICCOLE/MEDIE — VALUE POOL
+Lecce: Stulic · Geubbels  
+Cagliari: Esposito Se. · Mutandwa · Borrelli  
+Parma: Pellegrino · Tourè E.  
+Sassuolo: Berardi · Laurientè · Pinamonti · Bowie  
+Genoa: Colombo · Vitinha O. · Havel  
+Udinese: Davis  
+Torino: Simeone · Adams C. · Zapata
 
-### FROSINONE
-Ghedjemis 30 · Raimondo 24 · Kvernadze 15.
-
-**Mi interessano:** Ghedjemis come upside puro; Raimondo se titolare; Kvernadze ultimo slot. Non pago mai il rendimento B come rendimento Serie A certo.
-
-### VENEZIA
-Adams A. 52 · Yeboah 28 · Rrahmani Al. 20 · Adorante 14 · Lauberbach 1.
-
-**Mi interessano:** Adams per rigori; Rrahmani come alternativa; Yeboah se ruolo/minuti forti; Adorante solo se la concorrenza lo lascia realmente dentro le rotazioni importanti.
-
-### MONZA
-Cutrone 33 · Mota 18 · Robinson J. 10 · Varela G. 7 · Petagna 5.
-
-**Mi interessano:** Cutrone se prima punta; Mota come value; Petagna solo a costo minimo. Pessina è primo rigorista, quindi gli attaccanti Monza non vanno pagati come rigoristi.
-
-## 🏘️ PICCOLE/MEDIE — DOVE POSSONO NASCERE I GOL CHE GLI ALTRI PAGANO POCO
-
-| Squadra | Target | Segnale |
-|---|---|---|
-| Lecce | **Stulic** · Geubbels | Stulic parte primo rigorista nelle gerarchie pre-season. |
-| Cagliari | **Esposito Se.** · Mutandwa · Borrelli | Esposito floor/bonus; Mutandwa sleeper. |
-| Parma | **Pellegrino** · Tourè E. | Pellegrino primo rigorista; Tourè se ruolo da centravanti vero. |
-| Sassuolo | **Berardi** · **Laurientè** · Pinamonti · Bowie | enorme densità di value: attenzione a non comprarne troppi insieme. |
-| Genoa | **Colombo** · Vitinha O. · Havel | Colombo riferimento; Havel lotteria dopo numeri forti in Austria. |
-| Udinese | **Davis** | Davis è primo rigorista: fortissimo segnale di centralità. |
-| Torino | **Simeone** · Adams C. · Zapata | Vlasic è primo rigorista, quindi prezzo degli A deve rifletterlo. |
-
-## 👑/⚽ RESPONSABILITÀ CHE CAMBIANO IL PREZZO
-- **Davis**: primo rigorista Udinese.
-- **Berardi**: primo rigorista Sassuolo; Pinamonti alternativa.
-- **Pellegrino**: primo rigorista Parma.
-- **Stulic**: prima opzione Lecce nelle gerarchie pre-season.
-- **Adams A.**: prima opzione Venezia; Rrahmani seconda.
-- **Simeone**: terza opzione Torino dietro Vlasic e Zapata: non pagarlo come rigorista.
-- **Cutrone/Petagna**: dietro Pessina nella gerarchia Monza.
-
-## 💎 RUBARE ALL'ASTA
-**Davis · Laurientè · Pellegrino · Esposito Se. · Colombo · Stulic · Raimondo · Ghedjemis · Mutandwa.**
+## 🔄 SWITCH AUTOMATICO
+Lautaro/Malen >315 → **Thuram/Hojlund/Ramos/Kolo/Kean**.  
+Tutta fascia S inflazionata → **Douvikas/Davis/Berardi + Krstovic/Laurientè/Simeone**.  
+Douvikas >165 → Davis/Berardi + A2 forte.  
+Ultimi slot → minuti reali + rigori > nome.
 
 ## ⚠️ TRAPPOLE
-Riserva di big pagata come titolare; nuovo straniero senza sconto; attaccante di piccola senza rigori pagato come se li battesse; doppione costoso della stessa squadra; bomber B pagato senza regressione.
-
-## 🔄 PIANO B AUTOMATICO
-- Supertop > cap → Douvikas/Davis + Krstovic/Laurientè/Simeone.
-- Douvikas >165 → Davis/Berardi + A2 più forte.
-- Davis >130 → Pellegrino/Esposito/Colombo e redistribuzione.
-- Ultimi slot → cerco **minuti reali e rigori**, non nome.
+Riserva di big pagata come titolare; bomber B pagato senza regressione; nuovo straniero senza sconto; attaccante di piccola pagato come rigorista quando non lo è.
 
 ## 🎯 Regola unica
-**Voglio almeno 4 attaccanti con un percorso realistico al voto. Meglio un reparto profondo che vincere una singola asta e restare con quattro buchi.**
+**Almeno 4 attaccanti con percorso realistico al voto. Il reparto deve vincere nel complesso, non la singola chiamata.**
