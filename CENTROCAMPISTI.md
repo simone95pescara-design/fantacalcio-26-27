@@ -65,6 +65,23 @@
 | C | **Meichtry** | GEN | — | 🚀 | 1–8 | **10** | scommessa |
 | C | **Casadei** | TOR | — | 🚀 inserimenti | 7–20 | **25** | upside gol |
 
+## ⚽ RIGORISTI 26/27 — CENTROCAMPISTI
+**Calhanoglu (Inter)** 1° · **Orsolini (Bologna)** 1° · **Da Cunha (Como)** 1° · **Zaccagni (Lazio)** 1° · **Vlasic (Torino)** 1° · **Pessina (Monza)** 1° · **Calò (Frosinone)** 1° · **Yildiz (Juventus)** 1°/gerarchia aperta · **Mandragora (Fiorentina)** 2° · **De Bruyne (Napoli)** 2° · **Bernabè (Parma)** 2° · **Pierotti (Lecce)** 2° · **Zaniolo (Udinese)** 3°.
+
+## 🎯 PUNIZIONI / CORNER — BASELINE DA TENERE DAVANTI
+Gerarchie più recenti osservate, da ricontrollare perché il 26/27 ha cambi allenatore/mercato:
+- **Como:** Paz → Baturina → Da Cunha sulle punizioni; Da Cunha/Baturina/Paz sui corner.
+- **Inter:** Calhanoglu primo sui piazzati.
+- **Bologna:** Orsolini primo sulle punizioni.
+- **Fiorentina:** Mandragora era il primo riferimento 25/26.
+- **Lazio:** Zaccagni tra punizioni e soprattutto corner.
+- **Parma:** Bernabè primo riferimento; Nicolussi Caviglia va monitorato nel nuovo assetto.
+- **Torino:** Vlasic tra le prime opzioni; Casadei era terza opzione 25/26.
+- **Udinese:** Zaniolo primo riferimento 25/26.
+- **Lecce:** Berisha era primo riferimento su punizioni/corner.
+
+**Regola:** ⚽ rigori = gerarchie 26/27 correnti; 🎯 punizioni/corner = baseline osservata più recente quando manca ancora una fonte 26/27 completa.
+
 ## 🔄 SWITCH LIVE
 Top S sopra cap → **Baturina/Da Cunha/Vlasic + value multipli**. Premium intermedi inflazionati → **Mandragora + Konè + Ekkelenkamp/Thorstvedt**. Pessina ≤22 forte interesse; >28 stop.
 
