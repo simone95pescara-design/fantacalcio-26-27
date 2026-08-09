@@ -1,56 +1,72 @@
-# DIFENSORI — BOARD FINALE ASTA 2026/27
+# 🛡️ DIFENSORI — CRUSCOTTO ASTA 2026/27
 
-Lega con modificatore. Budget indicativo 120–170. Obiettivo: **MV + titolarità + prezzo**, poi bonus. Non confondere fama con valore fantacalcistico.
+**Budget guida:** 120–170/1000 · modificatore difesa attivo
 
-## Quelli che prenderei davvero
-| Classe | Giocatore | FVM | Prezzo buono | Hard cap | Perché |
-|---|---|---:|---:|---:|---|
-| PRIORITÀ | Solet | 46 | 28–40 | 46 | 34 PV, MV 6.18, 3G+1A: quasi anchor senza prezzo supertop. |
-| PRIORITÀ | Ramon | 32 | 20–30 | 36 | 32 PV, MV 6.16: stabilizzatore da modificatore. |
-| PRIORITÀ VALUE | Kempf | 13 | 8–15 | 20 | 29 PV, MV 6.12, FM 6.52, 4G+1A: numeri quasi premium a prezzo basso. |
-| PRIORITÀ VALUE | Rensch | 16 | 10–18 | 23 | 19 PV, MV 6.16, 1G+4A: MV + assist, upside minuti. |
-| VALUE | Kalulu | 46 | 28–38 | 43 | 37 PV, MV 6.14, 2G+4A: continuità alta. |
-| VALUE | Bastoni | 44 | 27–38 | 44 | MV 6.20, 1G+4A; utile se non paghi il nome Inter. |
-| VALUE | Ostigard | 40 | 23–33 | 37 | 30 PV, MV 6.13, 5G: upside da piazzato. |
-| VALUE | Vasquez | 33 | 18–28 | 34 | 36 PV, MV 6.08: continuità/leader-type. |
-| VALUE | Hermoso | 26 | 15–23 | 27 | 27 PV, MV 6.17, 3G+2A. |
-| VALUE | Celik | 21 | 11–19 | 23 | 32 PV, MV 6.17: profilo da modificatore sottovalutabile. |
-| VALUE | Martin | 15 | 7–15 | 19 | 29 PV, 5 assist: produzione spesso sottopagata. |
-| VALUE | Bernasconi | 17 | 9–17 | 21 | 22 PV, MV 6.09, 3A: crescita a prezzo gestibile. |
-| VALUE | Kabasele | 9 | 4–9 | 12 | 28 PV e 3G: ultimo slot con bonus. |
-| VALUE | Zanoli | 10 | 4–10 | 13 | 1G+2A in 19 PV: esterno offensivo economico. |
-| UPSIDE | Couto | 27 | 15–25 | 31 | profilo offensivo nuovo; sconto per adattamento/gerarchia. |
-| UPSIDE | Kaiki | 23 | 10–20 | 25 | nuovo arrivo: prezzo da rischio, non da certezza. |
+**Legenda:** 🔥 priorità · 💎 value · 🚀 upside · 👑 capitano/leader · ✅ titolare forte · 🎯 bonus/piazzati · 🟡 rischio · ⛔ hard cap
 
-## Anchor
-Bremer / Mancini / Pavlovic / Akanji / Rrahmani sono tutti validi. Ne voglio **uno solo se il tavolo non lo gonfia**: hard cap indicativo 50–58.
+## ⚡ BOARD DA GUARDARE DURANTE L'ASTA
 
-Dimarco è eccezionale ma il cap operativo resta **95**. Sopra preferisco comprare più MV distribuita.
+| ★ | Giocatore | Sq. | Profilo | Segnali | COMPRO | ⛔ CAP | Decisione lampo |
+|---|---|---|---|---|---:|---:|---|
+| 🔥🔥🔥 | **Solet** | UDI | MOD+BONUS | ✅ 🎯 MV 6.18 · 3G+1A | 28–40 | **46** | Quasi anchor senza prezzo da supertop. |
+| 🔥🔥🔥 | **Ramon** | COM | MODIFICATORE | ✅ MV 6.16 | 20–30 | **36** | Stabilizzatore puro. |
+| 🔥🔥🔥 | **Kempf** | COM | VALUE | ✅ 4G+1A · MV 6.12 | 8–15 | **20** | Uno dei miei migliori rapporti numeri/prezzo. |
+| 🔥🔥 | **Rensch** | ROM | VALUE+ASSIST | 🎯 1G+4A · MV 6.16 | 10–18 | **23** | Upside se aumentano i minuti. |
+| 🔥🔥 | **Ostigard** | GEN | BONUS CENTRALE | ✅ 5G | 23–33 | **37** | Gol senza pagare prezzo da esterno. |
+| 🔥🔥 | **Vasquez** | GEN | FLOOR | 👑/leader-type ✅ 36 PV | 18–28 | **34** | Continuità prima dell'hype. |
+| 💎 | **Valeri** | PAR | ESTERNO | ✅ 🎯 | 14–22 | **27** | Piccola, ruolo offensivo, prezzo spesso accessibile. |
+| 💎 | **Delprato** | PAR | MOD/FLOOR | 👑/leader-type ✅ | 12–20 | **25** | Titolare strutturale, utile al modificatore. |
+| 💎 | **Tiago Gabriel** | LEC | BREAKOUT | ✅/🚀 | 8–16 | **20** | Giovane con FVM 17: da prendere se resta fuori dalla moda. |
+| 💎 | **Idzes** | SAS | FLOOR | ✅ | 10–18 | **22** | Profilo sobrio, utile se i nomi vengono gonfiati. |
+| 💎 | **Mina** | CAG | BONUS/FLOOR | ✅ 🎯 | 10–18 | **22** | Centrale pericoloso sui piazzati. |
+| 💎 | **Coco** | TOR | FLOOR | ✅ | 9–17 | **21** | Prezzo piccolo, ruolo forte. |
+| 🚀 | **Monterisi** | FRO | NEO | ✅/🟡 | 5–12 | **15** | Neopromossa: compro solo se titolarità chiara. |
+| 🚀 | **Bracaglia** | FRO | NEO VALUE | 🟡 | 3–9 | **12** | Ultimi slot, niente asta emotiva. |
+| 🚀 | **Bella-Kotchap** | VEN | NEO | ✅/🟡 | 5–12 | **16** | Nome noto ma prezzo deve restare da neopromossa. |
+| 🚀 | **Delli Carri** | MON | NEO VALUE | ✅/🟡 | 3–9 | **12** | Profilo da copertura se confermato titolare. |
 
-## Longlist NON tagliata — FVM almeno 18
-Premium: Dimarco 265; Wesley 84; Akanji 55; Bremer 50; Mancini 49; Pavlovic 48; Rrahmani 47; Kalulu 46; Solet 46; Bastoni 44; N'Dicka 44; Di Lorenzo 40; Ostigard 40.
+## 👑 ANCHOR — NE VOGLIO UNO, NON UN NOME SPECIFICO
+Bremer / Mancini / Pavlovic / Akanji / Rrahmani: **50–58 max**. Dimarco: eccezione, **cap 95**. Sopra, costruisco più MV distribuita.
 
-Medio-alti: Stones 38; Bisseck 33; Vasquez 33; Ramon 32; Gila 31; Dodò 30; Scalvini 28.
+## ⬆️ NEO-PROMOSSE — SWEEP COMPLETO
 
-Value: Cambiaso 27; Dragusin 27; Couto 27; Carlos Augusto 27; Hermoso 26; Bartesaghi 25; Zappacosta 24; Miranda J. 24; Spinazzola 24; Valeri 24; Romagnoli 24; Jimenez A. 23; Kaiki 23; Gabbia 23; Norton-Cuffy 22; Doekhi 22; Celik 21; Delprato 21; Mina 20; Koulierakis 20; Tomori 20; Marusic 20; Vojvoda 19; Idzes 19; Zortea 19; Viery 19; Lucumì 18; Buongiorno 18; Coco 18; Ismajli 18; Valle 18; Valdepenas 18; Pavard 18; Circati 18.
+### FROSINONE
+Monterisi 14 · Oyono A. 12 · Bracaglia 11 · Calvani 10 · Cittadini 8 · Akpoguma 7.
 
-## Come trovo i veri affari
-- 30+ voti e MV ≥6.05 in squadre medio-piccole.
-- Capitano/leader o centrale con titolarità molto forte.
-- Esterno con assist/bonus ma prezzo ancora basso.
-- Centrale da 2–5 gol che non viene pagato come esterno offensivo.
-- Nuovo arrivo: solo con sconto proporzionato all'incertezza.
+**Mi interessano:** Monterisi/Oyono se titolari certi; Bracaglia/Calvani solo low-cost. **Regola:** nessun difensore del Frosinone va pagato come un D3 già validato in A.
 
-## Trappole
-- Cambiaso/Dodò e altri nomi offensivi: non pagare il nome se la MV non regge il modificatore.
-- Secondo/terzo centrale di big pagato quasi come titolare certo.
-- Due premium con stessa funzione: il secondo brucia capitale marginale.
+### VENEZIA
+Bella-Kotchap 13 · Correia 12 · Moreno M. 11 · Haps 11 · Halhal 10 · Schingtienne 7 · Sverko 7 · Hainaut 7.
 
-## Costruzione preferita
-1 anchor 40–55 + 2/3 tra Solet/Ramon/Kalulu/Kempf/Rensch/Vasquez 40–70 + 2 profili bonus/value 15–30 + ultimi slot titolari economici. Totale ideale **120–165**.
+**Mi interessano:** Bella-Kotchap per struttura; Haps/Correia se hanno ruolo laterale offensivo; gli altri solo a prezzo da copertura.
 
-## Regola live
-Se i famosi vengono gonfiati, non inseguire: il modificatore premia la **media della linea**. Quattro 6.10–6.20 ben pagati possono essere economicamente superiori a un fenomeno + buchi.
+### MONZA
+Mangas 15 · Lucchesi 12 · Birindelli 12 · Delli Carri 11 · Kouadio 9 · Carboni A. 9.
 
-## Evidenza
-Listone ufficiale 26/27 + storico Fantacalcio 25/26 del progetto. I nuovi acquisti mantengono confidence inferiore.
+**Mi interessano:** Mangas/Birindelli per possibile spinta; Lucchesi/Delli Carri come value da titolarità. Il Monza ha cambiato allenatore: confidence più bassa sulle gerarchie.
+
+## 🏘️ PICCOLE/MEDIE — DOVE CERCO IL MODIFICATORE CHE GLI ALTRI NON PAGANO
+
+| Squadra | Profili che guardo | Perché |
+|---|---|---|
+| Lecce | Tiago Gabriel · Gallo · Gaspar | Falcone dietro + titolari a prezzo basso. |
+| Cagliari | Mina · Obert · Kofler | Mina bonus, Obert/Kofler possibile floor. |
+| Parma | Valeri · Delprato · Circati | mix esterno + leadership + titolarità. |
+| Sassuolo | Idzes · Doig | Idzes floor; Doig offensivo ma solo a sconto. |
+| Genoa | Ostigard · Vasquez · Martin · Norton-Cuffy | reparto pieno di value differenti. |
+| Udinese | Solet · Vojvoda · Kabasele · Zanoli | Solet priorità; Kabasele/Zanoli ultimi slot. |
+| Torino | Coco · Ismajli · Pedersen | titolarità/floor, Pedersen più offensivo. |
+
+## 💎 RUBARE ALL'ASTA
+**Kempf · Tiago Gabriel · Valeri · Delprato · Idzes · Mina · Coco · Kabasele · Zanoli.**
+
+## ⚠️ TRAPPOLE
+Cambiaso/Dodò pagati per il nome; secondo/terzo centrale di big quasi al prezzo del titolare; due premium con la stessa funzione; nuovo arrivo pagato senza sconto.
+
+## 🔄 PIANO B AUTOMATICO
+- Perdo Bremer/Mancini/Pavlovic → Solet/Ramon/Ostigard.
+- Solet oltre 46 → Ramon + Kempf/Rensch.
+- Tutto il premium è inflazionato → 4–5 difensori da MV/floor delle medio-piccole e sposto crediti su C/A.
+
+## 🎯 Regola unica
+**Con il modificatore voglio una linea che faccia voto, non una collezione di nomi.**
