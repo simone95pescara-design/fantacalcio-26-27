@@ -1,49 +1,57 @@
-# ATTACCANTI — BOARD ASTA 2026/27
+# ATTACCANTI — BOARD FINALE ASTA 2026/27
 
-Reparto decisivo. Non cerco semplicemente il capocannoniere previsto: cerco **gol attesi per credito + titolarità + rigori + centralità + alternative**, evitando di bruciare metà capitale su un solo nome.
+Reparto decisivo. Obiettivo: **gol/bonus attesi per credito + minuti + rigori + centralità**, non comprare per forza il capocannoniere previsto.
 
-## Quelli che prenderei davvero
+## Ordine di acquisto reale
 
-| Tipo | Giocatore | FVM | 25/26 | Prezzo buono | Cap | Recensione |
-|---|---|---:|---|---:|---:|---|
-| PRIORITÀ | **Douvikas** | 157 | 36 PV, 14G | 105–145 | **165** | 14 gol e continuità in un Como da Champions: preferisco questo profilo a un top pagato 300+. |
-| PRIORITÀ | **Davis K.** | 121 | 30 PV, MV 6.32, 10G+4A | 80–115 | **130** | Produzione completa e primo rigorista Udinese: target forte se resta sotto i big. |
-| PRIORITÀ | **Berardi** | 115 | 26 PV, MV 6.31, 8G+4A | 75–110 | **125** | Primo rigorista Sassuolo, centralità assoluta; rischio fisico/età incorporato nel cap. |
-| PRIORITÀ | **Krstovic** | 100 | 32 PV, 10G+5A | 65–95 | **110** | 15 bonus diretti, prezzo sotto i premium. Ottimo A2. |
-| PRIORITÀ | **Simeone** | 82 | 32 PV, 11G | 50–78 | **90** | 11 gol a FVM 82: profilo da mercato meno sexy ma produttivo. |
-| VALUE | **Pellegrino M.** | 81 | 37 PV, 9G | 45–75 | **88** | 37 voti + primo rigorista Parma: disponibilità e volume. |
-| VALUE | **Laurientè** | 88 | 37 PV, 7G+9A | 55–85 | **96** | 16 bonus diretti; se resta sotto prezzo da top è uno dei miei A2/A3 preferiti. |
-| VALUE | **Esposito Se.** | 50 | 36 PV, MV 6.26, 7G+4A | 25–48 | **58** | Continuità + buon voto + 11 bonus: profilo da completamento che può giocare spesso. |
-| VALUE | **Pinamonti** | 58 | 34 PV, 9G+3A | 30–55 | **65** | Vice Berardi sui rigori; centravanti da doppia cifra potenziale senza prezzo premium. |
-| SCOMMESSA | **Adams A.** | 52 | nuovo Venezia; 3/3 rigori col Siviglia riportati nelle gerarchie pre-season | 25–50 | **60** | Possibile primo rigorista Venezia: nuovo campionato/squadra → upside ma confidence inferiore. |
-| SCOMMESSA | **Ghedjemis** | 30 | Frosinone B: 37 pres., 15G nel lavoro raccolto | 12–30 | **38** | Produzione forte in B; compro la translation solo a prezzo basso. |
-| SCOMMESSA | **Rrahmani Al.** | 20 | Venezia; storico da rigorista prima dell'Italia | 7–20 | **26** | Possibile vice Adams dal dischetto; ottimo ultimo slot se il ruolo offensivo regge. |
-| LOTTERIA | **Borrelli** | 9 | 26 PV, 5G | 2–8 | **10** | Ultimo slot economico: già produzione Serie A, costo minimo. |
+| Classe | Giocatore | FVM | Prezzo buono | Hard cap | Perché lo voglio |
+|---|---|---:|---:|---:|---|
+| PRIORITÀ | Douvikas | 157 | 105–145 | 165 | 36 PV, 14G; volume già dimostrato e Como competitivo. A1 alternativo ai supertop. |
+| PRIORITÀ | Davis K. | 121 | 80–115 | 130 | 30 PV, MV 6.32, 10G+4A e responsabilità dal dischetto. |
+| PRIORITÀ | Berardi | 115 | 75–110 | 125 | centralità assoluta + rigori; rischio fisico/età già incorporato nel cap. |
+| PRIORITÀ | Krstovic | 100 | 65–95 | 110 | 32 PV, 10G+5A: produzione completa e prezzo sotto i supertop. |
+| PRIORITÀ VALUE | Laurientè | 88 | 55–85 | 96 | 37 PV, 7G+9A: 16 bonus diretti e prezzo potenzialmente da A2/A3. |
+| PRIORITÀ VALUE | Simeone | 82 | 50–78 | 90 | 32 PV, 11G: produttivo senza prezzo glamour. |
+| VALUE | Pellegrino M. | 81 | 45–75 | 88 | 37 PV, 9G e responsabilità da rigore: minuti + volume. |
+| VALUE | Pinamonti | 58 | 30–55 | 65 | 34 PV, 9G+3A: doppia cifra potenziale a costo medio. |
+| VALUE | Esposito Se. | 50 | 25–48 | 58 | 36 PV, MV 6.26, 7G+4A: continuità e buon voto. |
+| UPSIDE | Diao | 50 | 25–48 | 58 | Como offensivo, FVM molto sotto Douvikas: upside se minuti/ruolo crescono. |
+| UPSIDE | Raspadori | 62 | 30–55 | 66 | nel 25/26 l'aumento di minutaggio dopo il mercato ha mostrato upside; ora va comprato solo se la gerarchia Atalanta non viene prezzata come certezza. |
+| SCOMMESSA | Adams A. | 52 | 25–50 | 60 | Venezia, possibile responsabilità sui rigori; nuovo contesto = sconto obbligatorio. |
+| SCOMMESSA | Ghedjemis | 30 | 12–30 | 38 | 37 pres., 15G in B: produzione forte, translation incerta. |
+| SCOMMESSA | Rrahmani Al. | 20 | 7–20 | 26 | costo basso e possibile ruolo da bonus; non pagare la proiezione come certezza. |
+| LOTTERIA | Borrelli | 9 | 2–8 | 10 | ultimo slot: già 5G nel 25/26, costo minimo. |
 
-## Top assoluti
-Lautaro, Malen, Thuram, Hojlund, Yildiz ecc. sono acquistabili, ma il principio è semplice: **nessun nome è obbligatorio**. Fantacalcio stesso raccomanda un tetto massimo sul singolo top e un reparto completo, non una dipendenza da uno/due nomi.
+## Supertop
+Lautaro, Malen, Thuram, Hojlund, Ramos, Kolo Muani, Kean, Yildiz sono tutti acquistabili. **Nessuno è necessario per vincere.**
 
-### Mia regola per A1
-- Se un top vero resta **≤260–285**, posso costruirgli attorno.
-- 285–320: solo se il resto del mercato A è altrettanto inflazionato.
-- >320: nella maggior parte degli scenari preferisco **Douvikas/Davis/Berardi + Krstovic/Laurientè/Simeone** e profondità.
+Regola A1:
+- top vero ≤260–285: posso costruirgli attorno;
+- 285–320: solo se il mercato degli attaccanti è uniformemente inflazionato;
+- >320: preferenza per 2–3 profili produttivi distribuiti.
 
-## Rigoristi che aumentano il valore
-- Davis: primo Udinese.
-- Berardi: primo Sassuolo.
-- Pellegrino: primo Parma se resta.
-- Adams A.: indicato come prima opzione Venezia in pre-season.
-- Malen/Dybala: gerarchia Roma da monitorare; proprio l'incertezza impedisce di pagare il rigore come certezza.
+Il caso Malen è istruttivo: il 25/26 ha mostrato rapidamente rendimento e gerarchia alta alla Roma; proprio per questo il mercato 26/27 lo prezza già quasi come Lautaro. Il valore non è «Malen è forte», ma **Malen a quale prezzo rispetto alle alternative?**
 
-## Profili che non voglio pagare per il nome
-- Attaccante con titolarità non chiara in una big: il ceiling non compensa automaticamente 15–20 presenze da subentrante.
-- Nuovo straniero senza translation Serie A: cap più basso di un equivalente già validato.
-- Ex-top reduce da pochi minuti/infortuni: compro il recupero solo a sconto.
+## Cosa cerco nelle piccole
+- primo rigorista;
+- centravanti senza vera concorrenza;
+- capitano/leader offensivo;
+- 30+ presenze e produzione stabile;
+- attaccante che ha già segnato 8–12 gol ma non ha status da top;
+- neopromossa: bomber dominante in B solo con sconto per translation.
 
-## Costruzione che preferisco
-**A1 value/premium 120–250 + A2 70–120 + A3 45–80 + tre slot 10–50.** Posso spendere 450–550 complessivi, ma voglio almeno 4 giocatori con percorso realistico al voto e non 2 stelle + 4 buchi.
+## Trappole
+- riserva di big pagata come titolare;
+- nome famoso reduce da infortuni/minuti ridotti;
+- nuovo straniero pagato come se la Serie A fosse già validata;
+- secondo attaccante costoso della stessa squadra senza minuti indipendenti;
+- rigorista presunto trattato come rigorista certo.
 
-## Fonti
-- Listone ufficiale Fantacalcio 26/27 e storico 25/26 del progetto.
-- https://www.fantacalcio.it/consigli-fantacalcio/attaccanti
-- Gerarchie rigoristi pre-season: https://www.goal.com/it/liste/fantacalcio-rigoristi-serie-a-2026-2027-tiratori-e-gerarchie-dal-dischetto-delle-20-squadre-del-campionato/bltdebca56c3bd91419
+## Costruzione preferita
+A1 value/premium 120–250 + A2 70–120 + A3 45–80 + tre slot 10–50. Budget complessivo **450–550**, con almeno 4 giocatori dal percorso realistico al voto.
+
+## Regola live
+Se un top supera il cap, non «perdiamo il top»: **compriamo il surplus altrove**. L'obiettivo è massimizzare la produzione dell'intero reparto per 1000 crediti, non vincere una singola chiamata.
+
+## Evidenza usata
+Listone ufficiale 26/27 fornito per l'asta; storico 25/26 del progetto; ricerca pre-season su formazioni tipo, gerarchie, nuovi arrivi e rigoristi. Le informazioni estive sono probabilistiche.
