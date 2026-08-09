@@ -1,80 +1,71 @@
-# 🎛️ CENTROCAMPISTI — CRUSCOTTO ASTA 2026/27
+# 🎛️ CENTROCAMPISTI — LIVE AUCTION BOARD 2026/27
 
-**Budget guida:** 220–280/1000 · obiettivo = bonus per credito, non fama.
+**Budget guida:** 220–280/1000 · obiettivo = bonus per credito, non fama.  
+**Legenda:** 🔥 priorità · 💎 value · 🚀 upside · 👑 leader · ⚽ rigori · 🎯 piazzati/assist · ✅ titolare · 🆕 nuovo · ⚠️ rischio · ⛔ hard cap
 
-**Legenda:** 🔥 priorità · 💎 value · 🚀 upside · 👑 capitano/leader verificato · ⚽ rigorista · 🎯 piazzati/assist · ✅ titolare forte · 🟡 rischio · ⛔ hard cap
+> **Regola UX:** i top stanno nella stessa board dei value. Nessun nome importante viene relegato in paragrafi separati.
 
-## ⚡ BOARD DA GUARDARE DURANTE L'ASTA
+## ⚡ BOARD PRINCIPALE — C1 → C8
 
-| ★ | Giocatore | Sq. | Profilo | Segnali | COMPRO | ⛔ CAP | Decisione lampo |
-|---|---|---|---|---|---:|---:|---|
-| 🔥🔥🔥 | **Da Cunha** | COM | BONUS/FLOOR | ✅ 35 PV · MV 6.34 · 6G+4A | 55–80 | **92** | Quasi ideale: minuti, qualità, bonus. |
-| 🔥🔥🔥 | **Vlasic** | TOR | LEADER+RIGORI | ⚽ ✅ 8G+3A | 48–72 | **82** | Leader tecnico di una medio-piccola: profilo che voglio. |
-| 🔥🔥🔥 | **Baturina** | COM | CEILING | 6G+3A · FM 7.14 | 65–90 | **105** | Fortissimo, ma niente guerra per hype. |
-| 🔥🔥🔥 | **Mandragora** | FIO | VALUE BONUS | 34 PV · 7G | 18–30 | **36** | Numeri molto migliori del prezzo percepito. |
-| 🔥🔥🔥 | **Konè I.** | SAS | VALUE BONUS | 35 PV · MV 6.19 · 6G | 12–22 | **27** | Uno dei migliori value del listone. |
-| 🔥🔥 | **Rodriguez Je.** | COM | ASSIST/FLOOR | 🎯 2G+8A · MV 6.25 | 20–32 | **38** | Assist spesso sottopagati. |
-| 🔥🔥 | **Ekkelenkamp** | UDI | INSERIMENTI | 5G+3A | 24–38 | **45** | Produzione distribuita. |
-| 🔥🔥 | **Thorstvedt** | SAS | INSERIMENTI | 4G+3A | 24–38 | **46** | Meno glamour, bonus reali. |
-| 🔥🔥 | **Bernabè** | PAR | CENTRALITÀ | 🎯 32 PV · MV 6.17 | 20–34 | **40** | Floor + piazzati/rigori secondari. |
-| 🔥🔥 | **Pessina** | MON | CAPITANO+RIGORI | 👑 ⚽ ✅ | 10–22 | **28** | Capitano e primo rigorista Monza: target da piccola. |
-| 💎 | **Karlstrom** | UDI | CAPITANO/FLOOR | 👑 ✅ 3085' nel 25/26 | 8–18 | **22** | Poco bonus, ma voto/minuti/leadership a prezzo basso. |
-| 💎 | **Busio** | VEN | LEADER NEO | 👑-leader ✅ | 12–25 | **30** | Venezia lo definisce figura centrale del progetto. |
-| 💎 | **Calò** | FRO | NEO-BONUS | 37 pres. · 10G+15A in B | 10–25 | **30** | Numeri enormi; sconto obbligatorio per salto di categoria. |
-| 💎 | **Colpani** | MON | BONUS NEO | ruolo offensivo | 12–25 | **32** | Può valere più del prezzo se mantiene centralità. |
-| 💎 | **Casadei** | TOR | INSERIMENTI | 6G | 18–32 | **40** | Buon ceiling se non lo paghi per hype. |
-| 🚀 | **Rowe** | BOL | UPSIDE | 3G+3A | 20–36 | **43** | Ruolo offensivo, da monitorare. |
-| 🚀 | **Alajbegovic** | JUV | BREAKOUT | nuovo | 28–48 | **58** | Potenziale alto, confidence più bassa. |
-| 🚀 | **Fazzini** | CAG | PICCOLA/UPSIDE | FVM 19 | 8–18 | **23** | Nome meno conteso con ruolo tecnico. |
-| 🚀 | **Oristanio** | TOR | OFFENSIVO | FVM 27 | 12–25 | **31** | Se gioca alto, ruolo reale > ruolo nominale. |
+| Fascia | Giocatore | Sq. | FVM | Tag | COMPRO | ⛔ CAP | Decisione lampo |
+|---|---|---|---:|---|---:|---:|---|
+| S | **Paz N.** | COM | 250 | 🔥🔥 TOP BONUS | 160–205 | **225** | top vero; forte ma non obbligatorio |
+| S | **McTominay** | NAP | 240 | 🔥 TOP INSERIMENTI | 155–200 | **220** | produzione altissima; stop se asta folle |
+| S | **Calhanoglu** | INT | 230 | ⚽🎯 TOP RESPONSABILITÀ | 145–195 | **215** | rigori/piazzati lo tengono premium |
+| S- | **Orsolini** | BOL | 200 | ⚽🎯 BONUS | 130–175 | **195** | profilo da attaccante mascherato |
+| S- | **Pulisic** | MIL | 180 | 🔥 BONUS | 120–160 | **180** | ceiling alto; non inseguire il nome |
+| A+ | **Rabiot** | MIL | 128 | ✅ INSERIMENTI | 78–105 | **120** | forte ma prezzo dipende dall'hype |
+| A+ | **Baturina** | COM | 102 | 🔥🔥🔥 CEILING | 65–90 | **105** | uno dei miei premium preferiti |
+| A | **De Bruyne** | NAP | 100 | 🎯🟡 TECNICA | 60–85 | **95** | upside enorme, rischio età/minuti |
+| A | **Zaccagni** | LAZ | 91 | ⚽🎯 BONUS | 58–82 | **92** | ruolo offensivo e responsabilità |
+| A | **Da Cunha** | COM | 90 | 🔥🔥🔥 BONUS/FLOOR | 55–80 | **92** | quasi ideale per continuità/prezzo |
+| A | **Zaniolo** | UDI | 90 | 🎯🟡 CEILING | 50–78 | **88** | solo se ruolo/minuti convincono |
+| A | **Atta** | FIO | 87 | 🚀 BONUS | 48–74 | **84** | nuovo contesto: sconto rispetto al ceiling |
+| A | **Barella** | INT | 82 | ✅ FLOOR+ASSIST | 48–70 | **80** | ottimo, ma non pagarlo come rigorista |
+| A | **Vlasic** | TOR | 80 | 🔥🔥🔥 👑⚽ LEADER | 48–72 | **82** | target forte da medio-piccola |
+| B+ | **McKennie** | JUV | 68 | ✅ INSERIMENTI | 38–58 | **65** | bonus/minuti, non oltre il ruolo reale |
+| B+ | **Mastantuono** | FIO | 58 | 🆕🚀 TALENTO | 28–48 | **58** | **nel listone**: FVM 58, nuovo alla Fiorentina; upside alto, gerarchia da monitorare |
+| B+ | **Alajbegovic** | JUV | 57 | 🆕🚀 BREAKOUT | 28–48 | **58** | potenziale, confidence inferiore |
+| B | **Mandragora** | FIO | 28 | 💎🔥 7G | 18–30 | **36** | rapporto produzione/prezzo fortissimo |
+| B | **Konè I.** | SAS | 20 | 💎🔥 6G | 12–22 | **27** | uno dei value migliori |
+| B | **Rodriguez Je.** | COM | 32 | 💎🎯 8A | 20–32 | **38** | assist spesso sottopagati |
+| B | **Ekkelenkamp** | UDI | 41 | 💎 INSERIMENTI | 24–38 | **45** | produzione distribuita |
+| B | **Thorstvedt** | SAS | 41 | 💎 INSERIMENTI | 24–38 | **46** | meno glamour, bonus reali |
+| B | **Bernabè** | PAR | 36 | 🎯✅ CENTRALITÀ | 20–34 | **40** | floor + responsabilità |
+| B | **Pessina** | MON | 20 | 👑⚽🔥 NEO-LEADER | 10–22 | **28** | capitano/rigori: target vero da piccola |
+| C+ | **Busio** | VEN | 14 | 👑-leader NEO | 12–25 | **30** | centralità alta, da comprare a sconto |
+| C+ | **Calò** | FRO | 25 | 🚀 10G+15A B | 10–25 | **30** | upside enorme, translation incerta |
+| C+ | **Colpani** | MON | 25 | 🚀 BONUS NEO | 12–25 | **32** | se resta centrale nel progetto |
+| C | **Fazzini** | CAG | 19 | 🚀 PICCOLA | 8–18 | **23** | profilo tecnico poco glamour |
+| C | **Oristanio** | TOR | 27 | 🚀 OFFENSIVO | 12–25 | **31** | ruolo reale può valere più del ruolo nominale |
 
-## 👑 CAPITANI / LEADER CHE VOGLIO TENERE DAVANTI AGLI OCCHI
+## 👑 CAPITANI / LEADER
+**Pessina (Monza)** 👑⚽ · **Karlstrom (Udinese)** 👑 · **Vlasic (Torino)** leader tecnico/rigori · **Busio (Venezia)** alta centralità nel progetto.
 
-- **Pessina (Monza)** 👑⚽: capitano verificato e primo rigorista nelle gerarchie pre-season.
-- **Falcone è capitano Lecce**, ma essendo P è nel file portieri: ricordarlo perché leadership = continuità.
-- **Karlstrom (Udinese)** 👑: capitano ufficiale, rinnovo fino al 2028, praticamente sempre in campo nel 25/26.
-- **Busio (Venezia)**: il club lo definisce leader e figura centrale del progetto; non lo tratto come capitano certo, ma come profilo ad alta centralità.
+## ⬆️ NEO-PROMOSSE
+**Frosinone:** Calò · Zerbin · Koutsoupias · Cichella · Fini · Gelli · Hasa.  
+**Venezia:** Basic · Busio · Sohm · Kike Perez · Helgason · Duncan.  
+**Monza:** Colpani · Pessina · Akinsanmiro · Colombo L. · Ciurria.
 
-## ⬆️ NEO-PROMOSSE — SWEEP COMPLETO
+**Priorità:** Pessina > Calò/Busio > Colpani > Zerbin/Koutsoupias/Akinsanmiro, sempre col prezzo giusto.
 
-### FROSINONE
-Calò 25 · Zerbin 13 · Koutsoupias 12 · Cichella 11 · Fini 9 · Gelli F. 8 · Hasa 5.
+## 🏘️ PICCOLE/MEDIE — VALUE POOL
+Lecce: Pierotti · Berisha M.  
+Cagliari: Fazzini · Winks · Romano  
+Parma: Bernabè · Ondrejka · Nicolussi Caviglia  
+Sassuolo: Thorstvedt · Konè I. · Volpato  
+Genoa: Baldanzi · Frendrup · Meichtry  
+Udinese: Ekkelenkamp · Karlstrom · Unai Gomez  
+Torino: Vlasic · Casadei · Oristanio
 
-**Mi interessano:** **Calò** come scommessa bonus; Zerbin se gioca alto; Koutsoupias per inserimenti. Il resto solo a costo basso.
+## 🔄 SWITCH AUTOMATICO
+Paz/McTominay/Calhanoglu > cap → **Baturina/Da Cunha/Vlasic + due value**.  
+Baturina/Da Cunha/Vlasic inflazionati → **Mandragora + Konè I. + Ekkelenkamp/Thorstvedt**.  
+Pessina ≤22 → priorità; >28 → stop.  
+Mastantuono: compro il talento solo se il prezzo non incorpora già un breakout certo.
 
-### VENEZIA
-Basic 19 · Busio 14 · Sohm 14 · Kike Perez 14 · Helgason 7 · Duncan 4.
+## ⚠️ MERCATO
+Il mercato chiude il **1 settembre**: ogni nuovo arrivo va inserito nella board principale appena diventa ufficiale. Mastantuono è già nel listone caricato; non va trattato come nome marginale.
 
-**Mi interessano:** **Busio** per centralità; Basic/Sohm/Kike Perez solo se ruolo e titolarità sono offensivi abbastanza da giustificare il prezzo.
-
-### MONZA
-Colpani 25 · Pessina 20 · Akinsanmiro 16 · Colombo L. 7 · Ciurria 6.
-
-**Mi interessano:** **Pessina** fortissimo per struttura del ruolo; Colpani per upside bonus; Akinsanmiro come sleeper. Il Monza ha cambiato allenatore: non assumere le gerarchie 25/26 come immutabili.
-
-## 🏘️ PICCOLE/MEDIE — I NOMI CHE POSSONO BATTERE IL MERCATO
-
-| Squadra | Target | Perché |
-|---|---|---|
-| Lecce | Pierotti · Berisha M. | Pierotti è anche seconda opzione rigori nelle gerarchie pre-season. |
-| Cagliari | Fazzini · Winks · Romano | Fazzini upside; gli altri solo a prezzo da floor. |
-| Parma | Bernabè · Ondrejka · Nicolussi Caviglia | Bernabè priorità; Ondrejka se ruolo offensivo. |
-| Sassuolo | Thorstvedt · Konè I. · Volpato | Tre profili da bonus/prezzo diversi. |
-| Genoa | Baldanzi · Frendrup · Meichtry | Baldanzi upside; Frendrup floor; Meichtry sleeper. |
-| Udinese | Ekkelenkamp · Karlstrom · Unai Gomez | Ekkelenkamp bonus; Karlstrom sicurezza; Unai upside. |
-| Torino | Vlasic · Casadei · Oristanio | Vlasic è il faro; Casadei/Oristanio value se restano sotto hype. |
-
-## 💎 RUBARE ALL'ASTA
-**Mandragora · Konè I. · Pessina 👑⚽ · Karlstrom 👑 · Calò · Busio · Fazzini · Oristanio · Volpato.**
-
-## ⚠️ TRAPPOLE
-Mediano titolarissimo senza bonus pagato 25–40; nuovo straniero pagato subito come top; riserva di big pagata per ceiling; una sola stagione anomala trattata come certezza.
-
-## 🔄 PIANO B AUTOMATICO
-- Da Cunha/Baturina/Vlasic salgono troppo → Mandragora + Konè I. + Ekkelenkamp/Thorstvedt.
-- Tutti i premium inflazionati → costruisco 3–4 centrocampisti da 20–45 con bonus e centralità.
-- Pessina ≤22 → **lo voglio**; sopra 28 passo oltre.
-- Calò ≤15–18 → upside interessante; vicino a 30 il rischio non è più pagato.
-
-## 🎯 Regola unica
-**Cerco chi ha responsabilità reali nella squadra: rigori, piazzati, leadership, ruolo offensivo e minuti. Il nome viene dopo.**
+## FONTI/AGGIORNAMENTO
+Listone ufficiale 2026/27 fornito dall'utente. Mastantuono risulta nel file come C Fiorentina, FVM 58; trasferimento alla Fiorentina in prestito dal Real Madrid riportato nei giorni scorsi.
