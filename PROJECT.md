@@ -48,78 +48,58 @@ Gestione settimanale/scambi/riparazione potranno essere estensioni successive, n
 - L'asta deve essere adattiva con target, fascia, hard cap, alternative e redistribuzione del budget.
 - Non fissare pesi/soglie numeriche prima di osservare distribuzioni e copertura dei dati, salvo evidenza forte.
 
-## Modello concettuale corrente
-
-Feature candidate: storico multi-stagione, minuti/titolarità, MV/FM, bonus/malus, xG/xA e metriche predittive, posizione tattica, rigori/piazzati, forza squadra, allenatore/sistema, concorrenza, infortuni, età, league/promotion translation, rischio/floor/ceiling/confidence, FVM/quotazioni/prezzo atteso.
-
-Slot preliminari:
-
-- difesa: anchor modificatore, premium ibrido, stabilizzatori, offensivi/upside, rotazioni/value;
-- centrocampo: primary/secondary scorer, titolari offensivi/value, floor, upside, low-cost asimmetrici;
-- attacco: primary goal source, seconda fonte gol, value scorer, rotazioni/upside, low-cost;
-- portieri: titolarità, forza difensiva, clean sheet/gol subiti attesi, MV, complementarità.
-
-## Pipeline di costruzione
+## Pipeline
 
 ```text
 fonti e dataset master
-        ↓
-previsioni + incertezza
-        ↓
-valore fantacalcistico
-        ↓
-score per slot
-        ↓
-valore economico
-        ↓
-ottimizzazione rosa / 1000 crediti
-        ↓
-piano d'asta
-        ↓
-adattamento live
+→ storico multi-stagione
+→ previsioni + incertezza
+→ valore fantacalcistico
+→ score per slot
+→ valore economico
+→ ottimizzazione rosa / 1000 crediti
+→ piano d'asta
+→ adattamento live
 ```
 
-La roadmap non è cieca: evidenze nuove possono correggere decisioni a monte.
+## Baseline ufficiale 2026/27 — CHIUSA
 
-## Artefatti disponibili
+Workbook ufficiale `Quotazioni_Fantacalcio_Stagione_2026_27.xlsx`: 496 giocatori attivi, 20 squadre, P=60 D=175 C=174 A=87; 6 ceduti separati. ID Fantacalcio usato come chiave primaria.
+
+## Storico Fantacalcio 2025/26 — ACQUISITO E MATCHATO
+
+Il 2026-08-09 l'utente ha fornito `Statistiche_Fantacalcio_Stagione_2025_26.xlsx`.
+
+Il foglio `Tutti` contiene 663 giocatori e i campi ufficiali `Id, R, Rm, Nome, Squadra, Pv, Mv, Fm, Gf, Gs, Rp, Rc, R+, R-, Ass, Amm, Esp, Au`.
+
+Matching esatto tramite ID tra baseline 2026/27 e storico Serie A 2025/26:
+
+- totale: 384/496 = 77,42%; unmatched 112;
+- P: 43/60, unmatched 17;
+- D: 130/175, unmatched 45;
+- C: 142/174, unmatched 32;
+- A: 69/87, unmatched 18.
+
+L'assenza dallo storico Serie A non va corretta con fuzzy matching: è un segnale da classificare (Serie B, estero, rientro, giovane/pochi dati, altro).
+
+## Artefatti principali
 
 - `AGENTS.md`: istruzioni operative persistenti.
-- `data/DATASET_MASTER_SCHEMA.md`: schema iniziale del dataset master e regole di qualità.
-- `data/raw/listone-2026-27-source.md`: provenienza e storia dell'acquisizione del Listone.
-- `data/processed/listone-master-v1-validation.md`: validazione della baseline ufficiale ottenuta dal workbook Fantacalcio.it.
-- `data/processed/listone-master-v1-portieri.csv`: persistenza tabellare iniziale della baseline ufficiale per i portieri.
-- `research/data-sources-v1.md`: fonti candidate e regole di provenienza per storico Fantacalcio, statistiche cross-league e xG/xA.
-- `data/HISTORICAL_2025_26_SCHEMA.md`: schema long del primo blocco storico e gate di qualità.
-- `data/raw/statistiche-serie-a-2025-26-source.md`: fonte ufficiale Fantacalcio 2025/26 e stato di acquisizione.
-
-## Baseline ufficiale Listone 2026/27 — CHIUSA
-
-Il 2026-08-09 l'utente ha fornito il workbook ufficiale `Quotazioni_Fantacalcio_Stagione_2026_27.xlsx`.
-
-Il foglio `Tutti` contiene 496 calciatori attivi con ruolo Classic ufficiale e 20 squadre. Distribuzione verificata: P=60, D=175, C=174, A=87. Nessun ID duplicato e nessun valore mancante nei campi core controllati. Il workbook contiene separatamente 6 calciatori nel foglio `Ceduti`, esclusi dalla baseline attiva.
-
-La precedente osservazione web di 502 righe non è più il criterio canonico: la snapshot Excel ufficiale fornita direttamente prevale e rende esplicita la separazione dei ceduti.
-
-## Fonti storiche già verificate
-
-- Fantacalcio.it espone per la Serie A 2025/26 `PV, MV, FM, Gol, GS, Rig segnati/tirati, RP, Ass, Amm, Esp`; la tabella web è accessibile e rappresenta la fonte primaria per metriche fantacalcistiche.
-- Il pulsante `Scarica` delle statistiche 2025/26 punta a `/api/v1/Excel/stats/20/1`, ma dall'ambiente corrente l'endpoint restituisce HTTP 401: il workbook ufficiale non è ancora acquisito.
-- FBref espone statistiche 2025/26 per Serie A, Serie B e campionati esteri con schema comparabile; resta la fonte candidata per minuti/starts e strato cross-league.
-- Non combinare xG/xA di provider diversi senza definizione esplicita; la fonte expected definitiva deve ancora essere scelta in base alla copertura effettiva.
+- `data/DATASET_MASTER_SCHEMA.md`: schema dataset master.
+- `data/HISTORICAL_2025_26_SCHEMA.md`: schema storico 2025/26.
+- `data/raw/listone-2026-27-source.md`: provenienza Listone.
+- `data/raw/statistiche-serie-a-2025-26-source.md`: provenienza storico 2025/26.
+- `data/processed/listone-master-v1-validation.md`: validazione baseline.
+- `data/processed/historical-2025-26-validation.md`: validazione matching storico.
+- `data/processed/historical-2025-26-unmatched.csv`: working list degli unmatched da classificare; verificare completezza contro il conteggio canonico 112 prima di usarla come dataset definitivo.
+- `research/data-sources-v1.md`: politica fonti.
 
 ## Stato corrente
 
-La baseline 2026/27 è chiusa e il formato del primo storico 2025/26 è ora definito. Il prossimo collo di bottiglia è acquisire in forma tabellare completa la statistica Fantacalcio 2025/26 e matcharla ai 496 giocatori del master. Non assegnare ancora score, fasce, prezzi target o hard cap.
+Baseline 2026/27 chiusa e primo storico ufficiale 2025/26 acquisito. Il 77,42% della baseline possiede un match Serie A 2025/26 diretto per ID. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-Chiudere la **tabella storica Serie A 2025/26**:
+Classificare i **112 unmatched** per provenienza 2025/26 (`Serie B`, `estero`, `altro/pochi dati`) e acquisire per loro le statistiche native della competizione di origine. Poi consolidare la tabella storica 2025/26 completa e passare all'estensione multi-stagione/xG-xA.
 
-1. acquisire la snapshot completa Fantacalcio 2025/26 (`PV, MV, FM, Gol, GS, Rig, RP, Ass, Amm, Esp`);
-2. normalizzare nomi/squadre senza perdere la forma originale;
-3. fare matching al `player_id` 2026/27 con metodo e confidence espliciti;
-4. produrre copertura, unmatched e ambiguità;
-5. classificare i non coperti in `Serie B`, `estero`, `altro/pochi dati`;
-6. solo dopo acquisire statistiche native dei campionati di origine.
-
-Poiché il download Excel ufficiale delle statistiche è bloccato da 401 nell'ambiente corrente, la via più affidabile è usare il workbook ufficiale se fornito dall'utente; in alternativa si potrà costruire un estrattore dalla tabella web, ma non va sacrificata completezza/tracciabilità per evitare il blocco.
+Non applicare ancora coefficienti Serie B→A o cross-league: prima serve la provenienza osservata e una metodologia di translation separatamente validata.
