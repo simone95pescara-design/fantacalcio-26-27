@@ -1,111 +1,140 @@
-# DIFENSORI — FAST AUCTION v1
+# DIFENSORI — FAST AUCTION v2
 
 Lega: 8 partecipanti · 1000 crediti · Classic · modificatore difesa.
 
-## Decisione strategica
+Questa versione NON e una classifica dei nomi piu forti: e una **lista di acquisto ordinata per rapporto valore/prezzo**, usando storico 25/26, FVM 26/27, modificatore e ricerca aggiornata.
 
-Obiettivo reparto: **150–180 crediti** nello scenario balanced. Non inseguire il nome: costruire 4–5 difensori realmente schierabili da modificatore + 1–2 profili da bonus + coperture low-cost.
+## LI PRENDEREI FORTE
 
-La board usa Listone/FVM 2026/27 come prior e storico Fantacalcio 2025/26 dove direttamente comparabile. I prezzi sotto sono **cap operativi di lega**, non conversione meccanica dell'FVM.
+### Kempf — Como
+- desiderabilita: **5/5**
+- tipo: VALUE MODIFICATORE + BONUS
+- 25/26: 29 PV, MV 6.12, FM 6.52, 4 gol, 1 assist
+- previsione MV 26/27: **6.05–6.20**
+- prezzo buono: **12–18**
+- hard cap: **22**
+- perche: numeri da difensore premium ma prezzo di mercato non da premium; forte nel gioco aereo e gia capace di produrre bonus.
+- rischio: regressione dei gol; serve conferma delle gerarchie.
 
-## Eccezione Dimarco
+### Rensch — Roma
+- desiderabilita: **5/5**
+- tipo: VALUE IBRIDO
+- 25/26: 19 PV, MV 6.16, FM 6.50, 1 gol, 4 assist
+- previsione MV 26/27: **6.05–6.18**
+- prezzo buono: **12–18**
+- hard cap: **22**
+- perche: campione non enorme ma rendimento e produzione assist molto interessanti; se la titolarita sale, ha spazio per battere il prezzo.
+- rischio: concorrenza/minuti.
 
-2025/26: 35 PV, MV 6.60, FM 7.64, 7 gol, 17 assist. È fuori scala rispetto agli altri difensori.
+### Celik — Juventus
+- desiderabilita: **4.5/5**
+- tipo: FLOOR + MODIFICATORE
+- 25/26: 32 PV, MV 6.17, FM 6.27, 1 gol, 2 assist
+- previsione MV 26/27: **6.05–6.18**
+- prezzo buono: **15–22**
+- hard cap: **27**
+- perche: non serve che faccia molti bonus; se resta stabilmente a voto e vicino alla MV storica e esattamente il tipo di giocatore che il modificatore rende piu prezioso del consenso d'asta.
 
-- TARGET solo se il prezzo resta **≤ 95**.
-- 96–110: comprare soltanto se il mercato dei top attaccanti/centrocampisti è chiaramente meno inflazionato del previsto e si accetta una difesa più corta.
-- **>110: LASCIA.** Passare alla strategia modificatore efficiente.
+### Holm — Juventus
+- desiderabilita: **4.5/5**
+- tipo: UPSIDE
+- 25/26: 16 PV, MV 6.09, FM 6.44, 1 gol, 4 assist
+- previsione MV 26/27: **5.95–6.15**
+- prezzo buono: **6–11**
+- hard cap: **15**
+- perche: profilo da esterno tutta fascia e produzione per minuto interessante; il mercato puo penalizzarlo per campione piccolo e infortuni.
+- rischio: titolarita e problemi fisici.
 
-Non usare il suo FVM 265 come hard cap: nel nostro piano 170 totali in difesa distruggerebbe l'allocazione del reparto.
+## VALUE CHE VOGLIO
 
-## D1 — Anchor modificatore
+### Zanoli — Udinese
+- desiderabilita: **4/5**
+- tipo: BONUS LOW-COST
+- 25/26: 19 PV, MV 6.05, FM 6.29, 1 gol, 2 assist
+- previsione MV 26/27: **5.90–6.08**
+- prezzo buono: **7–11**
+- hard cap: **14**
+- perche: esterno propositivo; ottimo come D5/D6 se non lo paghi come titolare inamovibile.
+- rischio: concorrenza e discontinuita; NON e il nostro anchor da modificatore.
 
-Prenderne **1**, massimo 2 se il secondo arriva sotto target.
+### Bernasconi — Atalanta
+- desiderabilita: **4/5**
+- tipo: VALUE/FLOOR
+- 25/26: 22 PV, MV 6.09, FM 6.16, 3 assist
+- previsione MV 26/27: **6.00–6.15**
+- prezzo buono: **10–15**
+- hard cap: **19**
+- perche: gia sopra 6 di MV con prezzo medio; interessante se la gerarchia garantisce voto frequente.
 
-| Giocatore | 25/26 | Profilo | Target | Hard cap | Decisione |
-|---|---|---|---:|---:|---|
-| Bremer | MV 6.33 · FM 6.81 · 4G 3A · 26 PV | miglior mix MV/bonus tra i centrali premium | 42–48 | **55** | TARGET |
-| Mancini | MV 6.25 · FM 6.51 · 4G 2A · 36 PV | alta disponibilità + bonus + modificatore | 40–47 | **53** | TARGET |
-| Pavlovic | MV 6.24 · FM 6.62 · 5G · 34 PV | bonus da centrale + MV | 39–46 | **52** | TARGET |
-| Akanji | MV 6.28 · FM 6.41 · 32 PV | floor/MV molto forte | 38–45 | **52** | TARGET |
+### Tiago Gabriel — Lecce
+- desiderabilita: **4/5**
+- tipo: TITOLARITA + FLOOR
+- 25/26: 36 PV, MV 6.00, FM 6.01, 2 gol
+- previsione MV 26/27: **5.95–6.10**
+- prezzo buono: **8–13**
+- hard cap: **16**
+- perche: volume di presenze molto alto; utile per non trasformare gli ultimi slot in scommesse senza voto.
 
-### Ordine D1
-**Bremer ≈ Mancini ≈ Pavlovic > Akanji**. Compra il primo che rimane sotto cap; non serve vincere l'asta sul nome specifico.
+### Martin — Genoa
+- desiderabilita: **4/5**
+- tipo: ASSIST VALUE
+- 25/26: 29 PV, MV 5.97, FM 6.10, 1 gol, 5 assist
+- previsione MV 26/27: **5.90–6.08**
+- prezzo buono: **8–13**
+- hard cap: **16**
+- perche: il valore non viene dalla MV pura ma dalla capacita di produrre assist a costo contenuto.
 
-## D2–D3 — Modificatore / value forte
+### Kabasele — Udinese
+- desiderabilita: **3.5/5**
+- tipo: DEEP VALUE
+- 25/26: 28 PV, MV 5.98, FM 6.18, 3 gol
+- previsione MV 26/27: **5.90–6.05**
+- prezzo buono: **4–8**
+- hard cap: **10**
+- perche: centrale economico che ha gia mostrato bonus; adatto a D7/D8, non a costruire il modificatore.
 
-Obiettivo: prenderne **2**.
+### Athekame — Milan
+- desiderabilita: **3.5/5**
+- tipo: UPSIDE LOW-COST
+- 25/26: 17 PV, MV 5.94, FM 6.32, 2 gol, 2 assist
+- previsione MV 26/27: **5.90–6.10**
+- prezzo buono: **4–8**
+- hard cap: **11**
+- perche: FM molto superiore alla MV per la produzione di bonus; interessante se ottiene piu minuti.
+- rischio: minutaggio.
 
-| Giocatore | 25/26 | Target | Hard cap | Nota |
-|---|---|---:|---:|---|
-| Solet | MV 6.18 · FM 6.40 · 3G 1A · 34 PV | 27–33 | **38** | ottimo rapporto continuità/bonus |
-| Kalulu | MV 6.14 · FM 6.35 · 2G 4A · 37 PV | 27–32 | **37** | disponibilità molto alta |
-| Bastoni | MV 6.20 · FM 6.34 · 1G 4A · 28 PV | 28–34 | **39** | forte per modificatore, rischio prezzo-nome |
-| Rrahmani | MV 6.24 · FM 6.45 · 2G · 21 PV | 24–30 | **35** | MV premium, ma 25/26 meno disponibile |
-| Ostigard | MV 6.13 · FM 6.52 · 5G · 30 PV | 23–29 | **34** | più upside da gol |
-| N'Dicka | MV 6.08 · FM 6.32 · 3G 1A · 31 PV | 20–26 | **31** | alternativa efficiente |
+## PREMIUM — LI PRENDO SOLO SE IL PREZZO RESTA RAZIONALE
 
-## D4–D5 — Stabilizzatori / rotazione forte
+Bremer, Mancini, Pavlovic, Akanji, Bastoni, Dimarco ecc. restano giocatori fortissimi, ma NON sono automaticamente i nostri target migliori perche saranno anche i piu contesi.
 
-Prenderne **2–3**, privilegiando titolarità e prezzo.
+- Bremer/Mancini/Pavlovic/Akanji: utili come anchor, ma comprare solo entro il cap del piano.
+- Dimarco: eccezione per ceiling; max operativo iniziale **95**, altrimenti il costo opportunita diventa eccessivo.
+- se questi profili salgono troppo, preferire 2–3 value sopra e investire il differenziale a C/A.
 
-| Giocatore | 25/26 | Target | Hard cap | Funzione |
-|---|---|---:|---:|---|
-| Ramon | MV 6.16 · 32 PV | 16–21 | **25** | stabilizzatore MV |
-| Vasquez | MV 6.08 · 36 PV | 14–19 | **23** | titolarità/floor |
-| Hermoso | MV 6.17 · FM 6.41 · 3G 2A | 15–21 | **25** | value ibrido |
-| Celik | MV 6.17 · 32 PV | 12–17 | **21** | value modificatore |
-| Spinazzola | MV 6.17 · FM 6.55 · 3G 3A | 13–19 | **23** | bonus, più rischio fisico/rotazione |
-| Scalvini | MV 6.06 · FM 6.44 · 3G 1A | 14–20 | **24** | upside, non pagare come certezza |
+## PROFILI DA MONITORARE PER MIGLIORAMENTO 26/27
 
-## Profilo offensivo premium alternativo
+Non significa che la MV salira sicuramente; significa che il rapporto tra storico, eta/minuti/ruolo e prezzo lascia spazio a miglioramento.
 
-**Wesley**: 30 PV, MV 6.12, FM 6.47, 5 gol. È più da bonus/ceiling che da puro anchor. 
+1. **Rensch** — se passa da 19 PV a una stagione da titolare, il rendimento 25/26 suggerisce un vero salto di valore.
+2. **Holm** — campione 25/26 piccolo ma MV/FM forti; maggiore continuita puo trasformarlo da scommessa a D3/D4.
+3. **Zanoli** — piu minuti + ruolo largo possono aumentare bonus, ma non lo valutiamo da modificatore.
+4. **Bernasconi** — MV gia >6; crescita di minutaggio sarebbe piu importante di una crescita del voto stesso.
+5. **Athekame** — 2G+2A in 17 PV: upside evidente, ma alta varianza.
 
-- target 45–55
-- hard cap **65**
-- prenderlo al posto di D1/D2, non aggiungerlo automaticamente a un altro premium costoso.
+## Costruzione che preferisco oggi
 
-## Ultimi slot D6–D8
+Non 1 superstar + riempitivi. Preferenza:
+- 1 anchor solo se non strapagato: **35–50**
+- 2 tra Kempf/Rensch/Celik e altri value forti: **25–40 totali**
+- 2 value/bonus: **20–30 totali**
+- 3 low-cost: **15–25 totali**
 
-Regola: **non spendere per il nome**. Cercare titolari o profili con percorso chiaro al voto.
+Target reparto: **120–155** se il mercato si accanisce sui big; salire verso 160–175 solo se il valore reale lo giustifica.
 
-Budget indicativo complessivo ultimi tre: **15–25**. Se un low-cost viene conteso, passa oltre: il vantaggio nasce dal prezzo.
+## Regola di lettura
 
-## Costruzioni consigliate
+Il giocatore che vogliamo di piu NON e necessariamente quello con MV prevista piu alta. Vogliamo massimizzare il surplus:
 
-### A — MODIFICATORE EFFICIENTE (preferita)
-- 1 D1: 45–55
-- 2 D2/D3: 50–65 totali
-- 2 stabilizzatori: 30–40 totali
-- 3 low-cost: 15–20 totali
-- totale obiettivo: **145–180**
+`rendimento previsto - prezzo pagato - rischio`.
 
-### B — DIMARCO
-- Dimarco: max 95
-- 1 D2 value: 25–32
-- 2 stabilizzatori: 25–35 totali
-- 4 low-cost: 15–20 totali
-- totale: **160–180**
-- se Dimarco supera 95, switch immediato ad A.
-
-### C — MERCATO DIFENSORI INFLAZIONATO
-- nessun premium oltre cap
-- 3 profili D2/D3/value
-- 2 stabilizzatori
-- 3 low-cost
-- target reparto: **125–150**
-- risparmio trasferito soprattutto a C/A.
-
-## Regole meccaniche live
-
-1. Non comprare due difensori costosi con la stessa funzione solo perché sono rimasti gli ultimi nomi noti.
-2. Dopo il primo D1, riduci il cap del secondo premium: il capitale marginale serve a profondità/modificatore.
-3. Se Bremer/Mancini/Pavlovic/Akanji superano tutti il cap, non inseguire: Solet/Kalulu/Bastoni/Rrahmani + profondità.
-4. Se un profilo MV 6.15+ con titolarità forte resta sottoprezzato, priorità rispetto a un esterno più famoso con voto instabile.
-5. Un nuovo arrivo senza storico Serie A comparabile richiede sconto: non pagarlo come un equivalente ad alta confidence.
-6. A fine reparto devono rimanere almeno 5 difensori plausibilmente schierabili, non 2 premium + 6 scommesse.
-
-## Stato
-
-**DIFESA v1 OPERATIVA.** I cap sono calibrati per il piano da 1000 crediti e verranno corretti live se i primi acquisti mostrano inflazione/deflazione sistematica del tavolo.
+Questa e la logica che va replicata anche a centrocampo e attacco.
