@@ -88,21 +88,21 @@ La working list contiene esattamente i 112 unmatched canonici: P=17, D=45, C=32,
 
 Classificazione verificata finora:
 
-- 39 giocatori `SERIE_B_2025_26`;
-- 22 giocatori `FOREIGN_LEAGUE_2025_26`;
-- 1 giocatore `RETURN_OTHER_2025_26`;
-- totale classificato con evidenza persistita: 62/112;
-- residui da classificare: 50.
+- 40 giocatori `SERIE_B_2025_26`;
+- 23 giocatori `FOREIGN_LEAGUE_2025_26`;
+- 4 giocatori `RETURN_OTHER_2025_26`;
+- totale classificato con evidenza persistita: 67/112;
+- residui da classificare: 45.
 
 Ultima tranche verificata:
 
-- Akor Adams: Sevilla 2025/26; Venezia FC ufficiale conferma l'acquisto dal Sevilla e documenta 37 presenze/10 gol nell'esperienza al club;
-- Albion Rrahmani: Sparta Prague 2025/26; Venezia FC ufficiale conferma l'acquisto dallo Sparta nell'estate 2026;
-- Kevin Akpoguma: TSG Hoffenheim, Bundesliga 2025/26, prima dell'arrivo al Frosinone da svincolato;
-- Mario Mitaj: Al-Ittihad, Saudi Pro League 2025/26; reporting 2026 indica 36 presenze nella stagione precedente;
-- Eray Cömert: Valencia 2025/26, prima dell'arrivo al Torino a parametro zero.
+- Raphael Kofler: Südtirol, Serie B 2025/26; 28 presenze e 3 gol secondo comunicazione FC Südtirol ripresa da RaiNews;
+- David Puczka: Juventus Next Gen, Serie C 2025/26; Juventus ufficiale conferma il percorso biennale Next Gen e 10 gol nell'ultima stagione;
+- Víctor Valdepeñas: Real Madrid Castilla, Primera Federación 2025/26; Real Madrid ufficiale lo colloca nel Castilla dal 2025;
+- Andrés Cuenca: Barcelona Atlètic nella prima parte del 2025/26 e Sporting Gijón in prestito nella seconda; FC Barcelona ufficiale documenta 7 presenze con Barça Atlètic prima del prestito;
+- Alejandro Gomes Furtado: Real Zaragoza / Deportivo Aragón prima del Venezia; Venezia FC ufficiale documenta 15 presenze con la prima squadra e 8 con le riserve nell'esperienza a Zaragoza.
 
-Per i giocatori non-Serie A conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A.
+Per i giocatori non-Serie A conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A. Nei casi con più club/competizioni nella stessa stagione conservare gli stint separati, non forzare una singola lega.
 
 ## Artefatti principali
 
@@ -120,11 +120,11 @@ Per i giocatori non-Serie A conservare club, competizione e statistiche nella sc
 
 ## Stato corrente
 
-Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 62/112 unmatched classificati con evidenza, 50 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
+Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 67/112 unmatched classificati con evidenza, 45 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-1. completare la classificazione dei 50 residui, separando trasferimenti esteri, rientri, Serie B aggiuntiva e giovani/riserva;
+1. completare la classificazione dei 45 residui, separando trasferimenti esteri, rientri, Serie B aggiuntiva e giovani/riserva;
 2. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A;
 3. consolidare una tabella storica 2025/26 unificata;
 4. solo dopo estendere lo storico alle stagioni precedenti e alle metriche xG/xA.
