@@ -89,18 +89,18 @@ La working list contiene esattamente i 112 unmatched canonici: P=17, D=45, C=32,
 Classificazione verificata finora:
 
 - 39 giocatori `SERIE_B_2025_26`;
-- 17 giocatori `FOREIGN_LEAGUE_2025_26`;
+- 22 giocatori `FOREIGN_LEAGUE_2025_26`;
 - 1 giocatore `RETURN_OTHER_2025_26`;
-- totale classificato con evidenza persistita: 57/112;
-- residui da classificare: 55.
+- totale classificato con evidenza persistita: 62/112;
+- residui da classificare: 50.
 
 Ultima tranche verificata:
 
-- Giovanni Daffara: Avellino, Serie B 2025/26; Juventus ufficiale documenta 25 presenze;
-- Diego Mascardi: Spezia, Serie B 2025/26; Torino ufficiale documenta 17 presenze in campionato e una in Coppa Italia;
-- Paolo Vismara: Atalanta II nel 2025/26; Opta Analyst espone 33 presenze e 2902 minuti, classificato `RETURN_OTHER_2025_26` perché non è storico Serie A né campionato estero;
-- Christ Oulai: Trabzonspor 2025/26; 31 presenze complessive tra campionato e coppa secondo l'annuncio del trasferimento alla Fiorentina;
-- Kerim Alajbegovic: RB Salzburg 2025/26; Reuters riporta 13 gol in 44 presenze complessive prima del trasferimento alla Juventus.
+- Akor Adams: Sevilla 2025/26; Venezia FC ufficiale conferma l'acquisto dal Sevilla e documenta 37 presenze/10 gol nell'esperienza al club;
+- Albion Rrahmani: Sparta Prague 2025/26; Venezia FC ufficiale conferma l'acquisto dallo Sparta nell'estate 2026;
+- Kevin Akpoguma: TSG Hoffenheim, Bundesliga 2025/26, prima dell'arrivo al Frosinone da svincolato;
+- Mario Mitaj: Al-Ittihad, Saudi Pro League 2025/26; reporting 2026 indica 36 presenze nella stagione precedente;
+- Eray Cömert: Valencia 2025/26, prima dell'arrivo al Torino a parametro zero.
 
 Per i giocatori non-Serie A conservare club, competizione e statistiche nella scala nativa. Non tradurre ancora in equivalenti Serie A.
 
@@ -120,11 +120,11 @@ Per i giocatori non-Serie A conservare club, competizione e statistiche nella sc
 
 ## Stato corrente
 
-Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 57/112 unmatched classificati con evidenza, 55 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
+Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 62/112 unmatched classificati con evidenza, 50 residui. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-1. completare la classificazione dei 55 residui, separando trasferimenti esteri, rientri, Serie B aggiuntiva e giovani/riserva;
+1. completare la classificazione dei 50 residui, separando trasferimenti esteri, rientri, Serie B aggiuntiva e giovani/riserva;
 2. acquisire statistiche native 2025/26 per ogni gruppo non-Serie A;
 3. consolidare una tabella storica 2025/26 unificata;
 4. solo dopo estendere lo storico alle stagioni precedenti e alle metriche xG/xA.
