@@ -84,13 +84,20 @@ L'assenza dallo storico Serie A non va corretta con fuzzy matching: è un segnal
 
 Categorie operative: `SERIE_B_2025_26`, `FOREIGN_LEAGUE_2025_26`, `YOUTH_RESERVE_2025_26`, `RETURN_OTHER_2025_26`, `UNRESOLVED`.
 
-Prima tranche verificata con fonti primarie/strutturate:
+Prima tranche Serie B verificata con fonti ufficiali/strutturate per numerosi giocatori di Monza, Venezia e Frosinone.
 
-- AC Monza 2025/26: rosa/convocazioni ufficiali del club confermano numerosi unmatched attuali come giocatori di Serie B 2025/26;
-- Venezia FC 2025/26: numeri di maglia e convocazioni ufficiali confermano numerosi unmatched attuali come giocatori di Serie B 2025/26;
-- Frosinone 2025/26: FBref espone statistiche Serie B strutturate per diversi unmatched attuali, tra cui Palmisani, Calò, Ghedjemis, Anthony Oyono, Kvernadze, Calvani, Koutsoupias, Raimondo, Bracaglia, Monterisi e Chichella.
+Seconda tranche estero verificata ad alta confidenza:
 
-Persistito `data/processed/historical-2025-26-provenance-v1.csv` con la prima tranche ad alta confidenza. Non trattare il file come classificazione completa dei 112 finché i residui non sono risolti.
+- Danilho Doekhi: Union Berlin, Bundesliga 2025/26; DFB Datencenter conferma 34 presenze Bundesliga nella stagione 2025/26;
+- Alfonso Pedraza: Villarreal, LaLiga 2025/26; LaLiga ufficiale espone 27 presenze e 1690 minuti;
+- Franco Mastantuono: Real Madrid, LaLiga 2025/26; Real Madrid ufficiale conferma il suo ingresso nel 2025 e le fonti 2026 confermano il prestito successivo alla Fiorentina;
+- Unai Gomez: Athletic Club, LaLiga 2025/26; Udinese ufficiale lo presenta come arrivo dall'Athletic;
+- Harry Winks: Leicester City, campionato inglese 2025/26; Cagliari e Leicester ufficiali confermano il trasferimento dal Leicester nel luglio 2026;
+- Gonçalo Ramos: Paris Saint-Germain, Ligue 1 2025/26; AC Milan ufficiale conferma l'acquisto dal PSG e FBref espone 30 presenze/1318 minuti in Ligue 1 2025/26;
+- Konstantinos Koulierakis: Wolfsburg, Bundesliga 2025/26; fonti ufficiali Wolfsburg lo documentano nel club durante la stagione;
+- Yan Couto: Borussia Dortmund, Bundesliga 2025/26; il trasferimento 2026 al Como è documentato come provenienza Dortmund.
+
+`data/processed/historical-2025-26-provenance-v1.csv` è stato aggiornato con questa seconda tranche. Il file resta una classificazione parziale: il conteggio canonico degli unmatched resta 112 e il working CSV storico non va assunto completo finché non viene rigenerato dal workbook.
 
 ## Artefatti principali
 
@@ -101,17 +108,20 @@ Persistito `data/processed/historical-2025-26-provenance-v1.csv` con la prima tr
 - `data/raw/statistiche-serie-a-2025-26-source.md`: provenienza storico 2025/26.
 - `data/processed/listone-master-v1-validation.md`: validazione baseline.
 - `data/processed/historical-2025-26-validation.md`: validazione matching storico.
-- `data/processed/historical-2025-26-unmatched.csv`: working list dei 112 unmatched.
-- `data/processed/historical-2025-26-provenance-v1.csv`: prima classificazione verificata della provenienza 2025/26.
+- `data/processed/historical-2025-26-unmatched.csv`: working list degli unmatched; non assumere che contenga tutte le 112 righe canoniche.
+- `data/processed/historical-2025-26-provenance-v1.csv`: classificazione verificata parziale della provenienza 2025/26.
 - `research/data-sources-v1.md`: politica fonti.
 - `research/unmatched-provenance-2025-26-v1.md`: ricerca e criteri di classificazione della provenienza.
 
 ## Stato corrente
 
-Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 112 unmatched identificati; classificazione di provenienza avviata e prima tranche ad alta confidenza persistita. Non costruire ancora score, fasce, prezzi massimi o previsioni.
+Baseline 2026/27 chiusa; storico Serie A 2025/26 acquisito; 112 unmatched canonici identificati; provenienza Serie B e prima tranche di trasferimenti esteri verificata. Non costruire ancora score, fasce, prezzi massimi o previsioni.
 
 ## Prossimo outcome
 
-Completare la classificazione dei 112 unmatched, concentrandosi sui residui non già verificati delle tre neopromosse e poi sui trasferimenti esteri/rientri/giovani. Per ogni giocatore registrare almeno `provenance_2025_26`, club/competizione 2025/26, confidence ed evidenza.
+1. rigenerare dal workbook la working list completa dei 112 unmatched, eliminando il rischio di omissioni nel CSV attuale;
+2. completare la classificazione di provenienza per i residui: altri trasferimenti esteri, rientri e giovani/riserva;
+3. acquisire statistiche native 2025/26 per ciascun gruppo non-Serie A;
+4. consolidare una tabella storica 2025/26 unificata.
 
-Dopo la classificazione completa, acquisire statistiche native 2025/26 per tutti i gruppi non-Serie A e consolidare una tabella storica 2025/26 unificata. Non applicare ancora coefficienti Serie B→A o cross-league: la metodologia di translation verrà costruita e validata separatamente.
+Non applicare ancora coefficienti Serie B→A o cross-league: la metodologia di translation verrà costruita e validata separatamente.
