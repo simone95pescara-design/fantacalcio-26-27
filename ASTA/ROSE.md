@@ -41,7 +41,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Dodo — 12 crediti
 - Zappacosta — 9 crediti
 - Mina — 7 crediti
-**Totale speso:** 90 — **Crediti residui:** 910
+- Bellanova — 1 credito
+**Totale speso:** 91 — **Crediti residui:** 909
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -78,7 +79,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Miranda — 15 crediti
 - Norton Cuffy — 19 crediti
 - Bartesaghi — 21 crediti
-**Totale speso:** 168 — **Crediti residui:** 832
+- Pedraza — 11 crediti
+- Tavares — 18 crediti
+**Totale speso:** 197 — **Crediti residui:** 803
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -97,4 +100,7 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Falcone — 2 crediti
 - Scalvini — 3 crediti
 - Gallo — 6 crediti
-**Totale speso:** 63 — **Crediti residui:** 937
+- Dragusin — 2 crediti
+- Beukema — 16 crediti
+- Buongiorno — 1 credito
+**Totale speso:** 82 — **Crediti residui:** 918
