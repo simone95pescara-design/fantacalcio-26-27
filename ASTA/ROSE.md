@@ -29,7 +29,8 @@ _Nessun giocatore._
 
 ## PeG — Luigi
 - Mandas — 26 crediti  
-**Totale speso:** 26 — **Crediti residui:** 974
+- J Martinez (Inter) — 65 crediti  
+**Totale speso:** 91 — **Crediti residui:** 909
 
 ## atletico snai — stefano
 - De Gea — 36 crediti  
