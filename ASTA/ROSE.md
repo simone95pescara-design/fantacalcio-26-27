@@ -17,7 +17,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Carnesecchi — 52 crediti
 - Stankovic — 1 credito
 - Ndika — 18 crediti
-**Totale speso:** 109 — **Crediti residui:** 891
+- Valdepenas — 26 crediti
+**Totale speso:** 135 — **Crediti residui:** 865
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -25,7 +26,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Muric — 1 credito
 - Bella-Kotchap (Venezia) — 10 crediti
 - Ramon — 17 crediti
-**Totale speso:** 48 — **Crediti residui:** 952
+- Del Prato — 13 crediti
+**Totale speso:** 61 — **Crediti residui:** 939
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
