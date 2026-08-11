@@ -42,7 +42,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Butez — 43 crediti  
 - Tonquist — 1 credito  
 - Bijow — 1 credito  
-**Totale speso:** 45 — **Crediti residui:** 955
+- Akanji — 53 crediti  
+**Totale speso:** 98 — **Crediti residui:** 902
 
 ## PeG — Luigi
 - Mandas — 26 crediti  
@@ -50,7 +51,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Motta — 1 credito  
 - Wesley — 80 crediti  
 - Bastoni — 21 crediti  
-**Totale speso:** 193 — **Crediti residui:** 807
+- Vojvoda — 22 crediti  
+**Totale speso:** 215 — **Crediti residui:** 785
 
 ## atletico snai — stefano
 - De Gea — 36 crediti  
