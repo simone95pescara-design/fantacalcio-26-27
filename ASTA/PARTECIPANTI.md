@@ -4,10 +4,10 @@ Budget iniziale standard: **1000 crediti per partecipante**.
 
 | Squadra | Partecipante | Crediti iniziali | Crediti spesi | Crediti residui | N. giocatori |
 |---|---|---:|---:|---:|---:|
-| Rotturadicu | Napolimerda | 1000 | 112 | 888 | 3 |
+| Rotturadicu | Napolimerda | 1000 | 154 | 846 | 4 |
 | Alba | Distodistodisto | 1000 | 91 | 909 | 3 |
 | Boston | Rio | 1000 | 31 | 969 | 4 |
-| FC Loser | Simone Conte | 1000 | 147 | 853 | 4 |
+| FC Loser | Simone Conte | 1000 | 192 | 808 | 5 |
 | FC WOLVERINEHAMPTON | Chico | 1000 | 284 | 716 | 5 |
 | Minca Don Minca Boss | Just Dell & mincadon | 1000 | 45 | 955 | 3 |
 | PeG | Luigi | 1000 | 193 | 807 | 5 |
