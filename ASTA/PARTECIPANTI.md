@@ -8,7 +8,7 @@ Budget iniziale standard: **1000 crediti per partecipante**.
 | Alba | Distodistodisto | 1000 | 0 | 1000 | 0 |
 | Boston | Rio | 1000 | 0 | 1000 | 0 |
 | FC Loser | Simone Conte | 1000 | 0 | 1000 | 0 |
-| FC WOLVERINEHAMPTON | Chico | 1000 | 0 | 1000 | 0 |
+| FC WOLVERINEHAMPTON | Chico | 1000 | 73 | 927 | 1 |
 | Minca Don Minca Boss | Just Dell & mincadon | 1000 | 0 | 1000 | 0 |
 | PeG | Luigi | 1000 | 0 | 1000 | 0 |
 | atletico snai | stefano | 1000 | 0 | 1000 | 0 |
