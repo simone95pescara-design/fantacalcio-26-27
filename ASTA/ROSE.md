@@ -28,8 +28,8 @@ _Nessun giocatore._
 **Totale speso:** 0 — **Crediti residui:** 1000
 
 ## PeG — Luigi
-_Nessun giocatore._  
-**Totale speso:** 0 — **Crediti residui:** 1000
+- Mandas — 26 crediti  
+**Totale speso:** 26 — **Crediti residui:** 974
 
 ## atletico snai — stefano
 _Nessun giocatore._  
