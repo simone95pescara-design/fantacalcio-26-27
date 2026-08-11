@@ -16,7 +16,8 @@ _Nessun giocatore._
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti  
-**Totale speso:** 95 — **Crediti residui:** 905
+- Gollini — 1 credito  
+**Totale speso:** 96 — **Crediti residui:** 904
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti  
