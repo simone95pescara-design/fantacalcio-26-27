@@ -16,7 +16,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Vasquez — 3 crediti
 - Alajbegovic — 60 crediti
 - J Rodrigez — 7 crediti
-**Totale speso:** 336 — **Crediti residui:** 664
+- De Bruyne — 55 crediti
+**Totale speso:** 391 — **Crediti residui:** 609
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -31,7 +32,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Jimenez — 36 crediti
 - Haps — 1 credito
 - Paz — 199 crediti
-**Totale speso:** 451 — **Crediti residui:** 549
+- Chalanoglu — 112 crediti
+**Totale speso:** 563 — **Crediti residui:** 437
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -121,4 +123,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Marcandalli — 1 credito
 - Mangas — 1 credito
 - Orsolini — 91 crediti
-**Totale speso:** 176 — **Crediti residui:** 824
+- Pulisic — 109 crediti
+**Totale speso:** 285 — **Crediti residui:** 715
