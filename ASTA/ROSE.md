@@ -18,7 +18,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Stankovic — 1 credito
 - Ndika — 18 crediti
 - Valdepenas — 26 crediti
-**Totale speso:** 135 — **Crediti residui:** 865
+- Carlos Augusto — 18 crediti
+- Bissek — 15 crediti
+**Totale speso:** 168 — **Crediti residui:** 832
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -46,7 +48,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Di Marco — 155 crediti
 - Mancini — 37 crediti
 - Kalolou — 32 crediti
-**Totale speso:** 316 — **Crediti residui:** 684
+- Valeri — 16 crediti
+**Totale speso:** 332 — **Crediti residui:** 668
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
