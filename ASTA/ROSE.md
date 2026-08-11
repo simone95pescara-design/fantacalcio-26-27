@@ -19,8 +19,8 @@ _Nessun giocatore._
 **Totale speso:** 0 — **Crediti residui:** 1000
 
 ## FC WOLVERINEHAMPTON — Chico
-_Nessun giocatore._  
-**Totale speso:** 0 — **Crediti residui:** 1000
+- Maignan — 73 crediti  
+**Totale speso:** 73 — **Crediti residui:** 927
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 _Nessun giocatore._  
