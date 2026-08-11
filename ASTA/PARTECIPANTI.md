@@ -6,12 +6,12 @@ Budget iniziale standard: **1000 crediti per partecipante**.
 |---|---|---:|---:|---:|---:|
 | Rotturadicu | Napolimerda | 1000 | 269 | 731 | 11 |
 | Alba | Distodistodisto | 1000 | 252 | 748 | 11 |
-| Boston | Rio | 1000 | 90 | 910 | 10 |
+| Boston | Rio | 1000 | 91 | 909 | 11 |
 | FC Loser | Simone Conte | 1000 | 279 | 721 | 9 |
 | FC WOLVERINEHAMPTON | Chico | 1000 | 358 | 642 | 11 |
-| Minca Don Minca Boss | Just Dell & mincadon | 1000 | 168 | 832 | 8 |
+| Minca Don Minca Boss | Just Dell & mincadon | 1000 | 197 | 803 | 10 |
 | PeG | Luigi | 1000 | 276 | 724 | 8 |
-| atletico snai | stefano | 1000 | 63 | 937 | 5 |
+| atletico snai | stefano | 1000 | 82 | 918 | 8 |
 
 ## Regole di aggiornamento
 - `Crediti spesi` = somma dei prezzi di tutti i giocatori assegnati alla squadra nel `REGISTRO_ASTA.csv`.
