@@ -16,7 +16,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Provedel — 38 crediti
 - Carnesecchi — 52 crediti
 - Stankovic — 1 credito
-**Totale speso:** 91 — **Crediti residui:** 909
+- Ndika — 18 crediti
+**Totale speso:** 109 — **Crediti residui:** 891
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -42,7 +43,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Torriani — 1 credito
 - Di Marco — 155 crediti
 - Mancini — 37 crediti
-**Totale speso:** 284 — **Crediti residui:** 716
+- Kalolou — 32 crediti
+**Totale speso:** 316 — **Crediti residui:** 684
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
