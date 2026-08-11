@@ -34,4 +34,5 @@ _Nessun giocatore._
 
 ## atletico snai — stefano
 - De Gea — 36 crediti  
-**Totale speso:** 36 — **Crediti residui:** 964
+- Skorupski (Bologna) — 16 crediti  
+**Totale speso:** 52 — **Crediti residui:** 948
