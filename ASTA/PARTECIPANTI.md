@@ -10,7 +10,7 @@ Budget iniziale standard: **1000 crediti per partecipante**.
 | FC Loser | Simone Conte | 1000 | 96 | 904 | 2 |
 | FC WOLVERINEHAMPTON | Chico | 1000 | 73 | 927 | 1 |
 | Minca Don Minca Boss | Just Dell & mincadon | 1000 | 0 | 1000 | 0 |
-| PeG | Luigi | 1000 | 26 | 974 | 1 |
+| PeG | Luigi | 1000 | 91 | 909 | 2 |
 | atletico snai | stefano | 1000 | 36 | 964 | 1 |
 
 ## Regole di aggiornamento
