@@ -45,7 +45,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Pasalic — 1 credito
 - Cachere — 1 credito
 - Chucueze — 1 credito
-**Totale speso:** 603 — **Crediti residui:** 397
+- Thuram — 211 crediti
+**Totale speso:** 814 — **Crediti residui:** 186
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -112,7 +113,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Lobotka — 4 crediti
 - Da Cunha — 51 crediti
 - Cristante — 1 credito
-**Totale speso:** 673 — **Crediti residui:** 327
+- Davies — 82 crediti
+- Castro — 103 crediti
+**Totale speso:** 858 — **Crediti residui:** 142
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
