@@ -6,7 +6,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Meret — 56 crediti  
 - Savic — 51 crediti  
 - Suzuki — 5 crediti  
-**Totale speso:** 112 — **Crediti residui:** 888
+- Pavlovic — 42 crediti  
+**Totale speso:** 154 — **Crediti residui:** 846
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti  
@@ -26,7 +27,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Gollini — 1 credito  
 - Di Gregorio — 1 credito  
 - Bremer — 50 crediti  
-**Totale speso:** 147 — **Crediti residui:** 853
+- Solet — 45 crediti  
+**Totale speso:** 192 — **Crediti residui:** 808
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti  
