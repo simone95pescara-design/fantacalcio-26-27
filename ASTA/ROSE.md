@@ -10,7 +10,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Chalobah — 24 crediti
 - Gila — 22 crediti
 - Celik — 30 crediti
-**Totale speso:** 230 — **Crediti residui:** 770
+- Di Lorenzo — 30 crediti
+**Totale speso:** 260 — **Crediti residui:** 740
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -20,7 +21,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Valdepenas — 26 crediti
 - Carlos Augusto — 18 crediti
 - Bissek — 15 crediti
-**Totale speso:** 168 — **Crediti residui:** 832
+- Bernasconi — 16 crediti
+**Totale speso:** 184 — **Crediti residui:** 816
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -56,7 +58,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Tonquist — 1 credito
 - Bijow — 1 credito
 - Akanji — 53 crediti
-**Totale speso:** 98 — **Crediti residui:** 902
+- Rahamani — 15 crediti
+**Totale speso:** 113 — **Crediti residui:** 887
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -65,7 +68,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Wesley — 80 crediti
 - Bastoni — 21 crediti
 - Vojvoda — 22 crediti
-**Totale speso:** 215 — **Crediti residui:** 785
+- Stones — 45 crediti
+**Totale speso:** 260 — **Crediti residui:** 740
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
