@@ -11,7 +11,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Gila — 22 crediti
 - Celik — 30 crediti
 - Di Lorenzo — 30 crediti
-**Totale speso:** 260 — **Crediti residui:** 740
+- Kristensen — 5 crediti
+**Totale speso:** 265 — **Crediti residui:** 735
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -22,7 +23,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Carlos Augusto — 18 crediti
 - Bissek — 15 crediti
 - Bernasconi — 16 crediti
-**Totale speso:** 184 — **Crediti residui:** 816
+- Couto — 31 crediti
+**Totale speso:** 215 — **Crediti residui:** 785
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -31,7 +33,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Bella-Kotchap (Venezia) — 10 crediti
 - Ramon — 17 crediti
 - Del Prato — 13 crediti
-**Totale speso:** 61 — **Crediti residui:** 939
+- Delli Carri — 1 credito
+**Totale speso:** 62 — **Crediti residui:** 938
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -41,7 +44,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Solet — 45 crediti
 - Comuzzo — 10 crediti
 - Spinazzola — 36 crediti
-**Totale speso:** 238 — **Crediti residui:** 762
+- Cambiaso — 34 crediti
+**Totale speso:** 272 — **Crediti residui:** 728
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -51,7 +55,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Mancini — 37 crediti
 - Kalolou — 32 crediti
 - Valeri — 16 crediti
-**Totale speso:** 332 — **Crediti residui:** 668
+- Kaiki — 22 crediti
+- Tiago Gabriel — 1 credito
+**Totale speso:** 355 — **Crediti residui:** 645
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
