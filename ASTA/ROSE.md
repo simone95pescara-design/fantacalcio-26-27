@@ -146,7 +146,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Kone — 43 crediti
 - Colpani — 11 crediti
 - Locatelli — 11 crediti
-**Totale speso:** 651 — **Crediti residui:** 349
+- Odgaard — 1 credito
+**Totale speso:** 652 — **Crediti residui:** 348
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
@@ -166,4 +167,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Ederson — 36 crediti
 - Casadei — 12 crediti
 - Oristanio — 1 credito
-**Totale speso:** 419 — **Crediti residui:** 581
+- Adzic — 1 credito
+**Totale speso:** 420 — **Crediti residui:** 580
