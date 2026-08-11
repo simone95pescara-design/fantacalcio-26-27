@@ -24,8 +24,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 **Totale speso:** 73 — **Crediti residui:** 927
 
 ## Minca Don Minca Boss — Just Dell & mincadon
-_Nessun giocatore._  
-**Totale speso:** 0 — **Crediti residui:** 1000
+- Butez — 43 crediti  
+**Totale speso:** 43 — **Crediti residui:** 957
 
 ## PeG — Luigi
 - Mandas — 26 crediti  
