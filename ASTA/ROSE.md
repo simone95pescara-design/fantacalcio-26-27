@@ -20,7 +20,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Taylor — 16 crediti
 - Calo — 27 crediti
 - Zegrova — 12 crediti
-**Totale speso:** 446 — **Crediti residui:** 554
+- Isaksen — 2 crediti
+- Thorhved — 1 credito
+**Totale speso:** 449 — **Crediti residui:** 551
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -56,7 +58,10 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Gudmunson — 53 crediti
 - Cancellieri — 35 crediti
 - Busio — 1 credito
-**Totale speso:** 182 — **Crediti residui:** 818
+- Fazzini — 1 credito
+- Bernardeschi — 2 crediti
+- Politano — 12 crediti
+**Totale speso:** 197 — **Crediti residui:** 803
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -75,7 +80,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Coinceicao — 42 crediti
 - Ekkelenkamp — 13 crediti
 - Baldanzi — 3 crediti
-**Totale speso:** 451 — **Crediti residui:** 549
+- Modric — 37 crediti
+- Perrone — 2 crediti
+**Totale speso:** 490 — **Crediti residui:** 510
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -117,7 +124,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Unai Gomez — 34 crediti
 - Sucic — 12 crediti
 - Rowe — 33 crediti
-**Totale speso:** 474 — **Crediti residui:** 526
+- Gaetano — 12 crediti
+**Totale speso:** 486 — **Crediti residui:** 514
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -157,4 +165,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Zaniolo — 85 crediti
 - Ederson — 36 crediti
 - Casadei — 12 crediti
-**Totale speso:** 418 — **Crediti residui:** 582
+- Oristanio — 1 credito
+**Totale speso:** 419 — **Crediti residui:** 581
