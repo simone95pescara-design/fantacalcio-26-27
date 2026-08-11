@@ -91,7 +91,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Perrone — 2 crediti
 - Anghissa — 1 credito
 - Malen — 340 crediti
-**Totale speso:** 831 — **Crediti residui:** 169
+- Simeone — 60 crediti
+**Totale speso:** 891 — **Crediti residui:** 109
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
