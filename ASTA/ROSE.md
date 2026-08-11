@@ -3,8 +3,8 @@
 Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 
 ## Rotturadicu — Napolimerda
-_Nessun giocatore._  
-**Totale speso:** 0 — **Crediti residui:** 1000
+- Meret — 56 crediti  
+**Totale speso:** 56 — **Crediti residui:** 944
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti  
