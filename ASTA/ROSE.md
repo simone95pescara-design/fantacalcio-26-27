@@ -24,7 +24,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Bissek — 15 crediti
 - Bernasconi — 16 crediti
 - Couto — 31 crediti
-**Totale speso:** 215 — **Crediti residui:** 785
+- Jimenez — 36 crediti
+**Totale speso:** 251 — **Crediti residui:** 749
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -34,7 +35,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Ramon — 17 crediti
 - Del Prato — 13 crediti
 - Delli Carri — 1 credito
-**Totale speso:** 62 — **Crediti residui:** 938
+- Dodo — 12 crediti
+**Totale speso:** 74 — **Crediti residui:** 926
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -45,7 +47,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Comuzzo — 10 crediti
 - Spinazzola — 36 crediti
 - Cambiaso — 34 crediti
-**Totale speso:** 272 — **Crediti residui:** 728
+- Hien — 7 crediti
+**Totale speso:** 279 — **Crediti residui:** 721
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
