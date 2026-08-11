@@ -10,8 +10,8 @@ Budget iniziale standard: **1000 crediti per partecipante**.
 | FC Loser | Simone Conte | 1000 | 310 | 690 | 11 |
 | FC WOLVERINEHAMPTON | Chico | 1000 | 358 | 642 | 11 |
 | Minca Don Minca Boss | Just Dell & mincadon | 1000 | 198 | 802 | 11 |
-| PeG | Luigi | 1000 | 276 | 724 | 8 |
-| atletico snai | stefano | 1000 | 83 | 917 | 9 |
+| PeG | Luigi | 1000 | 279 | 721 | 11 |
+| atletico snai | stefano | 1000 | 85 | 915 | 11 |
 
 ## Regole di aggiornamento
 - `Crediti spesi` = somma dei prezzi di tutti i giocatori assegnati alla squadra nel `REGISTRO_ASTA.csv`.
