@@ -11,7 +11,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 ## Alba — Distodistodisto
 - Provedel — 38 crediti  
 - Carnesecchi — 52 crediti  
-**Totale speso:** 90 — **Crediti residui:** 910
+- Stankovic — 1 credito  
+**Totale speso:** 91 — **Crediti residui:** 909
 
 ## Boston — Rio
 - Caprile — 12 crediti  
@@ -22,7 +23,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti  
 - Gollini — 1 credito  
-**Totale speso:** 96 — **Crediti residui:** 904
+- Di Gregorio — 1 credito  
+**Totale speso:** 97 — **Crediti residui:** 903
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti  
@@ -31,7 +33,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti  
-**Totale speso:** 43 — **Crediti residui:** 957
+- Tonquist — 1 credito  
+**Totale speso:** 44 — **Crediti residui:** 956
 
 ## PeG — Luigi
 - Mandas — 26 crediti  
@@ -42,4 +45,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 ## atletico snai — stefano
 - De Gea — 36 crediti  
 - Skorupski (Bologna) — 16 crediti  
-**Totale speso:** 52 — **Crediti residui:** 948
+- Falcone — 2 crediti  
+**Totale speso:** 54 — **Crediti residui:** 946
