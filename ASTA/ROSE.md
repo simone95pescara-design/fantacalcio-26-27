@@ -95,7 +95,10 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Vojvoda — 22 crediti
 - Stones — 45 crediti
 - Ostigard — 16 crediti
-**Totale speso:** 276 — **Crediti residui:** 724
+- Doig — 1 credito
+- Lucumi — 1 credito
+- Wulukievic — 1 credito
+**Totale speso:** 279 — **Crediti residui:** 721
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
@@ -107,4 +110,6 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Beukema — 16 crediti
 - Buongiorno — 1 credito
 - Oberto — 1 credito
-**Totale speso:** 83 — **Crediti residui:** 917
+- Marcandalli — 1 credito
+- Mangas — 1 credito
+**Totale speso:** 85 — **Crediti residui:** 915
