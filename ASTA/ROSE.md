@@ -109,7 +109,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Mckennie — 51 crediti
 - Lobotka — 4 crediti
 - Da Cunha — 51 crediti
-**Totale speso:** 672 — **Crediti residui:** 328
+- Cristante — 1 credito
+**Totale speso:** 673 — **Crediti residui:** 327
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
