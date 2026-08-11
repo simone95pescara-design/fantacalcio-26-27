@@ -11,7 +11,7 @@ Budget iniziale standard: **1000 crediti per partecipante**.
 | FC WOLVERINEHAMPTON | Chico | 1000 | 73 | 927 | 1 |
 | Minca Don Minca Boss | Just Dell & mincadon | 1000 | 0 | 1000 | 0 |
 | PeG | Luigi | 1000 | 91 | 909 | 2 |
-| atletico snai | stefano | 1000 | 36 | 964 | 1 |
+| atletico snai | stefano | 1000 | 52 | 948 | 2 |
 
 ## Regole di aggiornamento
 - `Crediti spesi` = somma dei prezzi di tutti i giocatori assegnati alla squadra nel `REGISTRO_ASTA.csv`.
