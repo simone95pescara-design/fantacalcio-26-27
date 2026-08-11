@@ -12,7 +12,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Celik — 30 crediti
 - Di Lorenzo — 30 crediti
 - Kristensen — 5 crediti
-**Totale speso:** 265 — **Crediti residui:** 735
+- Rensh — 1 credito
+**Totale speso:** 266 — **Crediti residui:** 734
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -36,7 +37,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Del Prato — 13 crediti
 - Delli Carri — 1 credito
 - Dodo — 12 crediti
-**Totale speso:** 74 — **Crediti residui:** 926
+- Zappacosta — 9 crediti
+**Totale speso:** 83 — **Crediti residui:** 917
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -60,7 +62,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Valeri — 16 crediti
 - Kaiki — 22 crediti
 - Tiago Gabriel — 1 credito
-**Totale speso:** 355 — **Crediti residui:** 645
+- Valle — 1 credito
+- Gabbia — 2 crediti
+**Totale speso:** 358 — **Crediti residui:** 642
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
@@ -68,7 +72,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Bijow — 1 credito
 - Akanji — 53 crediti
 - Rahamani — 15 crediti
-**Totale speso:** 113 — **Crediti residui:** 887
+- Miranda — 15 crediti
+- Norton Cuffy — 19 crediti
+**Totale speso:** 147 — **Crediti residui:** 853
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -84,4 +90,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - De Gea — 36 crediti
 - Skorupski (Bologna) — 16 crediti
 - Falcone — 2 crediti
-**Totale speso:** 54 — **Crediti residui:** 946
+- Scalvini — 3 crediti
+**Totale speso:** 57 — **Crediti residui:** 943
