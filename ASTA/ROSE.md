@@ -14,7 +14,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Kristensen — 5 crediti
 - Rensh — 1 credito
 - Vasquez — 3 crediti
-**Totale speso:** 269 — **Crediti residui:** 731
+- Alajbegovic — 60 crediti
+- J Rodrigez — 7 crediti
+**Totale speso:** 336 — **Crediti residui:** 664
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -72,7 +74,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Valle — 1 credito
 - Gabbia — 2 crediti
 - Vlasic — 52 crediti
-**Totale speso:** 410 — **Crediti residui:** 590
+- Saelemekers — 35 crediti
+**Totale speso:** 445 — **Crediti residui:** 555
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
@@ -101,7 +104,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Lucumi — 1 credito
 - Wulukievic — 1 credito
 - Mctominay — 161 crediti
-**Totale speso:** 440 — **Crediti residui:** 560
+- Pessina — 13 crediti
+- Zielinski — 50 crediti
+**Totale speso:** 503 — **Crediti residui:** 497
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
