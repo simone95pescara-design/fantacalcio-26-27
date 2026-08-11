@@ -4,7 +4,7 @@ Budget iniziale standard: **1000 crediti per partecipante**.
 
 | Squadra | Partecipante | Crediti iniziali | Crediti spesi | Crediti residui | N. giocatori |
 |---|---|---:|---:|---:|---:|
-| Rotturadicu | Napolimerda | 1000 | 0 | 1000 | 0 |
+| Rotturadicu | Napolimerda | 1000 | 56 | 944 | 1 |
 | Alba | Distodistodisto | 1000 | 38 | 962 | 1 |
 | Boston | Rio | 1000 | 0 | 1000 | 0 |
 | FC Loser | Simone Conte | 1000 | 96 | 904 | 2 |
