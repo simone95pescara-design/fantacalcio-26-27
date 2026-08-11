@@ -7,8 +7,8 @@ _Nessun giocatore._
 **Totale speso:** 0 — **Crediti residui:** 1000
 
 ## Alba — Distodistodisto
-_Nessun giocatore._  
-**Totale speso:** 0 — **Crediti residui:** 1000
+- Provedel — 38 crediti  
+**Totale speso:** 38 — **Crediti residui:** 962
 
 ## Boston — Rio
 _Nessun giocatore._  
