@@ -54,7 +54,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Spinazzola — 36 crediti
 - Cambiaso — 34 crediti
 - Hien — 7 crediti
-**Totale speso:** 279 — **Crediti residui:** 721
+- Kelly — 30 crediti
+- Oliveira — 1 credito
+**Totale speso:** 310 — **Crediti residui:** 690
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -81,7 +83,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Bartesaghi — 21 crediti
 - Pedraza — 11 crediti
 - Tavares — 18 crediti
-**Totale speso:** 197 — **Crediti residui:** 803
+- Camara — 1 credito
+**Totale speso:** 198 — **Crediti residui:** 802
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -103,4 +106,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Dragusin — 2 crediti
 - Beukema — 16 crediti
 - Buongiorno — 1 credito
-**Totale speso:** 82 — **Crediti residui:** 918
+- Oberto — 1 credito
+**Totale speso:** 83 — **Crediti residui:** 917
