@@ -24,7 +24,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Svilar — 95 crediti  
 - Gollini — 1 credito  
 - Di Gregorio — 1 credito  
-**Totale speso:** 97 — **Crediti residui:** 903
+- Bremer — 50 crediti  
+**Totale speso:** 147 — **Crediti residui:** 853
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti  
@@ -44,7 +45,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - J Martinez (Inter) — 65 crediti  
 - Motta — 1 credito  
 - Wesley — 80 crediti  
-**Totale speso:** 172 — **Crediti residui:** 828
+- Bastoni — 21 crediti  
+**Totale speso:** 193 — **Crediti residui:** 807
 
 ## atletico snai — stefano
 - De Gea — 36 crediti  
