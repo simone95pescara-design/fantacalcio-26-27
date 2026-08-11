@@ -30,7 +30,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Maignan — 73 crediti  
 - Okoye — 18 crediti  
 - Torriani — 1 credito  
-**Totale speso:** 92 — **Crediti residui:** 908
+- Di Marco — 155 crediti  
+**Totale speso:** 247 — **Crediti residui:** 753
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti  
@@ -42,7 +43,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Mandas — 26 crediti  
 - J Martinez (Inter) — 65 crediti  
 - Motta — 1 credito  
-**Totale speso:** 92 — **Crediti residui:** 908
+- Wesley — 80 crediti  
+**Totale speso:** 172 — **Crediti residui:** 828
 
 ## atletico snai — stefano
 - De Gea — 36 crediti  
