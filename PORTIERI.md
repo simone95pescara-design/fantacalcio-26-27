@@ -30,5 +30,19 @@
 | C | **Perin** | JUV | 10 | ⚠️ COPERTURA | — | minuti bassi | 2–6 | **8** | solo logica coppia |
 | C | **Milinkovic-Savic V.** | NAP | 10 | ⚠️ COPERTURA | — | minuti bassi | 2–6 | **8** | solo logica coppia |
 
+## ⚠️ PORTE INCERTE — 11/08/2026
+
+Solo squadre in cui il **titolare non è ancora realmente definito** o può cambiare per il mercato.
+
+| Squadra | Situazione | Indicazione asta |
+|---|---|---|
+| **Frosinone** | **Palmisani vs Desplanches**: ballottaggio aperto, gerarchia ancora tutta da definire. | Se punti sulla porta, meglio la coppia. |
+| **Juventus** | **Di Gregorio è in uscita** e il club cerca un nuovo titolare; Perin resta seconda scelta. | Non pagare Di Gregorio come titolare sicuro. |
+| **Lazio** | **Mandas parte avanti**, ma la gerarchia è ancora da definire; Motta resta un concorrente credibile. | Prudenza: evitare spesa da titolare blindato. |
+| **Napoli** | **Meret vs Milinkovic-Savic**: Meret leggermente avanti, ma il primo definitivo non è ancora stabilito e uno dei due potrebbe anche partire. | Coppia fortemente consigliata. |
+| **Parma** | Con **Suzuki verso l'uscita**, **Corvi e Daffara** si giocano il posto; Corvi leggermente avanti. | Se interessa la porta Parma, prendere entrambi. |
+| **Sassuolo** | **Muric vs Turati**: Muric leggermente avanti, ma mercato e gerarchia restano aperti. | Non comprare uno dei due come P1 sicuro. |
+| **Torino** | **Paleari è titolare solo provvisorio**: il club cerca un nuovo numero uno sul mercato. | Aspettare il nuovo acquisto prima di investire. |
+
 ## 🔄 SWITCH LIVE
 Carnesecchi ≤55 → forte interesse. Se premium oltre cap → **Falcone/Caprile + secondo titolare**. Se anche la fascia media è inflazionata → costruzione low-cost con due portieri realmente titolari e calendario complementare.
