@@ -47,7 +47,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Zappacosta — 9 crediti
 - Mina — 7 crediti
 - Bellanova — 1 credito
-**Totale speso:** 91 — **Crediti residui:** 909
+- Akinsimiro — 1 credito
+**Totale speso:** 92 — **Crediti residui:** 908
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -61,7 +62,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Hien — 7 crediti
 - Kelly — 30 crediti
 - Oliveira — 1 credito
-**Totale speso:** 310 — **Crediti residui:** 690
+- Thuram — 30 crediti
+**Totale speso:** 340 — **Crediti residui:** 660
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -91,7 +93,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Pedraza — 11 crediti
 - Tavares — 18 crediti
 - Camara — 1 credito
-**Totale speso:** 198 — **Crediti residui:** 802
+- Mastantuono — 52 crediti
+**Totale speso:** 250 — **Crediti residui:** 750
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -124,4 +127,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Mangas — 1 credito
 - Orsolini — 91 crediti
 - Pulisic — 109 crediti
-**Totale speso:** 285 — **Crediti residui:** 715
+- Zaniolo — 85 crediti
+**Totale speso:** 370 — **Crediti residui:** 630
