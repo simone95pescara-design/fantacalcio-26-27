@@ -39,7 +39,12 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Paz — 199 crediti
 - Chalanoglu — 112 crediti
 - Diuf — 35 crediti
-**Totale speso:** 598 — **Crediti residui:** 402
+- Luis Enrique — 1 credito
+- Cambiaghi — 1 credito
+- Pasalic — 1 credito
+- Cachere — 1 credito
+- Chucueze — 1 credito
+**Totale speso:** 603 — **Crediti residui:** 397
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -82,7 +87,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Baldanzi — 3 crediti
 - Modric — 37 crediti
 - Perrone — 2 crediti
-**Totale speso:** 490 — **Crediti residui:** 510
+- Anghissa — 1 credito
+**Totale speso:** 491 — **Crediti residui:** 509
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -168,4 +174,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Casadei — 12 crediti
 - Oristanio — 1 credito
 - Adzic — 1 credito
-**Totale speso:** 420 — **Crediti residui:** 580
+- Bacola — 1 credito
+**Totale speso:** 421 — **Crediti residui:** 579
