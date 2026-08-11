@@ -26,7 +26,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti  
-**Totale speso:** 73 — **Crediti residui:** 927
+- Okoye — 18 crediti  
+**Totale speso:** 91 — **Crediti residui:** 909
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti  
@@ -35,7 +36,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 ## PeG — Luigi
 - Mandas — 26 crediti  
 - J Martinez (Inter) — 65 crediti  
-**Totale speso:** 91 — **Crediti residui:** 909
+- Motta — 1 credito  
+**Totale speso:** 92 — **Crediti residui:** 908
 
 ## atletico snai — stefano
 - De Gea — 36 crediti  
