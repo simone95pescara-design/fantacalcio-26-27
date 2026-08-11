@@ -5,7 +5,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 ## Rotturadicu — Napolimerda
 - Meret — 56 crediti  
 - Savic — 51 crediti  
-**Totale speso:** 107 — **Crediti residui:** 893
+- Suzuki — 5 crediti  
+**Totale speso:** 112 — **Crediti residui:** 888
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti  
