@@ -18,7 +18,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - J Rodrigez — 7 crediti
 - De Bruyne — 55 crediti
 - Taylor — 16 crediti
-**Totale speso:** 407 — **Crediti residui:** 593
+- Calo — 27 crediti
+- Zegrova — 12 crediti
+**Totale speso:** 446 — **Crediti residui:** 554
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -34,7 +36,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Haps — 1 credito
 - Paz — 199 crediti
 - Chalanoglu — 112 crediti
-**Totale speso:** 563 — **Crediti residui:** 437
+- Diuf — 35 crediti
+**Totale speso:** 598 — **Crediti residui:** 402
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -51,7 +54,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Akinsimiro — 1 credito
 - Adopo — 1 credito
 - Gudmunson — 53 crediti
-**Totale speso:** 146 — **Crediti residui:** 854
+- Cancellieri — 35 crediti
+- Busio — 1 credito
+**Totale speso:** 182 — **Crediti residui:** 818
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -69,7 +74,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Vergara — 53 crediti
 - Coinceicao — 42 crediti
 - Ekkelenkamp — 13 crediti
-**Totale speso:** 448 — **Crediti residui:** 552
+- Baldanzi — 3 crediti
+**Totale speso:** 451 — **Crediti residui:** 549
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -89,7 +95,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Rabiot — 60 crediti
 - Mckennie — 51 crediti
 - Lobotka — 4 crediti
-**Totale speso:** 621 — **Crediti residui:** 379
+- Da Cunha — 51 crediti
+**Totale speso:** 672 — **Crediti residui:** 328
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
@@ -108,7 +115,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Barella — 41 crediti
 - Baturina — 51 crediti
 - Unai Gomez — 34 crediti
-**Totale speso:** 429 — **Crediti residui:** 571
+- Sucic — 12 crediti
+- Rowe — 33 crediti
+**Totale speso:** 474 — **Crediti residui:** 526
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -127,7 +136,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Zielinski — 50 crediti
 - Zaccagni — 83 crediti
 - Kone — 43 crediti
-**Totale speso:** 629 — **Crediti residui:** 371
+- Colpani — 11 crediti
+- Locatelli — 11 crediti
+**Totale speso:** 651 — **Crediti residui:** 349
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
@@ -145,4 +156,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Pulisic — 109 crediti
 - Zaniolo — 85 crediti
 - Ederson — 36 crediti
-**Totale speso:** 406 — **Crediti residui:** 594
+- Casadei — 12 crediti
+**Totale speso:** 418 — **Crediti residui:** 582
