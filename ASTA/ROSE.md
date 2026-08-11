@@ -1,18 +1,35 @@
 # ROSE — ASTA FANTACALCIO 2026/27
 
-Questo file contiene la composizione aggiornata delle rose.
+Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 
-> La fonte primaria di verità per gli acquisti è `REGISTRO_ASTA.csv`. Se questo file non coincide con il registro, ricostruire le rose dal registro.
+## Rotturadicu — Napolimerda
+_Nessun giocatore._  
+**Totale speso:** 0 — **Crediti residui:** 1000
 
-## Rose
+## Alba — Distodistodisto
+_Nessun giocatore._  
+**Totale speso:** 0 — **Crediti residui:** 1000
 
-_I partecipanti e i giocatori verranno aggiunti durante l'asta._
+## Boston — Rio
+_Nessun giocatore._  
+**Totale speso:** 0 — **Crediti residui:** 1000
 
-## Formato da mantenere
+## FC Loser — Simone Conte
+_Nessun giocatore._  
+**Totale speso:** 0 — **Crediti residui:** 1000
 
-### Nome partecipante / squadra
-| # | Giocatore | Prezzo |
-|---:|---|---:|
+## FC WOLVERINEHAMPTON — Chico
+_Nessun giocatore._  
+**Totale speso:** 0 — **Crediti residui:** 1000
 
-**Totale speso:** 0  
-**Crediti residui:** 1000
+## Minca Don Minca Boss — Just Dell & mincadon
+_Nessun giocatore._  
+**Totale speso:** 0 — **Crediti residui:** 1000
+
+## PeG — Luigi
+_Nessun giocatore._  
+**Totale speso:** 0 — **Crediti residui:** 1000
+
+## atletico snai — stefano
+_Nessun giocatore._  
+**Totale speso:** 0 — **Crediti residui:** 1000
