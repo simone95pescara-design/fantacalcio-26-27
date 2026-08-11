@@ -17,7 +17,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Alajbegovic — 60 crediti
 - J Rodrigez — 7 crediti
 - De Bruyne — 55 crediti
-**Totale speso:** 391 — **Crediti residui:** 609
+- Taylor — 16 crediti
+**Totale speso:** 407 — **Crediti residui:** 593
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -65,7 +66,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Oliveira — 1 credito
 - Thuram — 30 crediti
 - Vergara — 53 crediti
-**Totale speso:** 393 — **Crediti residui:** 607
+- Coinceicao — 42 crediti
+**Totale speso:** 435 — **Crediti residui:** 565
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -83,7 +85,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Saelemekers — 35 crediti
 - Atta — 61 crediti
 - Rabiot — 60 crediti
-**Totale speso:** 566 — **Crediti residui:** 434
+- Mckennie — 51 crediti
+**Totale speso:** 617 — **Crediti residui:** 383
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
@@ -99,7 +102,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Camara — 1 credito
 - Mastantuono — 52 crediti
 - Samardzic — 53 crediti
-**Totale speso:** 303 — **Crediti residui:** 697
+- Barella — 41 crediti
+**Totale speso:** 344 — **Crediti residui:** 656
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -116,7 +120,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Mctominay — 161 crediti
 - Pessina — 13 crediti
 - Zielinski — 50 crediti
-**Totale speso:** 503 — **Crediti residui:** 497
+- Zaccagni — 83 crediti
+**Totale speso:** 586 — **Crediti residui:** 414
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
