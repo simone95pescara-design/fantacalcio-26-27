@@ -2,13 +2,19 @@
 
 Budget iniziale standard: **1000 crediti per partecipante**.
 
-> Questo file va aggiornato ogni volta che viene registrato, corretto o annullato un acquisto.
-
-| Partecipante / Squadra | Crediti iniziali | Crediti spesi | Crediti residui | N. giocatori |
-|---|---:|---:|---:|---:|
+| Squadra | Partecipante | Crediti iniziali | Crediti spesi | Crediti residui | N. giocatori |
+|---|---|---:|---:|---:|---:|
+| Rotturadicu | Napolimerda | 1000 | 0 | 1000 | 0 |
+| Alba | Distodistodisto | 1000 | 0 | 1000 | 0 |
+| Boston | Rio | 1000 | 0 | 1000 | 0 |
+| FC Loser | Simone Conte | 1000 | 0 | 1000 | 0 |
+| FC WOLVERINEHAMPTON | Chico | 1000 | 0 | 1000 | 0 |
+| Minca Don Minca Boss | Just Dell & mincadon | 1000 | 0 | 1000 | 0 |
+| PeG | Luigi | 1000 | 0 | 1000 | 0 |
+| atletico snai | stefano | 1000 | 0 | 1000 | 0 |
 
 ## Regole di aggiornamento
-- `Crediti spesi` = somma dei prezzi di tutti i giocatori assegnati al partecipante nel `REGISTRO_ASTA.csv`.
+- `Crediti spesi` = somma dei prezzi di tutti i giocatori assegnati alla squadra nel `REGISTRO_ASTA.csv`.
 - `Crediti residui` = `Crediti iniziali - Crediti spesi`.
-- `N. giocatori` = numero di acquisti validi del partecipante nel registro.
+- `N. giocatori` = numero di acquisti validi della squadra nel registro.
 - In caso di discrepanza, ricostruire i dati dal `REGISTRO_ASTA.csv`.
