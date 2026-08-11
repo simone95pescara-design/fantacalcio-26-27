@@ -8,7 +8,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti  
-**Totale speso:** 38 — **Crediti residui:** 962
+- Carnesecchi — 52 crediti  
+**Totale speso:** 90 — **Crediti residui:** 910
 
 ## Boston — Rio
 - Caprile — 12 crediti  
