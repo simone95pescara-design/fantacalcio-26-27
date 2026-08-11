@@ -14,7 +14,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 ## Boston — Rio
 - Caprile — 12 crediti  
 - Paleari — 8 crediti  
-**Totale speso:** 20 — **Crediti residui:** 980
+- Muric — 1 credito  
+**Totale speso:** 21 — **Crediti residui:** 979
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti  
