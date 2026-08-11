@@ -28,7 +28,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Couto — 31 crediti
 - Jimenez — 36 crediti
 - Haps — 1 credito
-**Totale speso:** 252 — **Crediti residui:** 748
+- Paz — 199 crediti
+**Totale speso:** 451 — **Crediti residui:** 549
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -70,7 +71,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Tiago Gabriel — 1 credito
 - Valle — 1 credito
 - Gabbia — 2 crediti
-**Totale speso:** 358 — **Crediti residui:** 642
+- Vlasic — 52 crediti
+**Totale speso:** 410 — **Crediti residui:** 590
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
@@ -98,7 +100,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Doig — 1 credito
 - Lucumi — 1 credito
 - Wulukievic — 1 credito
-**Totale speso:** 279 — **Crediti residui:** 721
+- Mctominay — 161 crediti
+**Totale speso:** 440 — **Crediti residui:** 560
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
@@ -112,4 +115,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Oberto — 1 credito
 - Marcandalli — 1 credito
 - Mangas — 1 credito
-**Totale speso:** 85 — **Crediti residui:** 915
+- Orsolini — 91 crediti
+**Totale speso:** 176 — **Crediti residui:** 824
