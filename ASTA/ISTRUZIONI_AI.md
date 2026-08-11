@@ -14,90 +14,59 @@ Questa cartella è la fonte operativa dell'asta. Ogni AI/chat che gestisce l'ast
 8. In caso di nome ambiguo o dato incompleto, non indovinare. Conservare lo stato esistente e chiedere/attendere il dato mancante.
 9. I file sotto `ASTA/` rappresentano lo stato ufficiale dell'asta. Prima di rispondere su budget, rose o acquisti, leggere lo stato corrente.
 10. I file di ruolo presenti nella root del repository possono essere usati come riferimento, ma non prevalgono mai sul registro ufficiale dell'asta.
+11. **REGOLA LIVE OBBLIGATORIA:** dopo OGNI acquisto valido, correzione o annullamento, la risposta all'utente DEVE includere immediatamente la tabella completa e aggiornata dei crediti di TUTTE le squadre. Non è sufficiente confermare l'operazione.
+12. La tabella live deve essere prodotta usando i dati appena persistiti nei file dell'asta, non affidandosi soltanto alla memoria della conversazione.
 
 ## Formato rapido dei comandi dell'utente
-L'utente può comunicare un acquisto in linguaggio naturale oppure in forma sintetica, per esempio:
+L'utente può comunicare un acquisto in linguaggio naturale o in forma sintetica, ad esempio:
+`Lautaro, Boston, 135`
+`Lautaro a Boston per 135`
+`Boston prende Lautaro 135`
+`Lautaro 135 Boston`
 
-`Lautaro, Simone, 135`
+I tre dati essenziali sono: **giocatore, squadra/partecipante, prezzo**. Se uno manca o è ambiguo, non registrare e chiedere soltanto il dato necessario.
 
-Interpretazione:
-- Giocatore: Lautaro
-- Partecipante/squadra: Simone
-- Prezzo: 135 crediti
+## Procedura obbligatoria per ogni acquisto
+1. Leggere lo stato corrente dell'asta.
+2. Verificare che squadra/partecipante esista in `PARTECIPANTI.md`.
+3. Verificare che il giocatore non sia già in `REGISTRO_ASTA.csv`.
+4. Verificare che il prezzo sia un intero positivo.
+5. Calcolare il nuovo saldo e verificare che non sia negativo.
+6. Aggiungere l'acquisto a `REGISTRO_ASTA.csv`.
+7. Aggiornare `ROSE.md`.
+8. Aggiornare `PARTECIPANTI.md`.
+9. Ricontrollare per ogni squadra: `1000 - crediti_spesi = crediti_residui`.
+10. Solo dopo la persistenza dei dati, rispondere mostrando la tabella live completa.
 
-Sono validi anche messaggi come:
-- `Lautaro a Simone per 135`
-- `Simone prende Lautaro 135`
-- `Lautaro 135 Simone`
+## OUTPUT LIVE OBBLIGATORIO
+Dopo ogni operazione valida mostrare SEMPRE, nello stesso messaggio:
 
-Registrare l'operazione solo quando i tre campi essenziali — giocatore, partecipante, prezzo — sono identificabili con sufficiente certezza.
+**Operazione registrata:** `Giocatore → Squadra | X crediti`
 
-## Procedura per ogni acquisto
-Prima della registrazione:
-1. Verificare che il partecipante esista in `PARTECIPANTI.md`.
-2. Verificare che il giocatore non sia già presente in `REGISTRO_ASTA.csv`.
-3. Verificare che il prezzo sia un numero intero positivo.
-4. Calcolare `nuovo_residuo = residuo_attuale - prezzo`.
-5. Verificare che il nuovo residuo sia >= 0.
+| Squadra | Spesi | 💰 Disponibili | Giocatori |
+|---|---:|---:|---:|
+| tutte le squadre | valore aggiornato | valore aggiornato | valore aggiornato |
 
-Se i controlli passano:
-1. Aggiungere una riga a `REGISTRO_ASTA.csv`.
-2. Aggiornare la rosa in `ROSE.md`.
-3. Aggiornare spesi/residui/numero giocatori in `PARTECIPANTI.md`.
-4. Ricontrollare matematicamente che per ogni partecipante valga:
-   `crediti_iniziali - crediti_spesi = crediti_residui`.
-5. Mostrare all'utente la situazione aggiornata.
+La tabella deve includere **tutte le 8 squadre**, anche quelle non coinvolte nell'ultimo acquisto. I crediti disponibili sono `1000 - totale speso`. Evidenziare chiaramente il saldo disponibile. Mantenere l'ordine ufficiale di `PARTECIPANTI.md`, salvo richiesta diversa.
 
-## Output da mostrare dopo ogni acquisto
-Mostrare in modo compatto:
+Subito sotto, mostrare una riga compatta con gli ultimi acquisti utili alla verifica. Non sostituire mai la tabella completa con una risposta tipo «registrato» o con il solo saldo della squadra coinvolta.
 
-### Operazione registrata
-`Giocatore → Squadra | prezzo X`
+## Correzioni e annullamenti
+Per una correzione, modificare l'acquisto interessato nel registro e ricalcolare da zero i totali sulla base del registro completo. Per un annullamento, eliminare la relativa registrazione e ricalcolare completamente lo stato. In entrambi i casi aggiornare `PARTECIPANTI.md` e `ROSE.md` e mostrare nuovamente la **tabella live completa di tutte le squadre**.
 
-### Situazione crediti
-Tabella con almeno:
-- Squadra/Partecipante
-- Crediti iniziali
-- Spesi
-- Residui
-- N. giocatori
-
-### Ultimi acquisti
-Mostrare almeno gli ultimi acquisti utili a verificare che l'operazione sia stata inserita correttamente.
-
-Su richiesta mostrare anche la rosa completa di una o di tutte le squadre.
-
-## Correzioni
-Se l'utente dice, per esempio, `correggi Lautaro: 125 e non 135`:
-1. Trovare l'acquisto originale.
-2. Modificare il prezzo nel registro.
-3. Ricalcolare da zero i totali del partecipante sulla base del registro completo, evitando correzioni aritmetiche cumulative che possano introdurre errori.
-4. Aggiornare `PARTECIPANTI.md` e `ROSE.md`.
-5. Mostrare il risultato corretto.
-
-Se l'utente annulla un acquisto, eliminare la relativa riga dal registro e ricalcolare completamente lo stato della squadra interessata.
-
-## Fonte di verità e ricostruzione
-`REGISTRO_ASTA.csv` è la **fonte primaria di verità** per tutti gli acquisti effettuati.
-
-Se esiste una discrepanza tra file:
-1. ricostruire spese e rose partendo da `REGISTRO_ASTA.csv`;
-2. aggiornare gli altri file per riallinearli;
-3. segnalare brevemente la correzione all'utente.
-
-## Classifica operativa
-La "classifica" dell'asta non è una classifica sportiva: è il riepilogo gestionale delle squadre. Per impostazione predefinita ordinarla secondo l'ordine dei partecipanti in `PARTECIPANTI.md`, non in base ai crediti residui, salvo richiesta diversa.
+## Fonte di verità
+`REGISTRO_ASTA.csv` è la **fonte primaria di verità**. Se esiste una discrepanza tra file, ricostruire rose, spese e saldi dal registro e riallineare gli altri file prima di proseguire.
 
 ## Persistenza tra chat
-Una nuova chat o un nuovo agente che interviene sull'asta deve:
+Una nuova chat/agente deve, prima di gestire l'asta:
 1. leggere `ASTA/ISTRUZIONI_AI.md`;
 2. leggere `ASTA/PARTECIPANTI.md`;
 3. leggere `ASTA/REGISTRO_ASTA.csv`;
 4. leggere `ASTA/ROSE.md`;
-5. ricostruire mentalmente/verificare i saldi prima di effettuare nuove registrazioni.
+5. verificare matematicamente i saldi;
+6. applicare il workflow live definito sopra.
 
-Non affidarsi alla memoria di una chat precedente quando i file sono disponibili.
+Non affidarsi alla memoria di chat precedenti quando i file sono disponibili.
 
-## Stato iniziale
-Budget standard per ogni partecipante: **1000 crediti**.
-I partecipanti verranno inseriti quando comunicati dall'utente.
+## Stato iniziale ufficiale
+L'asta è composta da **8 squadre**, ciascuna con **1000 crediti iniziali**. I nomi ufficiali sono quelli contenuti in `PARTECIPANTI.md`.
