@@ -22,7 +22,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Zegrova — 12 crediti
 - Isaksen — 2 crediti
 - Thorhved — 1 credito
-**Totale speso:** 449 — **Crediti residui:** 551
+- Houjlund — 170 crediti
+**Totale speso:** 619 — **Crediti residui:** 381
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -88,7 +89,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Modric — 37 crediti
 - Perrone — 2 crediti
 - Anghissa — 1 credito
-**Totale speso:** 491 — **Crediti residui:** 509
+- Malen — 340 crediti
+**Totale speso:** 831 — **Crediti residui:** 169
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -154,7 +156,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Colpani — 11 crediti
 - Locatelli — 11 crediti
 - Odgaard — 1 credito
-**Totale speso:** 652 — **Crediti residui:** 348
+- Lautaro — 300 crediti
+**Totale speso:** 952 — **Crediti residui:** 48
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
@@ -176,4 +179,6 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Oristanio — 1 credito
 - Adzic — 1 credito
 - Bacola — 1 credito
-**Totale speso:** 421 — **Crediti residui:** 579
+- Leao — 32 crediti
+- Ramos — 150 crediti
+**Totale speso:** 603 — **Crediti residui:** 397
