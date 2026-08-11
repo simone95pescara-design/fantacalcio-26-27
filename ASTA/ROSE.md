@@ -18,7 +18,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Caprile — 12 crediti  
 - Paleari — 8 crediti  
 - Muric — 1 credito  
-**Totale speso:** 21 — **Crediti residui:** 979
+- Bella-Kotchap (Venezia) — 10 crediti  
+**Totale speso:** 31 — **Crediti residui:** 969
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti  
@@ -32,7 +33,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Okoye — 18 crediti  
 - Torriani — 1 credito  
 - Di Marco — 155 crediti  
-**Totale speso:** 247 — **Crediti residui:** 753
+- Mancini — 37 crediti  
+**Totale speso:** 284 — **Crediti residui:** 716
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti  
