@@ -158,7 +158,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Scamacca — 90 crediti
 - Kristovic — 70 crediti
 - Santos — 72 crediti
-**Totale speso:** 718 — **Crediti residui:** 282
+- El Bilal — 2 crediti
+- Colombo — 39 crediti
+**Totale speso:** 759 — **Crediti residui:** 241
 
 ## PeG — Luigi
 - Mandas — 26 crediti
@@ -182,7 +184,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Odgaard — 1 credito
 - Lautaro — 300 crediti
 - Pinamonti — 31 crediti
-**Totale speso:** 983 — **Crediti residui:** 17
+- Gedjenis — 1 credito
+**Totale speso:** 984 — **Crediti residui:** 16
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
