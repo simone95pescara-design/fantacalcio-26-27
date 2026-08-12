@@ -26,7 +26,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Yldiz — 170 crediti
 - Raspadori — 42 crediti
 - De Ketelare — 100 crediti
-**Totale speso:** 931 — **Crediti residui:** 69
+- Dybala — 68 crediti
+**Totale speso:** 999 — **Crediti residui:** 1
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -75,7 +76,10 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Politano — 12 crediti
 - Kean — 271 crediti
 - Berardi — 40 crediti
-**Totale speso:** 508 — **Crediti residui:** 492
+- Dovbyk — 70 crediti
+- Laurentie — 18 crediti
+- Ratkov — 63 crediti
+**Totale speso:** 659 — **Crediti residui:** 341
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -101,7 +105,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Simeone — 60 crediti
 - Zapata — 7 crediti
 - Pellegrino — 30 crediti
-**Totale speso:** 928 — **Crediti residui:** 72
+- Neres — 10 crediti
+**Totale speso:** 938 — **Crediti residui:** 62
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -152,7 +157,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Gaetano — 12 crediti
 - Scamacca — 90 crediti
 - Kristovic — 70 crediti
-**Totale speso:** 646 — **Crediti residui:** 354
+- Santos — 72 crediti
+**Totale speso:** 718 — **Crediti residui:** 282
 
 ## PeG — Luigi
 - Mandas — 26 crediti
