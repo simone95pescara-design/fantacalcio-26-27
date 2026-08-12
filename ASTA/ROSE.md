@@ -106,7 +106,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Zapata — 7 crediti
 - Pellegrino — 30 crediti
 - Neres — 10 crediti
-**Totale speso:** 938 — **Crediti residui:** 62
+- Diao — 36 crediti
+**Totale speso:** 974 — **Crediti residui:** 26
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -133,7 +134,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Camarda — 11 crediti
 - Nkunkou — 40 crediti
 - Esposito — 71 crediti
-**Totale speso:** 980 — **Crediti residui:** 20
+- Soule — 20 crediti
+**Totale speso:** 1000 — **Crediti residui:** 0
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
@@ -185,7 +187,10 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Lautaro — 300 crediti
 - Pinamonti — 31 crediti
 - Gedjenis — 1 credito
-**Totale speso:** 984 — **Crediti residui:** 16
+- Bonny — 2 crediti
+- Yeboah — 2 crediti
+- Adams — 1 credito
+**Totale speso:** 989 — **Crediti residui:** 11
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
@@ -210,4 +215,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Leao — 32 crediti
 - Ramos — 150 crediti
 - Kolo Muani — 301 crediti
-**Totale speso:** 904 — **Crediti residui:** 96
+- Maldini — 14 crediti
+**Totale speso:** 918 — **Crediti residui:** 82
