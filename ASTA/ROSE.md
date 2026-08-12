@@ -27,7 +27,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Raspadori — 42 crediti
 - De Ketelare — 100 crediti
 - Dybala — 68 crediti
-**Totale speso:** 999 — **Crediti residui:** 1
+- David — 1 credito
+**Totale speso:** 1000 — **Crediti residui:** 0
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -52,7 +53,10 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Thuram — 211 crediti
 - Douvikas — 180 crediti
 - Havel — 1 credito
-**Totale speso:** 995 — **Crediti residui:** 5
+- Boga — 1 credito
+- Mendy — 1 credito
+- Elphege — 1 credito
+**Totale speso:** 998 — **Crediti residui:** 2
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -79,7 +83,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Dovbyk — 70 crediti
 - Laurentie — 18 crediti
 - Ratkov — 63 crediti
-**Totale speso:** 659 — **Crediti residui:** 341
+- Raimondo — 1 credito
+**Totale speso:** 660 — **Crediti residui:** 340
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -216,4 +221,6 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Ramos — 150 crediti
 - Kolo Muani — 301 crediti
 - Maldini — 14 crediti
-**Totale speso:** 918 — **Crediti residui:** 82
+- Dia — 1 credito
+- Adams Venezia — 1 credito
+**Totale speso:** 920 — **Crediti residui:** 80
