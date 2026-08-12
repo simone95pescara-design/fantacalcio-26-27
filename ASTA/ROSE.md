@@ -25,7 +25,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Houjlund — 170 crediti
 - Yldiz — 170 crediti
 - Raspadori — 42 crediti
-**Totale speso:** 831 — **Crediti residui:** 169
+- De Ketelare — 100 crediti
+**Totale speso:** 931 — **Crediti residui:** 69
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -49,7 +50,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Chucueze — 1 credito
 - Thuram — 211 crediti
 - Douvikas — 180 crediti
-**Totale speso:** 994 — **Crediti residui:** 6
+- Havel — 1 credito
+**Totale speso:** 995 — **Crediti residui:** 5
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -98,7 +100,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Malen — 340 crediti
 - Simeone — 60 crediti
 - Zapata — 7 crediti
-**Totale speso:** 898 — **Crediti residui:** 102
+- Pellegrino — 30 crediti
+**Totale speso:** 928 — **Crediti residui:** 72
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
