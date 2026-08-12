@@ -23,7 +23,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Isaksen — 2 crediti
 - Thorhved — 1 credito
 - Houjlund — 170 crediti
-**Totale speso:** 619 — **Crediti residui:** 381
+- Yldiz — 170 crediti
+**Totale speso:** 789 — **Crediti residui:** 211
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -116,7 +117,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Cristante — 1 credito
 - Davies — 82 crediti
 - Castro — 103 crediti
-**Totale speso:** 858 — **Crediti residui:** 142
+- Camarda — 11 crediti
+**Totale speso:** 869 — **Crediti residui:** 131
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
@@ -138,7 +140,9 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Sucic — 12 crediti
 - Rowe — 33 crediti
 - Gaetano — 12 crediti
-**Totale speso:** 486 — **Crediti residui:** 514
+- Scamacca — 90 crediti
+- Kristovic — 70 crediti
+**Totale speso:** 646 — **Crediti residui:** 354
 
 ## PeG — Luigi
 - Mandas — 26 crediti
