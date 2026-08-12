@@ -48,7 +48,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Cachere — 1 credito
 - Chucueze — 1 credito
 - Thuram — 211 crediti
-**Totale speso:** 814 — **Crediti residui:** 186
+- Douvikas — 180 crediti
+**Totale speso:** 994 — **Crediti residui:** 6
 
 ## Boston — Rio
 - Caprile — 12 crediti
@@ -71,7 +72,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Bernardeschi — 2 crediti
 - Politano — 12 crediti
 - Kean — 271 crediti
-**Totale speso:** 468 — **Crediti residui:** 532
+- Berardi — 40 crediti
+**Totale speso:** 508 — **Crediti residui:** 492
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -95,7 +97,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Anghissa — 1 credito
 - Malen — 340 crediti
 - Simeone — 60 crediti
-**Totale speso:** 891 — **Crediti residui:** 109
+- Zapata — 7 crediti
+**Totale speso:** 898 — **Crediti residui:** 102
 
 ## FC WOLVERINEHAMPTON — Chico
 - Maignan — 73 crediti
@@ -121,7 +124,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Castro — 103 crediti
 - Camarda — 11 crediti
 - Nkunkou — 40 crediti
-**Totale speso:** 909 — **Crediti residui:** 91
+- Esposito — 71 crediti
+**Totale speso:** 980 — **Crediti residui:** 20
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
