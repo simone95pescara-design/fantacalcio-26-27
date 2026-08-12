@@ -189,4 +189,5 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Bacola — 1 credito
 - Leao — 32 crediti
 - Ramos — 150 crediti
-**Totale speso:** 603 — **Crediti residui:** 397
+- Kolo Muani — 301 crediti
+**Totale speso:** 904 — **Crediti residui:** 96
