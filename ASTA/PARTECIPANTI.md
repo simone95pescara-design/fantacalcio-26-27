@@ -1,4 +1,4 @@
-# PARTECIPANTI — ASTA FANTACALCIO 2026/27
+# PARTECIPANTI — ASTA FANTACCIO 2026/27
 
 Budget iniziale standard: **1000 crediti per partecipante**.
 
@@ -11,7 +11,7 @@ Budget iniziale standard: **1000 crediti per partecipante**.
 | FC WOLVERINEHAMPTON | Chico | 1000 | 869 | 131 | 22 |
 | Minca Don Minca Boss | Just Dell & mincadon | 1000 | 646 | 354 | 21 |
 | PeG | Luigi | 1000 | 952 | 48 | 20 |
-| atletico snai | stefano | 1000 | 603 | 397 | 21 |
+| atletico snai | stefano | 1000 | 904 | 96 | 22 |
 
 ## Regole di aggiornamento
 - `Crediti spesi` = somma dei prezzi di tutti i giocatori assegnati alla squadra nel `REGISTRO_ASTA.csv`.
