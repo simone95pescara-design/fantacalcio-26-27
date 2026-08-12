@@ -120,7 +120,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Davies — 82 crediti
 - Castro — 103 crediti
 - Camarda — 11 crediti
-**Totale speso:** 869 — **Crediti residui:** 131
+- Nkunkou — 40 crediti
+**Totale speso:** 909 — **Crediti residui:** 91
 
 ## Minca Don Minca Boss — Just Dell & mincadon
 - Butez — 43 crediti
