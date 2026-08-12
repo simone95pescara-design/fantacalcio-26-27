@@ -24,7 +24,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Thorhved — 1 credito
 - Houjlund — 170 crediti
 - Yldiz — 170 crediti
-**Totale speso:** 789 — **Crediti residui:** 211
+- Raspadori — 42 crediti
+**Totale speso:** 831 — **Crediti residui:** 169
 
 ## Alba — Distodistodisto
 - Provedel — 38 crediti
@@ -69,7 +70,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Fazzini — 1 credito
 - Bernardeschi — 2 crediti
 - Politano — 12 crediti
-**Totale speso:** 197 — **Crediti residui:** 803
+- Kean — 271 crediti
+**Totale speso:** 468 — **Crediti residui:** 532
 
 ## FC Loser — Simone Conte
 - Svilar — 95 crediti
@@ -165,7 +167,8 @@ Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 - Locatelli — 11 crediti
 - Odgaard — 1 credito
 - Lautaro — 300 crediti
-**Totale speso:** 952 — **Crediti residui:** 48
+- Pinamonti — 31 crediti
+**Totale speso:** 983 — **Crediti residui:** 17
 
 ## atletico snai — stefano
 - De Gea — 36 crediti
