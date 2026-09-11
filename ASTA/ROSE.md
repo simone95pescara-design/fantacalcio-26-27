@@ -3,9 +3,9 @@
 Fonte primaria degli acquisti: `REGISTRO_ASTA.csv`.
 
 ## Rotturadicu — Napolimerda
-- Meret — 56 crediti
+- Meret — 5 crediti
 - Savic — 51 crediti
-- Suzuki — 5 crediti
+- Suzuki — 56 crediti
 - Pavlovic — 42 crediti
 - Chalobah — 24 crediti
 - Gila — 22 crediti
